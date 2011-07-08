@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:base="minilegs.base.*" xmlns:timeapp="apps.timeApp.*">
+	<mx:Script><![CDATA[
+		import apps.timeApp.TimeApp;
+
+		public var app:TimeApp;
+
+		private function toggle():void {
+			if (! hasApp()) {
+				createApp();
+				return;
+			}
+
+			destroyApp();
+
+		}
+
+		private function destroyApp():void {
+			this.removeChild(app);
+			app = null;
+		}
+
+		private function createApp():void {
+			app = new TimeApp();
+			this.addChild(app);
+		}
+
+		private function hasApp():Boolean {
+			return app != null;
+		}
+		]]></mx:Script>
+
+	<mx:Button click="toggle()" label="Toggle"/>
+</mx:Application>
