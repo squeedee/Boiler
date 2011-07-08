@@ -4,17 +4,22 @@ package minilegs.base {
 		[Inject]
 		public var reflector:Reflector;
 
+		[Inject]
+		public var lifetime:Lifetime;
+
 		private var handlers:Array = [];
 
 		private function getInstanceHandler(handler:Object):Function {
+			if (handler is Class)
+				return lifetime.getInstance(Class(handler)).handleInstance;
+
 			if (handler is Function)
 				return Function(handler);
 
-			if (handler is InstanceHandler)
-				return InstanceHandler(handler).handleInstance;
-
 			throw new Error("That wont work.")
 		}
+
+
 
 		public function addInstanceHandler(callback:*):void {
 			handlers.push(callback);

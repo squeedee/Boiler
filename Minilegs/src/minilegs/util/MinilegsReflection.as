@@ -12,11 +12,11 @@ package minilegs.util {
 
 		}
 
-		public function reflectedClass():Class {
+		public function source():Class {
 			return _reflectedClass;
 		}
 
-		public function reflectionXML():XML {
+		public function xml():XML {
 			return _reflectionXML;
 		}
 

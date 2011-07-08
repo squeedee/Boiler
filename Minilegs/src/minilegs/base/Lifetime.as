@@ -1,4 +1,5 @@
 package minilegs.base {
+	import org.swiftsuspenders.InjectionConfig;
 	import org.swiftsuspenders.Injector;
 
 	public class Lifetime extends Injector {
@@ -7,8 +8,10 @@ package minilegs.base {
 
 		public function Lifetime(xmlConfig:XML = null) {
 			super(xmlConfig);
+
 			mapValue(Lifetime, this);
 			mapSingleton(Reflector);
+
 			injectInto(instanceHandlers);
 			injectInto(configurationHandlers);
 		}

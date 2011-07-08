@@ -4,7 +4,7 @@ package minilegs.configuration.instanceHandlers {
 
 	public class ControllerInstanceHandler implements InstanceHandler {
 		public function handleInstance(reflection:Reflection, instance:*):void {
-
+			trace("Instanced: " + reflection.xml().@name)
 		}
 	}
 }

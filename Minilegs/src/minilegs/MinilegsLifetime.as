@@ -5,8 +5,7 @@ package minilegs {
 	public class MinilegsLifetime extends Lifetime {
 
 		public function MinilegsLifetime() {
-			super();
-			addConfigurationHandler(new MinilegsConfig());
+			addConfigurationHandler(MinilegsConfig);
 		}
 
 	}

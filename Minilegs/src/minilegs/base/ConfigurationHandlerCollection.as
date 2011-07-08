@@ -4,17 +4,25 @@ package minilegs.base {
 		[Inject]
 		public var reflector:Reflector;
 
+		[Inject]
+		public var lifetime:Lifetime;
+
 		private var handlers:Array = [];
 
-
 		private function getConfigurationHandler(handler:Object):Function {
+			if (handler is Class)
+				return instanceHandlerClass(Class(handler)).configure;
+
 			if (handler is Function)
 				return Function(handler);
 
-			if (handler is ConfigurationHandler)
-				return ConfigurationHandler(handler).configure;
-
 			throw new Error("That wont work.");
+		}
+
+		private function instanceHandlerClass(clazz:Class):ConfigurationHandler {
+			var configurationHandler:ConfigurationHandler = new clazz();
+			lifetime.injectInto(configurationHandler);
+			return configurationHandler;
 		}
 
 		public function addConfigurationHandler(callback:*):void {

@@ -1,8 +1,8 @@
 package minilegs.base {
 	public interface Reflection {
-		function reflectedClass():Class;
+		function source():Class;
 
-		function reflectionXML():XML;
+		function xml():XML;
 
 		function reflect(clazz:Class):Reflection;
 	}
