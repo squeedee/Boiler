@@ -6,7 +6,7 @@ package minilegs {
 
 		public function MinilegsLifetime() {
 			super();
-			addConfigurationHandler()
+			addConfigurationHandler(new MinilegsConfig());
 		}
 
 	}

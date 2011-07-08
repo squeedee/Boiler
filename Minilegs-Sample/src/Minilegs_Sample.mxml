@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:base="minilegs.base.*" xmlns:timeapp="apps.timeApp.*">
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
 	<mx:Script><![CDATA[
 		import apps.timeApp.TimeApp;
 
@@ -31,4 +31,5 @@
 		]]></mx:Script>
 
 	<mx:Button click="toggle()" label="Toggle"/>
+
 </mx:Application>

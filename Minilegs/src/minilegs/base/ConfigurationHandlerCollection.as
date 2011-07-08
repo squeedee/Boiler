@@ -6,6 +6,7 @@ package minilegs.base {
 
 		private var handlers:Array = [];
 
+
 		private function getConfigurationHandler(handler:Object):Function {
 			if (handler is Function)
 				return Function(handler);
@@ -17,13 +18,18 @@ package minilegs.base {
 		}
 
 		public function addConfigurationHandler(callback:*):void {
+			if (handlers == null)
+				throw new Error("You're too late");
+
 			handlers.push(callback);
 		}
 
 		public function execute():void {
-			for each (var handler:Object in handlers) {
-				getConfigurationHandler(handler)();
+			while (handlers.length > 0) {
+				getConfigurationHandler(handlers.shift()).call();
 			}
+
+			handlers = null;
 		}
 	}
 }

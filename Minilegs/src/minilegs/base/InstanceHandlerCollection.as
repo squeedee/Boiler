@@ -21,6 +21,9 @@ package minilegs.base {
 		}
 
 		public function execute(clazz:Class, instance:*):void {
+			if (reflector == null) // Fixme: this is ugly awareness, the Lifetime must be injecting into us as we speak :D
+				return;
+
 			var reflection:Reflection = reflector.getReflection(clazz);
 
 			for each (var handler:Object in handlers) {

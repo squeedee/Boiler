@@ -5,9 +5,10 @@ package minilegs.base {
 		private var instanceHandlers:InstanceHandlerCollection = new InstanceHandlerCollection();
 		private var configurationHandlers:ConfigurationHandlerCollection = new ConfigurationHandlerCollection();
 
-		public function Lifetime() {
+		public function Lifetime(xmlConfig:XML = null) {
+			super(xmlConfig);
 			mapValue(Lifetime, this);
-			mapClass(Reflector, Reflector);
+			mapSingleton(Reflector);
 			injectInto(instanceHandlers);
 			injectInto(configurationHandlers);
 		}
