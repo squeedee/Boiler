@@ -2,18 +2,18 @@ package minilegs.base {
 	import org.swiftsuspenders.Injector;
 
 	public class Lifetime extends Injector {
-
-		private var reflector:Reflector = new Reflector();
-		private var instanceHandlers:InstanceHandlers = new InstanceHandlers();
-		private var configurationHandlers
+		private var instanceHandlers:InstanceHandlerCollection = new InstanceHandlerCollection();
+		private var configurationHandlers:ConfigurationHandlerCollection = new ConfigurationHandlerCollection();
 
 		public function Lifetime() {
-			mapValue(Reflector, reflector);
+			mapValue(Lifetime, this);
+			mapClass(Reflector, Reflector);
 			injectInto(instanceHandlers);
+			injectInto(configurationHandlers);
 		}
 
 		public function live():void {
-
+			configurationHandlers.execute();
 		}
 
 		/**
@@ -36,7 +36,10 @@ package minilegs.base {
 			return instance;
 		}
 
-
+		public function addConfigurationHandler(callback:*):Lifetime {
+			configurationHandlers.addConfigurationHandler(callback);
+			return this;
+		}
 
 	}
 }

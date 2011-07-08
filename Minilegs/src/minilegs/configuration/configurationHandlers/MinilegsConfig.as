@@ -1,10 +1,14 @@
 package minilegs.configuration.configurationHandlers {
-	import minilegs.base.Lifetime;
+	import minilegs.base.ConfigurationBase;
 	import minilegs.configuration.instanceHandlers.ControllerInstanceHandler;
 
-	public class MinilegsConfig {
-		public static function configure(lifetime:Lifetime):void {
+	public class MinilegsConfig extends ConfigurationBase {
+
+		override public function configure():void {
+
 			lifetime.addInstanceHandler(ControllerInstanceHandler);
+			
+
 		}
 	}
 }

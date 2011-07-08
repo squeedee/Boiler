@@ -59,28 +59,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InstanceHandlers.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/InstanceHandlers.as">
+      <file leaf-file-name="MinilegsConfig.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/configuration/configurationHandlers/MinilegsConfig.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="39" selection-start="260" selection-end="260" vertical-scroll-proportion="0.27985075">
+            <state line="9" column="12" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lifetime.as" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ConfigurationBase.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/ConfigurationBase.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="27" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lifetime.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/Lifetime.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="32" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinilegsLifetime.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/MinilegsLifetime.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="12" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
+            <state line="5" column="49" selection-start="240" selection-end="240" vertical-scroll-proportion="0.10316369">
               <folding />
             </state>
           </provider>
@@ -95,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinilegsConfig.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/configuration/configurationHandlers/MinilegsConfig.as">
+      <file leaf-file-name="MinilegsLifetime.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/MinilegsLifetime.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="66" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+            <state line="8" column="36" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,10 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/LifetimeBase.as" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/configuration/MinilegsConfig.as" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/util/Reflection.as" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/util/Reflector.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/Reflector.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/InstanceHandler.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/configuration/instanceHandlers/ControllerInstanceHandler.as" />
@@ -131,9 +127,13 @@
         <option value="$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/model/TimeApp.mxml" />
         <option value="$PROJECT_DIR$/Minilegs-Sample/src/Minilegs_Sample.mxml" />
         <option value="$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/TimeApp.mxml" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/configuration/configurationHandlers/MinilegsConfig.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/InstanceHandlers.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/ConfigHandler.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/ConfigHandlers.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/ConfigurationBase.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/configuration/configurationHandlers/MinilegsConfig.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/Lifetime.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/MinilegsLifetime.as" />
       </list>
     </option>
   </component>
@@ -587,7 +587,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="674" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -595,7 +595,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="jenkinsBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2526455" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2526455" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -604,7 +604,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24784483" sideWeight="0.7473545" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24784483" sideWeight="0.7473545" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -661,11 +661,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Adobe/flex_sdk_3.5.0.12683/frameworks/projects/framework/src/mx/utils/ObjectUtil.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1050" column="27" selection-start="37003" selection-end="37003" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/Minilegs/lib/SwiftSuspenders-v1.5.1.swc!/library.swf">
       <provider selected="true" editor-type-id="text-editor">
         <state line="87" column="25" selection-start="4055" selection-end="4055" vertical-scroll-proportion="0.33333334" />
@@ -720,9 +715,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/InstanceHandlerCollection.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="9" selection-start="57" selection-end="716" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/ConfigurationHandler.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="33" selection-start="85" selection-end="85" vertical-scroll-proportion="0.058139537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/InstanceHandler.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/ConfigurationHandlerCollection.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="49" selection-start="641" selection-end="641" vertical-scroll-proportion="0.6921642">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/ConfigurationBase.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="27" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/configuration/configurationHandlers/MinilegsConfig.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="66" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+        <state line="9" column="12" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -736,21 +766,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/MinilegsLifetime.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="214" selection-end="214" vertical-scroll-proportion="0.0">
+        <state line="8" column="36" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/Lifetime.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/InstanceHandlers.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="260" selection-end="260" vertical-scroll-proportion="0.27985075">
+        <state line="5" column="49" selection-start="240" selection-end="240" vertical-scroll-proportion="0.10316369">
           <folding />
         </state>
       </provider>

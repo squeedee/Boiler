@@ -7,7 +7,6 @@ package minilegs.util {
 		private var _reflectedClass:Class;
 		private var _reflectionXML:XML;
 
-
 		private function processReflection(clazz:Class):void {
 			_reflectionXML = describeType(clazz);
 

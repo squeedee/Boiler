@@ -1,5 +1,5 @@
 package minilegs.base {
-	public class InstanceHandlers {
+	public class InstanceHandlerCollection {
 
 		[Inject]
 		public var reflector:Reflector;
