@@ -11,7 +11,7 @@ package minilegs.hookableSuspenders {
 			}
 		}
 
-		public function add(handler:InstanceHandler):void {
+		public function add(handler:BeforeInstance):void {
 			handlers.push(handler)
 		}	}
 }

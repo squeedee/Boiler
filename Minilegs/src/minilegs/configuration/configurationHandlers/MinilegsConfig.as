@@ -6,7 +6,7 @@ package minilegs.configuration.configurationHandlers {
 	public class MinilegsConfig extends ConfigurationBase {
 		override public function configure():void {
 			lifetime.mapSingleton(Reflector);
-			lifetime.createInstanceHandler(ControllerInstanceHandler);
+			lifetime.instanceHandlers.add(ControllerInstanceHandler);
 		}
 	}
 }

@@ -7,42 +7,26 @@ package minilegs.hookableSuspenders {
 	 * Till says i wont need these with 2.0, look forward to it :D
 	 */
 	public class HookableInjector extends Injector {
-		private var instanceHandlers:InstanceHandlerCollection;
-
+		private var _instanceHandlers:InstanceHandlerCollection;
 
 		public function HookableInjector(xmlConfig:XML = null) {
 			super(xmlConfig);
-			instanceHandlers = new InstanceHandlerCollection();
+			_instanceHandlers = new InstanceHandlerCollection(this);
+		}
+
+		public function get instanceHandlers():InstanceHandlerCollection {
+			return _instanceHandlers;
 		}
 
 		// ************* Instancing Hook ************
 
-		/**
-		 * An instance handler is called any time a new class is instanced.
-		 * It provides a simple way to add metadata support to any injector-handled class.
-		 * @param handler
-		 * @return
-		 */
-		public function addInstanceHandler(handler:InstanceHandler):HookableInjector {
-			instanceHandlers.add(handler);
-			return this;
-		}
-
-		public function createInstanceHandler(handlerClass:Class):HookableInjector {
-			if (!hasMapping(handlerClass))
-				mapSingleton(handlerClass);
-			instanceHandlers.add(getInstance(handlerClass));
-			return this;
-		}
-
-		// Hooking into SS's instanciation to power all the other hooks
 		override public function instantiate(clazz:Class):* {
 
-			instanceHandlers.beforeInstance(clazz);
+			instanceHandlers.callBeforeHandlers(clazz);
 
 			var instance:* = super.instantiate(clazz);
 
-			instanceHandlers.afterInstanced(instance);
+			instanceHandlers.callAfterHandlers(instance);
 
 			return instance;
 		}
@@ -64,6 +48,5 @@ package minilegs.hookableSuspenders {
 		override public function mapRule(whenAskedFor:Class, useRule:*, named:String = ""):* {
 			return super.mapRule(whenAskedFor, useRule, named);
 		}
-
 	}
 }
