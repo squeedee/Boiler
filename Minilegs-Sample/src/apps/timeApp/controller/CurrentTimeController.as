@@ -6,7 +6,7 @@ package apps.timeApp.controller {
 		[Inject]
 		public var currentTime:CurrentTime;
 
-		public function reset():void {
+		public function reset(event:ResetCurrentTimeEvent):void {
 			currentTime.setTimeToNow();
 		}
 

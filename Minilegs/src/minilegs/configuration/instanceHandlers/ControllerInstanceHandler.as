@@ -1,10 +1,13 @@
 package minilegs.configuration.instanceHandlers {
-	import minilegs.base.InstanceHandler;
-	import minilegs.base.Reflection;
+	import minilegs.base.reflection.Reflector;
+	import minilegs.hookableSuspenders.InstanceHandler;
 
 	public class ControllerInstanceHandler implements InstanceHandler {
-		public function handleInstance(reflection:Reflection, instance:*):void {
-			trace("Instanced: " + reflection.xml().@name)
+		[Inject]
+		public var reflector:Reflector;
+
+		public function afterInstanced(instance:*):void {
+			trace("Instanced: " + reflector.getReflection(instance).fqn())
 		}
 	}
 }

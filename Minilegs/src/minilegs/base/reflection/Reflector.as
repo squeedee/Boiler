@@ -1,6 +1,7 @@
-package minilegs.base {
+package minilegs.base.reflection {
 	import flash.utils.Dictionary;
 
+	import minilegs.base.*;
 	import minilegs.util.*;
 
 	public class Reflector {

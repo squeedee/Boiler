@@ -1,4 +1,4 @@
-package minilegs.base {
+package minilegs.base.configuration {
 	public interface ConfigurationHandler {
 		function configure():void;
 	}

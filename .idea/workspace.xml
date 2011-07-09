@@ -59,46 +59,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Lifetime.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/Lifetime.as">
+      <file leaf-file-name="InstanceHandler.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/InstanceHandler.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="20" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControllerInstanceHandler.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/configuration/instanceHandlers/ControllerInstanceHandler.as">
+      <file leaf-file-name="HookableInjector.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/HookableInjector.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+            <state line="27" column="24" selection-start="893" selection-end="893" vertical-scroll-proportion="0.53892213">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrentTimeController.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/controller/CurrentTimeController.as">
+      <file leaf-file-name="InstanceHandlerCollection.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/InstanceHandlerCollection.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResetCurrentTimeEvent.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/controller/ResetCurrentTimeEvent.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="44" selection-start="155" selection-end="160" vertical-scroll-proportion="0.17964073">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeAppConfig.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/configuration/TimeAppConfig.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="25" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+            <state line="17" column="35" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,22 +100,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/ConfigHandlers.as" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/configuration/configurationHandlers/MinilegsConfig.as" />
-        <option value="$PROJECT_DIR$/Minilegs-Sample/src/Minilegs_Sample.mxml" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/Reflection.as" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/configuration/instanceHandlers/ControllerInstanceHandler.as" />
-        <option value="$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/TimeApp.mxml" />
-        <option value="$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/TimeAppLifetime.as" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/ConfigurationBase.as" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/ConfigurationHandler.as" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/MinilegsLifetime.as" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/ConfigurationHandlerCollection.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/HookableInjector.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/InstanceHandler.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/InstanceHandlerCollection.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/MappingHandler.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/configuration/instanceHandlers/ControllerInstanceHandler.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/reflection/Reflection.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/util/MinilegsReflection.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/Lifetime.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/configuration/ConfigurationHandlerCollection.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/configuration/configurationHandlers/MinilegsConfig.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/reflection/Reflector.as" />
         <option value="$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/configuration/TimeAppConfig.as" />
-        <option value="$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/controller/CurrentTimeController.as" />
-        <option value="$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/controller/ResetCurrentTimeEvent.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/MappingHandlerCollection.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/InstanceHandlerCollection.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/InstanceHandler.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/HookableInjector.as" />
       </list>
     </option>
   </component>
@@ -167,6 +149,136 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs-Sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs-Sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs-Sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instanceHandlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -301,6 +413,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="hookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minilegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="configuration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
@@ -349,138 +479,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Favorites" />
-      <pane id="ProjectPane">
-        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Minilegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Minilegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Minilegs-Sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Minilegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Minilegs-Sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Minilegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Minilegs-Sample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Minilegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Minilegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Minilegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Minilegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="minilegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reflection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Minilegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Minilegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="minilegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="configuration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Minilegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Minilegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minilegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configuration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instanceHandlers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,8 +540,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
@@ -505,9 +549,11 @@
       <recent name="minilegs" />
     </key>
     <key name="com.intellij.javascript.flex.refactoring.moveClass.FlexMoveClassDialog.target_package">
+      <recent name="minilegs.hookableSuspenders" />
+      <recent name="minilegs.base.configuration" />
+      <recent name="minilegs.base.reflection" />
       <recent name="minilegs.configuration.configurationHandlers" />
       <recent name="apps.timeApp" />
-      <recent name="minilegs.configuration" />
     </key>
     <key name="JSExtractSuperBase.RECENT_KEYS">
       <recent name="minilegs.util" />
@@ -537,15 +583,6 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" module_name="" player_path="/Applications/Flash Player Debugger.app" run_mode="HtmlOrSwfFile" run_trusted="false" url_to_launch="http://">
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -557,6 +594,15 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="OSDefault" main_class_name="" module_name="" player_path="/Applications/Flash Player Debugger.app" run_mode="HtmlOrSwfFile" run_trusted="false" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -641,11 +687,9 @@
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="674" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="jenkinsBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2989418" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -657,10 +701,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24784483" sideWeight="0.7010582" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2473041" sideWeight="0.7010582" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="674" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -706,134 +752,121 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="flex">
-          <url>file://$PROJECT_DIR$/Minilegs/src/minilegs/configuration/configurationHandlers/MinilegsConfig.as</url>
-          <line>8</line>
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <breakpoint-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/Reflection.as">
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/util/MinilegsReflection.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="94" selection-end="94" vertical-scroll-proportion="0.15665796">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs-Sample/src/Minilegs_Sample.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="-8.75">
-          <folding>
-            <marker date="1310118022000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1310118022000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1310118022000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1310118022000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1310118022000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/ConfigurationBase.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/ConfigurationHandler.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="21" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/ConfigurationHandlerCollection.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/InstanceHandlerCollection.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+        <state line="13" column="24" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/MinilegsLifetime.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+        <state line="7" column="23" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/TimeAppLifetime.as">
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/configuration/ConfigurationBase.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+        <state line="9" column="5" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/configuration/configurationHandlers/MinilegsConfig.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/model/CurrentTime.as">
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/configuration/ConfigurationHandler.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/TimeApp.mxml">
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/configuration/ConfigurationHandlerCollection.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="274" selection-end="274" vertical-scroll-proportion="0.25157234">
+        <state line="24" column="48" selection-start="582" selection-end="582" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/Lifetime.as">
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/reflection/Reflection.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="20" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/reflection/Reflector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="24" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/configuration/configurationHandlers/MinilegsConfig.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="441" selection-end="441" vertical-scroll-proportion="0.35928145">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/configuration/instanceHandlers/ControllerInstanceHandler.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
+        <state line="9" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/configuration/TimeAppConfig.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+        <state line="14" column="14" selection-start="368" selection-end="368" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/controller/CurrentTimeController.as">
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/MappingHandler.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/controller/ResetCurrentTimeEvent.as">
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/MappingHandlerCollection.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="44" selection-start="155" selection-end="160" vertical-scroll-proportion="0.17964073">
+        <state line="9" column="25" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/Lifetime.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="39" selection-start="183" selection-end="183" vertical-scroll-proportion="0.08982036">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/InstanceHandlerCollection.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="35" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/InstanceHandler.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/HookableInjector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="24" selection-start="893" selection-end="893" vertical-scroll-proportion="0.53892213">
           <folding />
         </state>
       </provider>
