@@ -11,13 +11,13 @@ package minilegs.base.reflection {
 
 		private var reflections:Dictionary = new Dictionary(false);
 
-		public function getReflection(clazz:Class):Reflection {
-			return reflections[clazz] || addReflection(clazz);
+		public function getReflection(type:Class):Reflection {
+			return reflections[type] || addReflection(type);
 		}
 
-		private function addReflection(clazz:Class):Reflection {
+		private function addReflection(type:Class):Reflection {
 			var reflection:MinilegsReflection = lifetime.getInstance(Reflection);
-			reflections[clazz] = reflection.reflect(clazz);
+			reflections[type] = reflection.reflect(type);
 			return reflection;
 		}
 	}

@@ -1,6 +1,7 @@
 package apps.timeApp.controller {
 	import apps.timeApp.model.CurrentTime;
 
+	[Controller]
 	public class CurrentTimeController {
 
 		[Inject]

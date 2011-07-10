@@ -8,9 +8,9 @@ package minilegs.util {
 		private var _xml:XML;
 		private var _fqn:String;
 
-		public function reflect(clazz:Class):Reflection {
-			_source = clazz;
-			_xml = describeType(clazz);
+		public function reflect(type:Class):Reflection {
+			_source = type;
+			_xml = describeType(type);
 			return this;
 		}
 

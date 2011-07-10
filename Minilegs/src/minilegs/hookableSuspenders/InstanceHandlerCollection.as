@@ -8,19 +8,22 @@ package minilegs.hookableSuspenders {
 
 		public function InstanceHandlerCollection(injector:HookableInjector) {
 			this.injector = injector;
-
 		}
 
-		public function add(handlerClass:Class):InstanceHandlerCollection {
-			var handler:* = instanceClass(handlerClass);
+		public function add(handlerType:Class):InstanceHandlerCollection {
+			var handler:* = instanceClass(handlerType);
 
-			if (handler is BeforeInstanceHandler)
+			if (handler is BeforeInstanceHandler) {
 				beforeHandlers.push(handler);
+				return this;
+			}
 
-			if (handler is AfterInstanceHandler)
+			if (handler is AfterInstanceHandler) {
 				afterHandlers.push(handler);
+				return this;
+			}
 
-			return this;
+			throw new NotAnInstanceHandlerError(handlerType);
 		}
 
 		internal function callAfterHandlers(instance:*):void {
@@ -29,16 +32,16 @@ package minilegs.hookableSuspenders {
 			}
 		}
 
-		internal function callBeforeHandlers(clazz:Class):void {
+		internal function callBeforeHandlers(type:Class):void {
 			for each (var handler:BeforeInstanceHandler in beforeHandlers) {
-				handler.beforeInstanced(clazz);
+				handler.beforeInstanced(type);
 			}
 		}
 
-		private function instanceClass(handlerClass:Class):* {
-			if (!injector.hasMapping(handlerClass))
-				injector.mapSingleton(handlerClass);
-			injector.getInstance(handlerClass);
+		private function instanceClass(handlerType:Class):* {
+			if (!injector.hasMapping(handlerType))
+				injector.mapSingleton(handlerType);
+			injector.getInstance(handlerType);
 		}
 
 	}

@@ -1,6 +1,6 @@
 package minilegs {
 	import minilegs.base.Lifetime;
-	import minilegs.configuration.configurationHandlers.MinilegsConfig;
+	import minilegs.configuration.MinilegsConfig;
 
 	public class MinilegsLifetime extends Lifetime {
 

@@ -1,5 +1,5 @@
 package minilegs.hookableSuspenders {
 	public interface BeforeInstanceHandler {
-		function beforeInstanced(clazz:Class):Boolean;
+		function beforeInstanced(type:Class):Boolean;
 	}
 }

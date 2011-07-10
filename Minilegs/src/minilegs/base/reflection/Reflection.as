@@ -4,7 +4,7 @@ package minilegs.base.reflection {
 
 		function xml():XML;
 
-		function reflect(clazz:Class):Reflection;
+		function reflect(type:Class):Reflection;
 
 		function fqn():String;
 	}

@@ -15,11 +15,10 @@ package minilegs.base {
 			configurationHandlers.execute();
 		}
 
-		public function addConfigurationHandler(clazz:Class):Lifetime {
-			configurationHandlers.add(clazz);
+		public function addConfigurationHandler(type:Class):Lifetime {
+			configurationHandlers.add(type);
 			return this;
 		}
-
 
 	}
 }

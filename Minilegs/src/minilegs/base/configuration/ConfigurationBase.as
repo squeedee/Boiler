@@ -1,5 +1,6 @@
 package minilegs.base.configuration {
 	import minilegs.base.*;
+
 	public class ConfigurationBase implements ConfigurationHandler {
 
 		[Inject]

@@ -27,11 +27,11 @@ package minilegs.hookableSuspenders {
 
 		// ************* Instancing Hook ************
 
-		override public function instantiate(clazz:Class):* {
+		override public function instantiate(type:Class):* {
 
-			instanceHandlers.callBeforeHandlers(clazz);
+			instanceHandlers.callBeforeHandlers(type);
 
-			var instance:* = super.instantiate(clazz);
+			var instance:* = super.instantiate(type);
 
 			instanceHandlers.callAfterHandlers(instance);
 
@@ -53,7 +53,7 @@ package minilegs.hookableSuspenders {
 
 		override public function mapClass(whenAskedFor:Class, instantiateClass:Class, named:String = ""):* {
 
-			var previousConfig : InjectionConfig = getMapping(whenAskedFor, named);
+			var previousConfig:InjectionConfig = getMapping(whenAskedFor, named);
 			mappingHandlers.callBeforeMapClassHandlers(previousConfig, instantiateClass);
 
 			var newConfig:InjectionConfig = super.mapClass(whenAskedFor, instantiateClass, named);
@@ -64,7 +64,7 @@ package minilegs.hookableSuspenders {
 		}
 
 		override public function mapSingletonOf(whenAskedFor:Class, useSingletonOf:Class, named:String = ""):* {
-			var previousConfig : InjectionConfig = getMapping(whenAskedFor, named);
+			var previousConfig:InjectionConfig = getMapping(whenAskedFor, named);
 			mappingHandlers.callBeforeMapSingletonHandlers(previousConfig, useSingletonOf);
 
 			var newConfig:InjectionConfig = super.mapSingletonOf(whenAskedFor, useSingletonOf, named);

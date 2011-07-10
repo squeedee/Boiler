@@ -12,7 +12,7 @@ package apps.timeApp.configuration {
 			lifetime.mapSingleton(CurrentTime);
 
 			// controllers
-			//lifetime.mapController(CurrentTimeController);
+			lifetime.mapSingleton(CurrentTimeController);
 		}
 	}
 }
