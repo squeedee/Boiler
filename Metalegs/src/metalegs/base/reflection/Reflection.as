@@ -1,4 +1,4 @@
-package metalegs.base.util.reflection {
+package metalegs.base.reflection {
 	public interface Reflection {
 		function source():Class;
 

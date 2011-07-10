@@ -1,7 +1,8 @@
 package metalegs.mvcs.controller {
-	import metalegs.base.util.reflection.Reflector;
+	import metalegs.base.reflection.Reflector;
 	import metalegs.hookableSuspenders.handlers.mapping.AfterMapClassHandler;
 	import metalegs.hookableSuspenders.handlers.mapping.AfterMapSingletonHandler;
+	import metalegs.mvcs.reflection.MVCSReflection;
 
 	import org.swiftsuspenders.InjectionConfig;
 
@@ -9,6 +10,9 @@ package metalegs.mvcs.controller {
 
 		[Inject]
 		public var reflector:Reflector;
+
+		[Inject]
+		public var controllerDetector:ControllerDetector;
 
 		public function afterMapValue(newConfig:InjectionConfig):void {
 			handleMapping(newConfig.request)
@@ -19,8 +23,14 @@ package metalegs.mvcs.controller {
 		}
 
 		private function handleMapping(type:Class):void {
-			trace("Instanced: " + reflector.getReflection(type).fqn())
+			var reflection:MVCSReflection = MVCSReflection(reflector.getReflection(type));
 
+			if (! controllerDetector.isController(reflection))
+				return;
+
+			// store mappings here
+			trace(reflection.xml());
 		}
+
 	}
 }

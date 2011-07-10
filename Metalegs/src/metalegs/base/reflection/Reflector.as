@@ -1,9 +1,9 @@
-package metalegs.base.util.reflection {
+package metalegs.base.reflection {
 	import flash.utils.Dictionary;
 
 	import metalegs.base.*;
 	import metalegs.base.util.*;
-	import metalegs.mvcs.util.MVCSReflection;
+	import metalegs.mvcs.reflection.MVCSReflection;
 
 	public class Reflector {
 

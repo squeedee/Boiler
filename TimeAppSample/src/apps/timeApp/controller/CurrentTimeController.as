@@ -1,4 +1,4 @@
-package apps.timeApp.controller {
+	package apps.timeApp.controller {
 	import apps.timeApp.model.CurrentTime;
 
 	[Controller]

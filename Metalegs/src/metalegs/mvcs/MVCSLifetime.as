@@ -1,11 +1,13 @@
 package metalegs.mvcs {
 	import metalegs.base.Lifetime;
-	import metalegs.mvcs.configuration.MVCSConfiguration;
+	import metalegs.mvcs.configuration.ConfigureController;
+	import metalegs.mvcs.configuration.ConfigureReflection;
 
 	public class MVCSLifetime extends Lifetime {
 
 		public function MVCSLifetime() {
-			addConfigurationHandler(MVCSConfiguration);
+			addConfigurationHandler(ConfigureReflection);
+			addConfigurationHandler(ConfigureController);
 		}
 
 	}

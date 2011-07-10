@@ -1,7 +1,7 @@
-package metalegs.mvcs.util {
+package metalegs.mvcs.reflection {
 	import flash.utils.describeType;
 
-	import metalegs.base.util.reflection.Reflection;
+	import metalegs.base.reflection.Reflection;
 
 	public class MVCSReflection implements Reflection {
 		private var _source:Class;
@@ -25,5 +25,16 @@ package metalegs.mvcs.util {
 		public function fqn():String {
 			return _fqn ||= _xml.@name;
 		}
+
+		public function hasAnyNamespace(anyNamespaceCalled:String):Boolean {
+			return (_fqn.search("\\.*" + anyNamespaceCalled + "[:.]") >= 0);
+		}
+
+		public function hasLeafNamespace(leafNamespaceCalled:String):Boolean {
+			return (_fqn.search("\\.*" + leafNamespaceCalled + ":") >= 0);
+		}
+
+	
+
 	}
 }
