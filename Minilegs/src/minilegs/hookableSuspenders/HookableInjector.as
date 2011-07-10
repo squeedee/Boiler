@@ -21,6 +21,10 @@ package minilegs.hookableSuspenders {
 			return _instanceHandlers;
 		}
 
+		public function get mappingHandlers():MappingHandlerCollection {
+			return _mappingHandlers;
+		}
+
 		// ************* Instancing Hook ************
 
 		override public function instantiate(clazz:Class):* {
@@ -48,19 +52,30 @@ package minilegs.hookableSuspenders {
 		}
 
 		override public function mapClass(whenAskedFor:Class, instantiateClass:Class, named:String = ""):* {
-			return super.mapClass(whenAskedFor, instantiateClass, named);
+
+			var previousConfig : InjectionConfig = getMapping(whenAskedFor, named);
+			mappingHandlers.callBeforeMapClassHandlers(previousConfig, instantiateClass);
+
+			var newConfig:InjectionConfig = super.mapClass(whenAskedFor, instantiateClass, named);
+
+			mappingHandlers.callAfterMapClassHandlers(newConfig);
+
+			return newConfig;
 		}
 
 		override public function mapSingletonOf(whenAskedFor:Class, useSingletonOf:Class, named:String = ""):* {
-			return super.mapSingletonOf(whenAskedFor, useSingletonOf, named);
+			var previousConfig : InjectionConfig = getMapping(whenAskedFor, named);
+			mappingHandlers.callBeforeMapSingletonHandlers(previousConfig, useSingletonOf);
+
+			var newConfig:InjectionConfig = super.mapSingletonOf(whenAskedFor, useSingletonOf, named);
+
+			mappingHandlers.callAfterMapSingletonHandlers(newConfig);
+
+			return newConfig;
 		}
 
 		override public function mapRule(whenAskedFor:Class, useRule:*, named:String = ""):* {
 			return super.mapRule(whenAskedFor, useRule, named);
-		}
-
-		public function get mappingHandlers():MappingHandlerCollection {
-			return _mappingHandlers;
 		}
 	}
 }
