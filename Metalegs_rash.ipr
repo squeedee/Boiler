@@ -97,5 +97,23 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
   </component>
+  <component name="libraryTable">
+    <library name="global-libs" type="flex">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/global-libs" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+      <jarDirectory url="file://$PROJECT_DIR$/global-libs" recursive="false" />
+    </library>
+    <library name="test-libs" type="flex">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/test-libs" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+      <jarDirectory url="file://$PROJECT_DIR$/test-libs" recursive="false" />
+    </library>
+  </component>
 </project>
 
