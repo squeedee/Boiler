@@ -4,10 +4,10 @@ package minilegs.hookableSuspenders {
 		private var beforeHandlers:Array = [];
 		private var afterHandlers:Array = [];
 
-		private var _injector:HookableInjector;
+		private var injector:HookableInjector;
 
 		public function InstanceHandlerCollection(injector:HookableInjector) {
-			_injector = injector;
+			this.injector = injector;
 
 		}
 
@@ -36,9 +36,9 @@ package minilegs.hookableSuspenders {
 		}
 
 		private function instanceClass(handlerClass:Class):* {
-			if (!_injector.hasMapping(handlerClass))
-				_injector.mapSingleton(handlerClass);
-			_injector.getInstance(handlerClass);
+			if (!injector.hasMapping(handlerClass))
+				injector.mapSingleton(handlerClass);
+			injector.getInstance(handlerClass);
 		}
 
 	}

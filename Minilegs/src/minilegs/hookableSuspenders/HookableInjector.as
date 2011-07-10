@@ -1,4 +1,5 @@
 package minilegs.hookableSuspenders {
+	import org.swiftsuspenders.InjectionConfig;
 	import org.swiftsuspenders.Injector;
 
 	/**
@@ -8,10 +9,12 @@ package minilegs.hookableSuspenders {
 	 */
 	public class HookableInjector extends Injector {
 		private var _instanceHandlers:InstanceHandlerCollection;
+		private var _mappingHandlers:MappingHandlerCollection;
 
 		public function HookableInjector(xmlConfig:XML = null) {
 			super(xmlConfig);
 			_instanceHandlers = new InstanceHandlerCollection(this);
+			_mappingHandlers = new MappingHandlerCollection(this);
 		}
 
 		public function get instanceHandlers():InstanceHandlerCollection {
@@ -34,7 +37,14 @@ package minilegs.hookableSuspenders {
 		// ************* Mapping Hook ************
 
 		override public function mapValue(whenAskedFor:Class, useValue:Object, named:String = ""):* {
-			return super.mapValue(whenAskedFor, useValue, named);
+			var previousConfig:InjectionConfig = getMapping(whenAskedFor, named);
+			mappingHandlers.callBeforeMapValueHandlers(previousConfig, useValue);
+
+			var newConfig:InjectionConfig = super.mapValue(whenAskedFor, useValue, named);
+
+			mappingHandlers.callAfterMapValueHandlers(newConfig);
+
+			return newConfig;
 		}
 
 		override public function mapClass(whenAskedFor:Class, instantiateClass:Class, named:String = ""):* {
@@ -47,6 +57,10 @@ package minilegs.hookableSuspenders {
 
 		override public function mapRule(whenAskedFor:Class, useRule:*, named:String = ""):* {
 			return super.mapRule(whenAskedFor, useRule, named);
+		}
+
+		public function get mappingHandlers():MappingHandlerCollection {
+			return _mappingHandlers;
 		}
 	}
 }
