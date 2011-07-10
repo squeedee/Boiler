@@ -1,12 +1,19 @@
 package metalegs.mvcs.controller {
+	import metalegs.base.reflection.Reflector;
 	import metalegs.mvcs.reflection.MVCSReflection;
 
 	public class DefaultControllerDetector implements ControllerDetector {
 
 		private static const CONTROLLER_NAMESPACE:String = "controller";
 
-		public function isController(reflection:MVCSReflection):Boolean {
-			return hasControllerMetadata(reflection) ||
+		[Inject]
+		public var reflector:Reflector;
+
+		public function isController(type:Class):Boolean {
+
+			var reflection:MVCSReflection = MVCSReflection(reflector.getReflection(type));
+
+			return (reflection.includesClassMetadata && hasControllerMetadata(reflection)) ||
 					hasControllerClassName(reflection) ||
 					reflection.hasLeafNamespace(CONTROLLER_NAMESPACE) ||
 					reflection.hasAnyNamespace(CONTROLLER_NAMESPACE);

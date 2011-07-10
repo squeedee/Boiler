@@ -7,5 +7,7 @@ package metalegs.base.reflection {
 		function reflect(type:Class):Reflection;
 
 		function fqn():String;
+
+		function includesClassMetadata():Boolean;
 	}
 }

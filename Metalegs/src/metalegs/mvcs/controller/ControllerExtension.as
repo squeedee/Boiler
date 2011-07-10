@@ -23,12 +23,12 @@ package metalegs.mvcs.controller {
 		}
 
 		private function handleMapping(type:Class):void {
-			var reflection:MVCSReflection = MVCSReflection(reflector.getReflection(type));
 
-			if (! controllerDetector.isController(reflection))
+			if (! controllerDetector.isController(type))
 				return;
 
 			// store mappings here
+			var reflection:MVCSReflection = MVCSReflection(reflector.getReflection(type));
 			trace(reflection.xml());
 		}
 

@@ -3,14 +3,29 @@ package metalegs.mvcs.reflection {
 
 	import metalegs.base.reflection.Reflection;
 
+	import mx.utils.StringUtil;
+
 	public class MVCSReflection implements Reflection {
 		private var _source:Class;
 		private var _xml:XML;
 		private var _fqn:String;
+		private var _includesClassMetadata:Boolean = true;
 
 		public function reflect(type:Class):Reflection {
 			_source = type;
-			_xml = describeType(type);
+
+			try {
+				_xml = describeType(new type());
+			} catch (error:Error) {
+				_xml = describeType(type);
+				_includesClassMetadata = false;
+				trace(StringUtil.substitute(
+						"Warning, could not read class metadata of {0} with error:\n{1}",
+						fqn(),
+						error.message
+				));
+			}
+
 			return this;
 		}
 
@@ -34,7 +49,8 @@ package metalegs.mvcs.reflection {
 			return (_fqn.search("\\.*" + leafNamespaceCalled + ":") >= 0);
 		}
 
-	
-
+		public function includesClassMetadata():Boolean {
+			return _includesClassMetadata;
+		}
 	}
 }
