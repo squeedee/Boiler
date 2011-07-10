@@ -42,11 +42,11 @@ package metalegs.mvcs.reflection {
 		}
 
 		public function hasAnyNamespace(anyNamespaceCalled:String):Boolean {
-			return (_fqn.search("\\.*" + anyNamespaceCalled + "[:.]") >= 0);
+			return (fqn().search("\\.*" + anyNamespaceCalled + "[:.]") >= 0);
 		}
 
 		public function hasLeafNamespace(leafNamespaceCalled:String):Boolean {
-			return (_fqn.search("\\.*" + leafNamespaceCalled + ":") >= 0);
+			return (fqn().search("\\.*" + leafNamespaceCalled + ":") >= 0);
 		}
 
 		public function includesClassMetadata():Boolean {
