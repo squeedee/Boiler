@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10faf334-9a2c-49fc-9b7a-88c719405f03" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/Metalegs.iml" afterPath="$PROJECT_DIR$/Metalegs/Metalegs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/base/reflection/Reflection.as" afterPath="$PROJECT_DIR$/Metalegs/src/metalegs/base/reflection/Reflection.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/ControllerDetector.as" afterPath="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/ControllerDetector.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/ControllerExtension.as" afterPath="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/ControllerExtension.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/DefaultControllerDetector.as" afterPath="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/DefaultControllerDetector.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/reflection/MVCSReflection.as" afterPath="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/reflection/MVCSReflection.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs_rash.ipr" afterPath="$PROJECT_DIR$/Metalegs_rash.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs_rash.iws" afterPath="$PROJECT_DIR$/Metalegs_rash.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TimeAppSample/TimeAppSample.iml" afterPath="$PROJECT_DIR$/TimeAppSample/TimeAppSample.iml" />
     </list>
     <ignored path="Minilegs_rash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -86,28 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultControllerDetector.as" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DefaultControllerDetector.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/DefaultControllerDetector.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrentTimeController.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TimeAppSample/src/apps/timeApp/controller/CurrentTimeController.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.4716981">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reflector.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/base/reflection/Reflector.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="48" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="452" selection-end="452" vertical-scroll-proportion="0.26822558">
               <folding />
             </state>
           </provider>
@@ -141,8 +117,8 @@
         <option value="$PROJECT_DIR$/TimeAppSample/src/apps/timeApp/model/CurrentTime.as" />
         <option value="$PROJECT_DIR$/Metalegs/src/metalegs/base/reflection/Reflector.as" />
         <option value="$PROJECT_DIR$/Metalegs/src/metalegs/base/reflection/Reflection.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/reflection/MVCSReflection.as" />
         <option value="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/DefaultControllerDetector.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/reflection/MVCSReflection.as" />
       </list>
     </option>
   </component>
@@ -176,8 +152,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Favorites" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -215,6 +189,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reflection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -322,6 +318,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -524,30 +522,30 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="674" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="jenkinsBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33068782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33068782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24928162" sideWeight="0.6693122" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946082" sideWeight="0.6693122" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24874191" sideWeight="0.6693122" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="674" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946082" sideWeight="0.6693122" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -600,114 +598,82 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/MappingHandlerCollection.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.32822758">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.32822758" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/configuration/ConfigureReflection.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="0.2297593">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="294" selection-end="294" vertical-scroll-proportion="0.2297593" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/InstanceHandlerCollection.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="16" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.9671773">
-          <folding />
-        </state>
+        <state line="44" column="16" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.9671773" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/handlers/mapping/BeforeMapClassHandler.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/base/configuration/ConfigurationBase.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="78" selection-end="78" vertical-scroll-proportion="0.094339624">
-          <folding />
-        </state>
+        <state line="3" column="17" selection-start="78" selection-end="78" vertical-scroll-proportion="0.094339624" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/configuration/ConfigureController.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="53" selection-start="482" selection-end="482" vertical-scroll-proportion="0.3144654">
-          <folding />
-        </state>
+        <state line="10" column="53" selection-start="482" selection-end="482" vertical-scroll-proportion="0.3144654" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/MVCSLifetime.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="46" selection-start="290" selection-end="290" vertical-scroll-proportion="0.18867925">
-          <folding />
-        </state>
+        <state line="8" column="46" selection-start="290" selection-end="290" vertical-scroll-proportion="0.18867925" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TimeAppSample/src/apps/timeApp/model/CurrentTime.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/ControllerDetector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/ControllerExtension.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="43" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/base/reflection/Reflector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="48" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="13" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.33333334" />
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/Library/Adobe/flex_sdk_3.5.0.12683/frameworks/libs/player/9/playerglobal.swc!/library.swf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="19" selection-start="4624" selection-end="4624" vertical-scroll-proportion="0.33189654">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/reflection/MVCSReflection.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="351" selection-end="351" vertical-scroll-proportion="0.28301886">
-          <folding />
-        </state>
+        <state line="121" column="19" selection-start="4624" selection-end="4624" vertical-scroll-proportion="0.33189654" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/base/reflection/Reflection.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.18867925">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/DefaultControllerDetector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.18867925" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TimeAppSample/src/apps/timeApp/controller/CurrentTimeController.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.4716981">
-          <folding />
-        </state>
+        <state line="10" column="33" selection-start="263" selection-end="263" vertical-scroll-proportion="0.3144654" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/reflection/MVCSReflection.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="544" selection-end="544" vertical-scroll-proportion="0.35075653" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/base/reflection/Reflector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="48" selection-start="349" selection-end="349" vertical-scroll-proportion="0.20632738" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/ControllerExtension.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="43" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/ControllerDetector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/DefaultControllerDetector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="452" selection-end="452" vertical-scroll-proportion="0.26822558" />
       </provider>
     </entry>
   </component>

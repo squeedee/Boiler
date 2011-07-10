@@ -85,9 +85,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Metalegs/Metalegs.iml" filepath="$PROJECT_DIR$/Metalegs/Metalegs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Minilegs/Metalegs.iml" filepath="$PROJECT_DIR$/Minilegs/Metalegs.iml" />
       <module fileurl="file://$PROJECT_DIR$/TimeAppSample/TimeAppSample.iml" filepath="$PROJECT_DIR$/TimeAppSample/TimeAppSample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Minilegs-Sample/TimeAppSample.iml" filepath="$PROJECT_DIR$/Minilegs-Sample/TimeAppSample.iml" />
     </modules>
   </component>
   <component name="ProjectResources">
