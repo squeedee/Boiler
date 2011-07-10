@@ -1,8 +1,8 @@
 package minilegs.configuration.instanceHandlers {
 	import minilegs.base.reflection.Reflector;
-	import minilegs.hookableSuspenders.AfterInstance;
+	import minilegs.hookableSuspenders.AfterInstanceHandler;
 
-	public class ControllerInstanceHandler implements AfterInstance {
+	public class ControllerInstanceHandler implements AfterInstanceHandler {
 		[Inject]
 		public var reflector:Reflector;
 

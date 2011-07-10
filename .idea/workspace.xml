@@ -59,19 +59,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BeforeInstance.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/BeforeInstance.as">
+      <file leaf-file-name="BeforeInstanceHandler.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/BeforeInstanceHandler.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="29" selection-start="96" selection-end="96" vertical-scroll-proportion="0.06550218">
+            <state line="2" column="47" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AfterInstance.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/AfterInstance.as">
+      <file leaf-file-name="AfterInstanceHandler.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/AfterInstanceHandler.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file leaf-file-name="ControllerInstanceHandler.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/configuration/instanceHandlers/ControllerInstanceHandler.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="33" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+            <state line="8" column="33" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InstanceHandlerCollection.as" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="InstanceHandlerCollection.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/InstanceHandlerCollection.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="21" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
+            <state line="45" column="0" selection-start="594" selection-end="1137" vertical-scroll-proportion="0.9547383">
               <folding />
             </state>
           </provider>
@@ -127,22 +127,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/InstanceHandlerCollection.as" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/MappingHandler.as" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/reflection/Reflection.as" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/util/MinilegsReflection.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/Lifetime.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/configuration/ConfigurationHandlerCollection.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/base/reflection/Reflector.as" />
         <option value="$PROJECT_DIR$/Minilegs-Sample/src/apps/timeApp/configuration/TimeAppConfig.as" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/MappingHandlerCollection.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/InstanceHandler.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/AfterInstance.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/HookableInjector.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/configuration/instanceHandlers/ControllerInstanceHandler.as" />
-        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/InstanceHandlerCollection.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/configuration/configurationHandlers/MinilegsConfig.as" />
         <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/BeforeInstance.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/BeforeMapping.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/BeforeMappingHandler.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/BeforeInstanceHandler.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/AfterInstanceHandler.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/InstanceHandlerCollection.as" />
+        <option value="$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/MappingHandlerCollection.as" />
       </list>
     </option>
   </component>
@@ -726,7 +726,7 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32936507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -838,44 +838,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/MappingHandler.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/MappingHandlerCollection.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/base/Lifetime.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="39" selection-start="183" selection-end="183" vertical-scroll-proportion="0.08982036">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/AfterInstance.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/HookableInjector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/InstanceHandlerCollection.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="472" selection-end="472" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -889,14 +854,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/configuration/instanceHandlers/ControllerInstanceHandler.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
+        <state line="8" column="33" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/BeforeInstance.as">
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/AfterInstanceHandler.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="96" selection-end="96" vertical-scroll-proportion="0.06550218">
+        <state line="3" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/BeforeInstanceHandler.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="47" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/HookableInjector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Minilegs/src/minilegs/hookableSuspenders/InstanceHandlerCollection.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="594" selection-end="1137" vertical-scroll-proportion="0.9547383">
           <folding />
         </state>
       </provider>

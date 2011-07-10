@@ -14,21 +14,23 @@ package minilegs.hookableSuspenders {
 		public function add(handlerClass:Class):InstanceHandlerCollection {
 			var handler:* = instanceClass(handlerClass);
 
-			if (handler is BeforeInstance)
+			if (handler is BeforeInstanceHandler)
 				beforeHandlers.push(handler);
-			if (handler is AfterInstance)
+
+			if (handler is AfterInstanceHandler)
 				afterHandlers.push(handler);
+
 			return this;
 		}
 
 		internal function callAfterHandlers(instance:*):void {
-			for each (var handler:AfterInstance in afterHandlers) {
+			for each (var handler:AfterInstanceHandler in afterHandlers) {
 				handler.afterInstanced(instance);
 			}
 		}
 
 		internal function callBeforeHandlers(clazz:Class):void {
-			for each (var handler:BeforeInstance in beforeHandlers) {
+			for each (var handler:BeforeInstanceHandler in beforeHandlers) {
 				handler.beforeInstanced(clazz);
 			}
 		}
