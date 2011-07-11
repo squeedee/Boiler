@@ -27,16 +27,16 @@ package metalegs.hookableSuspenders {
 
 		// ************* Instancing Hook ************
 
-		override public function instantiate(type:Class):* {
-
-			instanceHandlers.callBeforeHandlers(type);
-
-			var instance:* = super.instantiate(type);
-
-			instanceHandlers.callAfterHandlers(instance);
-
-			return instance;
-		}
+//		override public function instantiate(type:Class):* {
+//
+//			instanceHandlers.callBeforeHandlers(type);
+//
+//			var instance:* = super.instantiate(type);
+//
+//			instanceHandlers.callAfterHandlers(instance);
+//
+//			return instance;
+//		}
 
 		// ************* Mapping Hook ************
 

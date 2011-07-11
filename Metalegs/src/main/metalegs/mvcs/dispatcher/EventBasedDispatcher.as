@@ -1,0 +1,49 @@
+package metalegs.mvcs.dispatcher {
+	import flash.events.Event;
+	import flash.events.IEventDispatcher;
+	import flash.utils.Dictionary;
+	import flash.utils.getDefinitionByName;
+	import flash.utils.getQualifiedClassName;
+
+	import metalegs.base.reflection.Reflector;
+	import metalegs.mvcs.reflection.MVCSReflection;
+
+	public class EventBasedDispatcher implements Dispatcher {
+
+		[Inject]
+		public var notifier:IEventDispatcher;
+
+		[Inject]
+		public var reflector:Reflector;
+
+		private var executionMap:Dictionary = new Dictionary();
+		private var eventClassCache:Dictionary = new Dictionary();
+
+		public function registerSignalClass(signalClass:Class, targetController:*, methodName:String):void {
+//			notifier.addEventListener(findEventType(signalClass), handleSignal);
+			executionMap[signalClass] = function(event:Event):void {
+				targetController[methodName].call(null, event);
+			}
+		}
+
+		private function handleSignal(event:Event):void {
+			executionMap[getClass(event)].call(null, event);
+		}
+
+		private function getClass(event:Event):Object {
+			return eventClassCache[event] ||= getDefinitionByName(getQualifiedClassName(event));
+		}
+
+		private function findEventType(eventClass:Class):String {
+			var reflection:MVCSReflection = MVCSReflection(reflector.getReflection(eventClass));
+
+			const classConstants:XMLList = reflection.classConstants();
+
+			if (classConstants.length() != 1)
+				throw new EventBasedDispatcherError(reflection.fqn());
+
+			return classConstants[0].value;
+		}
+
+	}
+}

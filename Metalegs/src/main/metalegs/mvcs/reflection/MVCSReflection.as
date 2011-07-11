@@ -52,5 +52,10 @@ package metalegs.mvcs.reflection {
 		public function includesClassMetadata():Boolean {
 			return _includesClassMetadata;
 		}
+
+		public function classConstants():XMLList {
+			return xml().constants;	
+
+		}
 	}
 }

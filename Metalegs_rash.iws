@@ -2,44 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10faf334-9a2c-49fc-9b7a-88c719405f03" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/base/Lifetime.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/Lifetime.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/base/configuration/ConfigurationBase.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/ConfigurationBase.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/base/configuration/ConfigurationHandler.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/ConfigurationHandler.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/base/configuration/ConfigurationHandlerCollection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/ConfigurationHandlerCollection.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/base/reflection/Reflection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/reflection/Reflection.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/base/reflection/Reflector.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/reflection/Reflector.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/HookableInjector.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/HookableInjector.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/InstanceHandlerCollection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/InstanceHandlerCollection.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/MappingHandlerCollection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/MappingHandlerCollection.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/errors/NotAMappingHandlerError.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/errors/NotAMappingHandlerError.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/errors/NotAnInstanceHandlerError.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/errors/NotAnInstanceHandlerError.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/handlers/instance/AfterInstanceHandler.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/instance/AfterInstanceHandler.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/handlers/instance/BeforeInstanceHandler.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/instance/BeforeInstanceHandler.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/handlers/mapping/AfterMapClassHandler.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/AfterMapClassHandler.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/handlers/mapping/AfterMapSingletonHandler.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/AfterMapSingletonHandler.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/handlers/mapping/AfterMapValueHandler.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/AfterMapValueHandler.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/handlers/mapping/BeforeMapClassHandler.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/BeforeMapClassHandler.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/handlers/mapping/BeforeMapSingletonHandler.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/BeforeMapSingletonHandler.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/hookableSuspenders/handlers/mapping/BeforeMapValueHandler.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/BeforeMapValueHandler.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/MVCSLifetime.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/MVCSLifetime.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/configuration/ConfigureController.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureController.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/configuration/ConfigureReflection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureReflection.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/ControllerDetector.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerDetector.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/ControllerExtension.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerExtension.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/DefaultControllerDetector.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/DefaultControllerDetector.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/reflection/MVCSReflection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/reflection/MVCSReflection.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/test/metalegs/mvcs/reflection/MVCSReflectionCase.as" afterPath="$PROJECT_DIR$/Metalegs/src/test/metalegs/mvcs/reflection/MVCSReflectionCase.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/test/metalegs/mvcs/reflection/fixtures/EmptyClassWithMetadata.as" afterPath="$PROJECT_DIR$/Metalegs/src/test/metalegs/mvcs/reflection/fixtures/EmptyClassWithMetadata.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TimeAppSample/src/Sample.mxml" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/Sample.mxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TimeAppSample/src/apps/timeApp/TimeApp.mxml" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/TimeApp.mxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TimeAppSample/src/apps/timeApp/TimeAppLifetime.as" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/TimeAppLifetime.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TimeAppSample/src/apps/timeApp/configuration/TimeAppConfig.as" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/configuration/TimeAppConfig.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TimeAppSample/src/apps/timeApp/controller/CurrentTimeController.as" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/controller/CurrentTimeController.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TimeAppSample/src/apps/timeApp/controller/ResetCurrentTimeEvent.as" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/controller/ResetCurrentTimeEvent.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TimeAppSample/src/apps/timeApp/model/CurrentTime.as" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/model/CurrentTime.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureDispatcher.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureNotifier.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/Dispatcher.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcher.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcherError.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TimeAppSample/src/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/ConfigurationBase.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/Configuration.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/Metalegs.iml" afterPath="$PROJECT_DIR$/Metalegs/Metalegs.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/ConfigurationHandlerCollection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/ConfigurationHandlerCollection.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/HookableInjector.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/HookableInjector.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/MVCSLifetime.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/MVCSLifetime.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureController.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureController.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureReflection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureReflection.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerExtension.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerExtension.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/reflection/MVCSReflection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/reflection/MVCSReflection.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs_rash.iws" afterPath="$PROJECT_DIR$/Metalegs_rash.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TimeAppSample/TimeAppSample.iml" afterPath="$PROJECT_DIR$/TimeAppSample/TimeAppSample.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/configuration/TimeAppConfig.as" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/configuration/TimeAppConfig.as" />
     </list>
     <ignored path="Minilegs_rash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,44 +77,7 @@
     <favorites_list name="Minilegs_rash" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MVCSReflection.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/reflection/MVCSReflection.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MVCSReflectionCase.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/test/metalegs/mvcs/reflection/MVCSReflectionCase.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="57" selection-start="542" selection-end="542" vertical-scroll-proportion="0.50209206">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmptyClassWithMetadata.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/test/metalegs/mvcs/reflection/fixtures/EmptyClassWithMetadata.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lifetime.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/base/Lifetime.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -148,22 +91,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Metalegs/src/metalegs/base/configuration/ConfigurationBase.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/configuration/ConfigureReflection.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/ControllerConfiguration.as" />
-        <option value="$PROJECT_DIR$/TimeAppSample/src/apps/timeApp/controller/CurrentTimeController.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/configuration/ConfigureController.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/ControllerExtension.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/ControllerDetector.as" />
-        <option value="$PROJECT_DIR$/TimeAppSample/src/apps/timeApp/model/CurrentTime.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/metalegs/base/reflection/Reflector.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/metalegs/base/reflection/Reflection.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/controller/DefaultControllerDetector.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/metalegs/mvcs/reflection/MVCSReflection.as" />
-        <option value="$PROJECT_DIR$/Metalegs/test/metalegs/mvcs/reflection/MVCSReflectionCase.as" />
-        <option value="$PROJECT_DIR$/Metalegs/test/metalegs/mvcs/reflection/fixtures/EmptyClassWithMetadata.as" />
-        <option value="$PROJECT_DIR$/Metalegs/test/main/metalegs/mvcs/reflection/fixtures/EmptyClassWithMetadata.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/Configuration.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/notifier/NotifierBase.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/notifier/Notifier.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureDispatcher.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/reflection/MVCSReflection.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcherError.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/Dispatcher.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureController.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/MVCSLifetime.as" />
         <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/Lifetime.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/ConfigurationHandlerCollection.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/MappingHandlerCollection.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcher.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureNotifier.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerExtension.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/HookableInjector.as" />
       </list>
     </option>
   </component>
@@ -185,7 +128,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -197,6 +140,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -211,34 +156,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TimeAppSample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TimeAppSample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Metalegs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -254,78 +171,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reflection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,6 +194,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="TimeAppSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps.timeApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Metalegs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
@@ -389,7 +248,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="reflection" />
+              <option name="myItemId" value="dispatcher" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,11 +270,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="reflection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fixtures" />
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,6 +285,80 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instance" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -448,35 +377,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reflection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -493,11 +398,14 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="metalegs.mvcs.dispatcher" />
+      <recent name="metalegs.mvcs.configuration" />
+      <recent name="metalegs.mvcs.notifier" />
       <recent name="metalegs.mvcs.controller" />
       <recent name="minilegs.hookableSuspenders" />
     </key>
@@ -516,7 +424,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="FlexUnit.MVCSReflectionCase">
+  <component name="RunManager" selected="Flex.Sample">
     <configuration default="false" name="Sample" type="FlexRunConfigurationType" factoryName="Flex" temporary="true" browser_family="FIREFOX" debugger_sdk="flex_sdk_3.5.0.12683 (player 9.0)" html_or_swf_file_path="$PROJECT_DIR$/out/production/TimeAppSample/_Sample.swf" launcher_type="Player" main_class_name="Sample" module_name="TimeAppSample" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
       <RunnerSettings RunnerId="FlexDebugRunner" />
       <RunnerSettings RunnerId="FlexRunner" />
@@ -560,15 +468,6 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Metalegs" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -580,6 +479,15 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Metalegs" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -656,13 +564,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="1" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="jenkinsBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33068782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -674,11 +581,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24874191" sideWeight="0.6706349" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32936507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24874191" sideWeight="0.6693122" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="674" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946082" sideWeight="0.6693122" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -724,97 +632,114 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/MappingHandlerCollection.as</url>
+          <line>105</line>
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/BeforeMapClassHandler.as">
+    <entry file="file://$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/TimeAppLifetime.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/ConfigurationBase.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="78" selection-end="78" vertical-scroll-proportion="0.094339624" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureController.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="53" selection-start="482" selection-end="482" vertical-scroll-proportion="0.3144654" />
+        <state line="12" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.3144654" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/MVCSLifetime.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="46" selection-start="290" selection-end="290" vertical-scroll-proportion="0.18867925" />
+        <state line="13" column="42" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/model/CurrentTime.as">
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureController.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.33333334" />
+        <state line="10" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Library/Adobe/flex_sdk_3.5.0.12683/frameworks/libs/player/9/playerglobal.swc!/library.swf">
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/Dispatcher.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="19" selection-start="4624" selection-end="4624" vertical-scroll-proportion="0.33189654" />
+        <state line="2" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/base/reflection/Reflection.as">
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureNotifier.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="117" selection-end="117" vertical-scroll-proportion="0.18867925" />
+        <state line="11" column="1" selection-start="341" selection-end="341" vertical-scroll-proportion="0.23338048" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/controller/CurrentTimeController.as">
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureDispatcher.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="263" selection-end="263" vertical-scroll-proportion="0.3144654" />
+        <state line="8" column="36" selection-start="321" selection-end="321" vertical-scroll-proportion="0.123796426" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/base/reflection/Reflector.as">
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcher.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="48" selection-start="349" selection-end="349" vertical-scroll-proportion="0.20632738" />
+        <state line="10" column="51" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/global-libs/SwiftSuspenders-v1.5.1.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="25" selection-start="4687" selection-end="4687" vertical-scroll-proportion="0.33189654" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerExtension.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="43" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerDetector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/DefaultControllerDetector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="31" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/reflection/MVCSReflection.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
+        <state line="22" column="9" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/test/metalegs/mvcs/reflection/fixtures/EmptyClassWithMetadata.as">
+    <entry file="file://$PROJECT_DIR$/../vWork/client/SwiftSuspenders/src/org/swiftsuspenders/InjectionConfig.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0">
+        <state line="40" column="0" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/base/Lifetime.as">
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/HookableInjector.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+        <state line="38" column="8" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1310426746000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/MappingHandlerCollection.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="0" selection-start="3505" selection-end="3505" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/test/metalegs/mvcs/reflection/MVCSReflectionCase.as">
+    <entry file="file://$PROJECT_DIR$/../vWork/client/SwiftSuspenders/src/org/swiftsuspenders/injectionresults/InjectSingletonResult.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="57" selection-start="542" selection-end="542" vertical-scroll-proportion="0.50209206">
+        <state line="39" column="0" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vWork/client/SwiftSuspenders/src/org/swiftsuspenders/Injector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="0" selection-start="4689" selection-end="4689" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vWork/client/SwiftSuspenders/src/org/swiftsuspenders/injectionpoints/ConstructorInjectionPoint.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.3186583">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vWork/client/SwiftSuspenders/src/org/swiftsuspenders/injectionpoints/MethodInjectionPoint.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="24" selection-start="3329" selection-end="3329" vertical-scroll-proportion="0.22431865">
           <folding />
         </state>
       </provider>
@@ -872,7 +797,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>TimeAppSample</last-edited>
+          <last-edited>Metalegs</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
