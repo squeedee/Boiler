@@ -5,7 +5,7 @@
     <option name="MAIN_CLASS" value="Sample" />
     <option name="OUTPUT_FILE_NAME" value="Minilegs_Sample.swf" />
     <option name="TARGET_PLAYER_VERSION" value="9.0.124" />
-    <option name="ADDITIONAL_COMPILER_OPTIONS" value="-keep-as3-metadata" />
+    <option name="ADDITIONAL_COMPILER_OPTIONS" value="-keep-as3-metadata+=Inject -keep-as3-metadata+=PostConstruct -keep-as3-metadata+=Controller" />
     <option name="VERSION" value="3" />
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
