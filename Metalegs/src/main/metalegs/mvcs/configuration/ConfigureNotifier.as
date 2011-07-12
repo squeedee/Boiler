@@ -6,7 +6,8 @@ package metalegs.mvcs.configuration {
 
 	public class ConfigureNotifier extends Configuration {
 		override public function configure():void {
-			lifetime.mapSingletonOf(IEventDispatcher, EventDispatcher);
+
+			lifetime.mapValue(IEventDispatcher, new EventDispatcher());
 		}
 	}
 }

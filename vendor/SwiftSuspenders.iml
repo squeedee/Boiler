@@ -5,6 +5,7 @@
     <option name="OUTPUT_TYPE" value="Library" />
     <option name="OUTPUT_FILE_NAME" value="SwiftSuspenders.swc" />
     <option name="TARGET_PLAYER_VERSION" value="9.0.124" />
+    <option name="ADDITIONAL_COMPILER_OPTIONS" value="-keep-as3-metadata+=Inject -keep-as3-metadata+=PostConstruct" />
     <option name="VERSION" value="3" />
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">

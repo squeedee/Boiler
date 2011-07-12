@@ -20,7 +20,7 @@ package metalegs.mvcs.dispatcher {
 		private var eventClassCache:Dictionary = new Dictionary();
 
 		public function registerSignalClass(signalClass:Class, targetController:*, methodName:String):void {
-//			notifier.addEventListener(findEventType(signalClass), handleSignal);
+			notifier.addEventListener(findEventType(signalClass), handleSignal);
 			executionMap[signalClass] = function(event:Event):void {
 				targetController[methodName].call(null, event);
 			}

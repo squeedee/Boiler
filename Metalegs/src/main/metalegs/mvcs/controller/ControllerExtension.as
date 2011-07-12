@@ -19,11 +19,11 @@ package metalegs.mvcs.controller {
 		public var dispatcher:Dispatcher;
 
 		public function afterMapValue(newConfig:InjectionConfig):void {
-			//handleMapping(newConfig.request)
+			handleMapping(newConfig.request)
 		}
 
 		public function afterMapClass(newConfig:InjectionConfig):void {
-			//handleMapping(newConfig.request)
+			handleMapping(newConfig.request)
 		}
 
 		private function handleMapping(type:Class):void {
@@ -34,7 +34,7 @@ package metalegs.mvcs.controller {
 			// make mappings here
 			var reflection:MVCSReflection = MVCSReflection(reflector.getReflection(type));
 
-			// dispatcher.registerSignalClass()
+			//dispatcher.registerSignalClass()
 
 			trace(reflection.xml());
 		}
