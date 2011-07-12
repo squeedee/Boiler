@@ -5,6 +5,8 @@ package metalegs.mvcs.dispatcher {
 	import flash.utils.getDefinitionByName;
 	import flash.utils.getQualifiedClassName;
 
+	import metalegs.base.Lifetime;
+
 	import metalegs.base.reflection.Reflector;
 	import metalegs.mvcs.reflection.MVCSReflection;
 
@@ -16,13 +18,17 @@ package metalegs.mvcs.dispatcher {
 		[Inject]
 		public var reflector:Reflector;
 
+		[Inject]
+		public var lifetime:Lifetime;
+
 		private var executionMap:Dictionary = new Dictionary();
 		private var eventClassCache:Dictionary = new Dictionary();
 
-		public function registerSignalClass(signalClass:Class, targetController:*, methodName:String):void {
+		public function registerSignalClass(signalClass:Class, targetControllerClass:Class, methodName:String):void {
 			notifier.addEventListener(findEventType(signalClass), handleSignal);
 			executionMap[signalClass] = function(event:Event):void {
-				targetController[methodName].call(null, event);
+				var controller:* = lifetime.getInstance(targetControllerClass);
+				controller[methodName].call(null, event);
 			}
 		}
 

@@ -10,7 +10,8 @@ package apps.timeApp.model {
 		[Inject]
 		public var lifetime:Lifetime;
 
-		public function CurrentTime() {
+		[PostConstruct]
+		public function setup():void {
 			setTimeToNow();
 		}
 

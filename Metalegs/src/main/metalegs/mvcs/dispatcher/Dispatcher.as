@@ -1,5 +1,5 @@
 package metalegs.mvcs.dispatcher {
 	public interface Dispatcher {
-		function registerSignalClass(signalClass:Class, targetController:*, methodName:String):void;
+		function registerSignalClass(signalClass:Class, targetControllerClass:Class, methodName:String):void;
 	}
 }
