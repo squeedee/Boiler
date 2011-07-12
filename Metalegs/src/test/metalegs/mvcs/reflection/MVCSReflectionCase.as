@@ -31,7 +31,7 @@ package metalegs.mvcs.reflection {
 		public function ItHasClassMetadata():void {
 			withAnEmptyClassWithMetadata();
 
-			assertThat(reflection.xml().metadata.length(), greaterThan(0));
+			assertThat(reflection.type().metadata.length(), greaterThan(0));
 
 		}
 

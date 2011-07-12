@@ -7,18 +7,18 @@ package metalegs.mvcs.reflection {
 
 	public class MVCSReflection implements Reflection {
 		private var _source:Class;
-		private var _xml:XML;
+		private var _type:XML;
+		private var _instance:XML;
 		private var _fqn:String;
-		private var _includesClassMetadata:Boolean = true;
 
 		public function reflect(type:Class):Reflection {
 			_source = type;
 
+			_type = describeType(type);
+			
 			try {
-				_xml = describeType(new type());
+				_instance = describeType(new type());
 			} catch (error:Error) {
-				_xml = describeType(type);
-				_includesClassMetadata = false;
 				trace(StringUtil.substitute(
 						"Warning, could not read class metadata of {0} with error:\n{1}",
 						fqn(),
@@ -33,12 +33,12 @@ package metalegs.mvcs.reflection {
 			return _source;
 		}
 
-		public function xml():XML {
-			return _xml;
+		public function type():XML {
+			return _type;
 		}
 
 		public function fqn():String {
-			return _fqn ||= _xml.@name;
+			return _fqn ||= _type.@name;
 		}
 
 		public function hasAnyNamespace(anyNamespaceCalled:String):Boolean {
@@ -49,13 +49,13 @@ package metalegs.mvcs.reflection {
 			return (fqn().search("\\.*" + leafNamespaceCalled + ":") >= 0);
 		}
 
-		public function includesClassMetadata():Boolean {
-			return _includesClassMetadata;
+		public function classConstants():XMLList {
+			return type().constant;
+
 		}
 
-		public function classConstants():XMLList {
-			return xml().constants;	
-
+		public function instance():XML {
+			return _instance;
 		}
 	}
 }

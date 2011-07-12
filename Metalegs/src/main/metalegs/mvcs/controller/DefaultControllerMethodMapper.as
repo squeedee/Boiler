@@ -15,7 +15,7 @@ package metalegs.mvcs.controller {
 		public function mapController(type:Class):void {
 			var reflection:MVCSReflection = MVCSReflection(reflector.getReflection(type));
 
-			for each (var method:XML in reflection.xml().method) {
+			for each (var method:XML in reflection.type().method) {
 				registerMethod(method, type);
 			}
 

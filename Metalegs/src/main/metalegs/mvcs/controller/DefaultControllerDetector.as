@@ -13,12 +13,13 @@ package metalegs.mvcs.controller {
 
 			var reflection:MVCSReflection = MVCSReflection(reflector.getReflection(type));
 
-			return (reflection.includesClassMetadata && hasControllerMetadata(reflection)) ||
+			return (reflection.instance() && hasControllerMetadata(reflection)) ||
 					hasControllerClassName(reflection) ||
 					reflection.hasLeafNamespace(CONTROLLER_NAMESPACE) ||
 					reflection.hasAnyNamespace(CONTROLLER_NAMESPACE);
 		}
 
+		// todo: detect [Controller]
 		private function hasControllerMetadata(reflection:MVCSReflection):Boolean {
 			return false;
 		}
