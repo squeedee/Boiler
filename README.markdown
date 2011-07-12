@@ -25,8 +25,9 @@ from preceding plugins/extensions until you end up with the system you need.
 The controller extension is almost complete, which should demonstrate the concept pretty well.
 
 Lots of WIP, so don't be suprised at:
-	* The lack of tests (Im not a TDDer, that might turn you off to begin with)
-	* The lack of teardown support. It's certainly intended, but I don't need it for a Proof Of Concept which this is now.
-	* Sanity.. I'm not sane.
+  
+  * The lack of tests (Im not a TDDer, that might turn you off to begin with)
+  * The lack of teardown support. It's certainly intended, but I don't need it for a Proof Of Concept which this is now.
+  * Sanity.. I'm not sane.
 	
 
