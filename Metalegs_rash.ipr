@@ -17,6 +17,9 @@
       <entry name="?*.dtd" />
       <entry name="?*.tld" />
       <entry name="?*.ftl" />
+      <entry name="?*.js" />
+      <entry name="?*.css" />
+      <entry name="?*.swf" />
     </wildcardResourcePatterns>
     <annotationProcessing enabled="false" useClasspath="true" />
   </component>
@@ -85,6 +88,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Metalegs/Metalegs.iml" filepath="$PROJECT_DIR$/Metalegs/Metalegs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vendor/SwiftSuspenders.iml" filepath="$PROJECT_DIR$/vendor/SwiftSuspenders.iml" />
       <module fileurl="file://$PROJECT_DIR$/TimeAppSample/TimeAppSample.iml" filepath="$PROJECT_DIR$/TimeAppSample/TimeAppSample.iml" />
     </modules>
   </component>

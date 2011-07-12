@@ -17,16 +17,8 @@
     <orderEntry type="jdk" jdkName="flex_sdk_3.5.0.12683 (player 9.0)" jdkType="Flex SDK Type" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="global-libs" level="project" />
-    <orderEntry type="library" name="test-libs" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/../../vWork/client/SwiftSuspenders" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="test-libs" level="project" />
+    <orderEntry type="module" module-name="SwiftSuspenders" />
   </component>
 </module>
 

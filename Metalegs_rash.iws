@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10faf334-9a2c-49fc-9b7a-88c719405f03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureDispatcher.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureNotifier.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/Dispatcher.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcher.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcherError.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TimeAppSample/src/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/ConfigurationBase.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/Configuration.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/Metalegs.iml" afterPath="$PROJECT_DIR$/Metalegs/Metalegs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/ConfigurationHandlerCollection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/ConfigurationHandlerCollection.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/HookableInjector.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/HookableInjector.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/MVCSLifetime.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/MVCSLifetime.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureController.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureReflection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureReflection.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerExtension.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerExtension.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/reflection/MVCSReflection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/reflection/MVCSReflection.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs_rash.ipr" afterPath="$PROJECT_DIR$/Metalegs_rash.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs_rash.iws" afterPath="$PROJECT_DIR$/Metalegs_rash.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/configuration/TimeAppConfig.as" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/configuration/TimeAppConfig.as" />
     </list>
     <ignored path="Minilegs_rash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,7 +62,26 @@
     <favorites_list name="Minilegs_rash" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="MappingHandlerCollection.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/MappingHandlerCollection.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="0" selection-start="3505" selection-end="3505" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Injector.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/SwiftSuspenders/src/org/swiftsuspenders/Injector.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="137" column="0" selection-start="4893" selection-end="4893" vertical-scroll-proportion="0.33333334">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -140,8 +144,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -160,22 +162,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -382,6 +371,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,8 +388,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
@@ -468,6 +458,15 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Metalegs" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -479,15 +478,6 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Metalegs" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -681,32 +671,39 @@
         <state line="10" column="51" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/global-libs/SwiftSuspenders-v1.5.1.swc!/library.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="25" selection-start="4687" selection-end="4687" vertical-scroll-proportion="0.33189654" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerExtension.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="9" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="22" column="9" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../vWork/client/SwiftSuspenders/src/org/swiftsuspenders/InjectionConfig.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="40" column="0" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/HookableInjector.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="8" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1310426746000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="38" column="8" selection-start="1172" selection-end="1172" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vWork/client/SwiftSuspenders/src/org/swiftsuspenders/injectionresults/InjectSingletonResult.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vWork/client/SwiftSuspenders/src/org/swiftsuspenders/Injector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="0" selection-start="4689" selection-end="4689" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vWork/client/SwiftSuspenders/src/org/swiftsuspenders/injectionpoints/ConstructorInjectionPoint.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.3186583" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../vWork/client/SwiftSuspenders/src/org/swiftsuspenders/injectionpoints/MethodInjectionPoint.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="24" selection-start="3329" selection-end="3329" vertical-scroll-proportion="0.22431865" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/MappingHandlerCollection.as">
@@ -716,30 +713,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../vWork/client/SwiftSuspenders/src/org/swiftsuspenders/injectionresults/InjectSingletonResult.as">
+    <entry file="file://$PROJECT_DIR$/vendor/SwiftSuspenders/src/org/swiftsuspenders/Injector.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1448" selection-end="1448" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vWork/client/SwiftSuspenders/src/org/swiftsuspenders/Injector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="0" selection-start="4689" selection-end="4689" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vWork/client/SwiftSuspenders/src/org/swiftsuspenders/injectionpoints/ConstructorInjectionPoint.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.3186583">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../vWork/client/SwiftSuspenders/src/org/swiftsuspenders/injectionpoints/MethodInjectionPoint.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="24" selection-start="3329" selection-end="3329" vertical-scroll-proportion="0.22431865">
+        <state line="137" column="0" selection-start="4893" selection-end="4893" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
@@ -802,6 +778,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
