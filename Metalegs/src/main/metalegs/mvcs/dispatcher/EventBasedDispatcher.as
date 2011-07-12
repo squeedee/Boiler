@@ -48,7 +48,15 @@ package metalegs.mvcs.dispatcher {
 			if (classConstants.length() != 1)
 				throw new EventBasedDispatcherError(reflection.fqn());
 
-			return classConstants[0].value;
+			/*
+			 in case it's not obvious, this is a constant lookup..
+			  We cant enumerate constants on the class itself because we expect only one - "SimpleEvent"
+			  If we enumerate, we get all the constants from flash.event::Event
+			  Reflection gives us the locally defined one.
+			  */
+
+			var soleConstantName:String = classConstants[0].@name;
+			return eventClass[soleConstantName];
 		}
 
 	}

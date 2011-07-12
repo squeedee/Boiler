@@ -16,7 +16,7 @@ package apps.timeApp.model {
 		}
 
 		public function setTimeToNow():void {
-			var date:Date = lifetime.getInstance(Date);
+			var date:Date = new Date();
 
 			var hour24:int = date.getHours();
 			_hour = hour24 % 12;

@@ -4,5 +4,19 @@
 		width="300" height="50"
 		xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:timeapp="apps.timeApp.*">
 
-	<timeapp:TimeAppLifetime />
+
+	<mx:Script><![CDATA[
+		import apps.timeApp.controller.ResetCurrentTimeEvent;
+
+		private function fakeMediator(event:Event):void {
+			var notifier:IEventDispatcher = lifetime.getInstance(IEventDispatcher);
+
+			notifier.dispatchEvent(event);
+		}
+		]]></mx:Script>
+
+	<timeapp:TimeAppLifetime id="lifetime"/>
+
+	<mx:Button label="Reset" click="fakeMediator(new ResetCurrentTimeEvent())"/>
+
 </mx:Canvas>
