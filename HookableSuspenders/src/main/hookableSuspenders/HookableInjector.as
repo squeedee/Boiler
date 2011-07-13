@@ -3,30 +3,53 @@ package hookableSuspenders {
 	import org.swiftsuspenders.Injector;
 
 	/**
-	 * SwiftSuspenders Instanciation is pretty easy to hook into, mapping isnt.
-	 * This makes it a little simpler.
-	 * Till says i wont need these with 2.0, look forward to it :D
+	 * This class enables you to run handlers before and after every mapping or instanciation through Swiftsuspenders.
+	 *
+	 * Till S. says we wont need these with 2.0, look forward to it :D
+	 *
+	 * For now. Here's the rub.
+	 *
+	 * Use the HookableInjector where you would use Injector.
+	 *
+	 * To add handlers, use the methods of instanceHandlers() and mappingHandlers().
+	 *
+	 * @author Rasheed Abdul-Aziz
+	 * @license MIT
 	 */
 	public class HookableInjector extends Injector {
 		private var _instanceHandlers:InstanceHandlerCollection;
 		private var _mappingHandlers:MappingHandlerCollection;
 
+		/**
+		 * @inherit
+		 */
 		public function HookableInjector(xmlConfig:XML = null) {
 			super(xmlConfig);
 			_instanceHandlers = new InstanceHandlerCollection(this);
 			_mappingHandlers = new MappingHandlerCollection(this);
 		}
 
+		/**
+		 * Access to the Instance Handler collection for this Injector. These handlers respond to instanciation through
+		 * SwiftSuspenders
+		 */
 		public function get instanceHandlers():InstanceHandlerCollection {
 			return _instanceHandlers;
 		}
 
+		/**
+		 * Access to the Mapping Handler collection for this Injector. These handlers respond to mapping of classes,
+		 * values and singletons with SwiftSuspenders
+		 */
 		public function get mappingHandlers():MappingHandlerCollection {
 			return _mappingHandlers;
 		}
 
 		// ************* Instancing Hook ************
 
+		/**
+		 * @inherit
+		 */
 		override public function instantiate(type:Class):* {
 
 			instanceHandlers.callBeforeHandlers(type);
@@ -40,6 +63,14 @@ package hookableSuspenders {
 
 		// ************* Mapping Hook ************
 
+		/**
+		 * @inherit
+		 *
+		 * Before the mapping is complete, the BeforeMapValueHandler's in the mappingHandlers collection are called
+		 *
+		 * After the mapping is complete, the AfterMapValueHandler's in the mapping handlers collection are called
+		 *
+		 */
 		override public function mapValue(whenAskedFor:Class, useValue:Object, named:String = ""):* {
 			var previousConfig:InjectionConfig = getMapping(whenAskedFor, named);
 			mappingHandlers.callBeforeMapValueHandlers(previousConfig, useValue);
@@ -51,6 +82,14 @@ package hookableSuspenders {
 			return newConfig;
 		}
 
+		/**
+		 * @inherit
+		 *
+		 * Before the mapping is complete, the BeforeMapClassHandler's in the mappingHandlers collection are called
+		 *
+		 * After the mapping is complete, the AfterMapClassHandler's in the mapping handlers collection are called
+		 *
+		 */
 		override public function mapClass(whenAskedFor:Class, instantiateClass:Class, named:String = ""):* {
 
 			var previousConfig:InjectionConfig = getMapping(whenAskedFor, named);
@@ -63,6 +102,14 @@ package hookableSuspenders {
 			return newConfig;
 		}
 
+		/**
+		 * @inherit
+		 *
+		 * Before the mapping is complete, the BeforeMapSingletonHandler's in the mappingHandlers collection are called
+		 *
+		 * After the mapping is complete, the AfterMapSingletonHandler's in the mapping handlers collection are called
+		 *
+		 */
 		override public function mapSingletonOf(whenAskedFor:Class, useSingletonOf:Class, named:String = ""):* {
 			var previousConfig:InjectionConfig = getMapping(whenAskedFor, named);
 			mappingHandlers.callBeforeMapSingletonHandlers(previousConfig, useSingletonOf);
@@ -74,8 +121,5 @@ package hookableSuspenders {
 			return newConfig;
 		}
 
-		override public function mapRule(whenAskedFor:Class, useRule:*, named:String = ""):* {
-			return super.mapRule(whenAskedFor, useRule, named);
-		}
 	}
 }
