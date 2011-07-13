@@ -30,4 +30,8 @@ Lots of WIP, so don't be suprised at:
   * The lack of teardown support. It's certainly intended, but I don't need it for a Proof Of Concept which this is now.
   * Sanity.. I'm not sane.
 	
+## Architecture
+
+<script src="http://www.gliffy.com/diagramEmbed.js" type="text/javascript"> </script>
+<script type="text/javascript"> gliffy_did = "2791221"; embedGliffy(); </script>
 
