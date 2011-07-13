@@ -32,6 +32,4 @@ Lots of WIP, so don't be suprised at:
 	
 ## Architecture
 
-<script src="http://www.gliffy.com/diagramEmbed.js" type="text/javascript"> </script>
-<script type="text/javascript"> gliffy_did = "2791221"; embedGliffy(); </script>
-
+![Layer Diagram](http://www.gliffy.com/pubdoc/2791221/L.png)
