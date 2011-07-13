@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10faf334-9a2c-49fc-9b7a-88c719405f03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/controller/HourDownEvent.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/controller/HourUpEvent.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/controller/MinuteDownEvent.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/controller/MinuteUpEvent.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/model/CurrentTimeChangedEvent.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/HookableInjector.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/HookableInjector.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/MappingHandlerCollection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/MappingHandlerCollection.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/AfterMapSingletonHandler.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/AfterMapSingletonHandler.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/BeforeMapClassHandler.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/BeforeMapClassHandler.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerExtension.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerExtension.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcher.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcher.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs_rash.iws" afterPath="$PROJECT_DIR$/Metalegs_rash.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/TimeApp.mxml" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/TimeApp.mxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/TimeAppLifetime.as" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/TimeAppLifetime.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/controller/CurrentTimeController.as" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/controller/CurrentTimeController.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/controller/ResetCurrentTimeEvent.as" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/controller/ResetCurrentTimeEvent.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/model/CurrentTime.as" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/model/CurrentTime.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/DefaultControllerMethodMapper.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/DefaultControllerMethodMapper.as" />
     </list>
     <ignored path="Minilegs_rash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,8 +68,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -94,91 +78,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ConfigureController.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureController.as">
+      <file leaf-file-name="DefaultControllerMethodMapper.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/DefaultControllerMethodMapper.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0">
+            <state line="17" column="30" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControllerExtension.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerExtension.as">
+      <file leaf-file-name="ControllerDetector.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerDetector.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="45" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Lifetime.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/base/Lifetime.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Configuration.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/Configuration.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="37" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MVCSLifetime.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/MVCSLifetime.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="5" selection-start="566" selection-end="566" vertical-scroll-proportion="0.23778072">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigureDispatcher.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureDispatcher.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="53" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventBasedDispatcher.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcher.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="55" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dispatcher.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/Dispatcher.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigureNotifier.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureNotifier.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigureReflection.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureReflection.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="1" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.14442916">
               <folding />
             </state>
           </provider>
@@ -198,7 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/configuration/TimeAppConfig.as" />
         <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcher.as" />
         <option value="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/model/CurrentTimeChangedEvent.as" />
         <option value="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/controller/ResetCurrentTimeEvent.as" />
@@ -214,6 +125,7 @@
         <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/AfterMapSingletonHandler.as" />
         <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/BeforeMapClassHandler.as" />
         <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureDispatcher.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/DefaultControllerMethodMapper.as" />
       </list>
     </option>
   </component>
@@ -247,213 +159,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TimeAppSample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TimeAppSample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps.timeApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dispatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configuration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="handlers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="handlers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -665,35 +370,216 @@
               <option name="myItemId" value="metalegs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeAppSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TimeAppSample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps.timeApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="Metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dispatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -711,8 +597,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
@@ -781,15 +667,6 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Metalegs" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -801,6 +678,15 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Metalegs" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -877,8 +763,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1174" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -889,17 +775,17 @@
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18492785" sideWeight="0.76325756" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31560028" sideWeight="0.76325756" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="674" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946082" sideWeight="0.6693122" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -960,114 +846,90 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/AfterMapClassHandler.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/AfterMapValueHandler.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/AfterMapSingletonHandler.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="22" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/BeforeMapClassHandler.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="26" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/BeforeMapSingletonHandler.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/hookableSuspenders/handlers/mapping/BeforeMapValueHandler.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/base/Lifetime.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/Configuration.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="37" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureReflection.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureNotifier.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerExtension.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="45" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureDispatcher.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="53" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcher.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="55" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/Dispatcher.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureController.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0">
+        <state line="17" column="0" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerExtension.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="45" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/base/Lifetime.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/Configuration.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="37" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureDispatcher.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="53" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcher.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="55" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/Dispatcher.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureNotifier.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureReflection.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="1" selection-start="428" selection-end="428" vertical-scroll-proportion="0.26822558">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/MVCSLifetime.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="5" selection-start="566" selection-end="566" vertical-scroll-proportion="0.23778072">
+        <state line="18" column="0" selection-start="569" selection-end="569" vertical-scroll-proportion="0.28885832">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/DefaultControllerMethodMapper.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerDetector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="127" selection-end="127" vertical-scroll-proportion="0.14442916">
           <folding />
         </state>
       </provider>

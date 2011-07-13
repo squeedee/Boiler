@@ -25,7 +25,6 @@ package metalegs.mvcs.controller {
 			if (! correctParameterLength(method))
 				return;
 
-			trace("Mapping Controller Method: " + method.@name);
 			dispatcher.registerSignalClass(getSignalParameterClass(method), type, method.@name);
 		}
 
