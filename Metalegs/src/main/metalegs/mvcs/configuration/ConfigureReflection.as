@@ -6,7 +6,7 @@ package metalegs.mvcs.configuration {
 
 	public class ConfigureReflection extends Configuration {
 
-		override public function configure():void {
+		override public function startup():void {
 			lifetime.mapClass(Reflection, MVCSReflection);
 			lifetime.mapSingleton(Reflector);
 		}

@@ -6,7 +6,7 @@ package apps.timeApp.configuration {
 
 	public class TimeAppConfig extends Configuration {
 
-		override public function configure():void {
+		override public function startup():void {
 
 			// model
 			lifetime.mapSingleton(CurrentTime);

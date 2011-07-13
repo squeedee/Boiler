@@ -13,7 +13,11 @@ package metalegs.base {
 		}
 
 		public function live():void {
-			configurationHandlers.execute();
+			configurationHandlers.startup();
+		}
+
+		public function die():void {
+			configurationHandlers.teardown();
 		}
 
 		public function addConfigurationHandler(type:Class):Lifetime {

@@ -6,31 +6,60 @@ package metalegs.base.configuration {
 	public class ConfigurationHandlerCollection {
 
 		private var lifetime:Lifetime;
-		private var handlers:Array;
+		private var setupHandlers:Array;
+		private var teardownHandlers:Array;
 
 		public function ConfigurationHandlerCollection(lifetime:Lifetime) {
 			this.lifetime = lifetime;
-			handlers = [];
+			setupHandlers = [];
 		}
 
 		public function add(handler:Class):void {
-			if (handlers == null)
+			if (hasStarted())
 				throw new Error("You're too late");
 
-			handlers.push(handler);
+			setupHandlers.push(handler);
 		}
 
-		public function execute():void {
-			var handler:ConfigurationHandler;
+		public function startup():void {
+			if (hasStarted())
+				throw new Error("You can only live once");
 
-			while (handlers.length > 0) {
-				handler = new (handlers.shift())();
-				trace("::::CONFIGURE HANDLER: " + getQualifiedClassName(handler));
-				lifetime.injectInto(handler);
-				handler.configure();
+			teardownHandlers = [];
+
+			while (setupHandlers.length > 0) {
+				setupNextConfiguration();
 			}
 
-			handlers = null;
+			setupHandlers = null;
+		}
+
+		private function setupNextConfiguration():void {
+			var handler:ConfigurationHandler = new (setupHandlers.shift())();
+			lifetime.injectInto(handler);
+			handler.startup();
+			teardownHandlers.push(handler);
+		}
+
+		private function hasStarted():Boolean {
+			return setupHandlers == null;
+		}
+
+		public function teardown():void {
+			if (!hasStarted())
+				throw new Error("Only the good die young");
+
+			while(teardownHandlers.length > 0) {
+				teardownNextConfiguration();
+			}
+
+
+			teardownHandlers = null;
+		}
+
+		private function teardownNextConfiguration():void {
+			var handler:ConfigurationHandler = teardownHandlers.shift();
+			handler.teardown();
 		}
 	}
 }

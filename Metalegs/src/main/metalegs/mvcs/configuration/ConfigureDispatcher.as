@@ -5,7 +5,7 @@ package metalegs.mvcs.configuration {
 
 	public class ConfigureDispatcher extends Configuration {
 
-		override public function configure():void {
+		override public function startup():void {
 			lifetime.mapSingletonOf(Dispatcher, EventBasedDispatcher);
 		}
 	}

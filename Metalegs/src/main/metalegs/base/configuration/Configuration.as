@@ -6,7 +6,10 @@ package metalegs.base.configuration {
 		[Inject]
 		public var lifetime:Lifetime;
 
-		public function configure():void {
+		public function startup():void {
+		}
+
+		public function teardown():void {
 		}
 	}
 }

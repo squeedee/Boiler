@@ -1,5 +1,7 @@
 package metalegs.base.configuration {
 	public interface ConfigurationHandler {
-		function configure():void;
+		function startup():void;
+
+		function teardown():void;
 	}
 }

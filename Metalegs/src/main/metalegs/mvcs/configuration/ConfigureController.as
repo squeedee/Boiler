@@ -8,7 +8,7 @@ package metalegs.mvcs.configuration {
 
 	public class ConfigureController extends Configuration {
 
-		override public function configure():void {
+		override public function startup():void {
 			lifetime.mapSingletonOf(ControllerDetector, DefaultControllerDetector);
 			lifetime.mapSingletonOf(ControllerMethodMapper, DefaultControllerMethodMapper);
 			lifetime.mappingHandlers.add(ControllerExtension);
