@@ -26,6 +26,7 @@ package metalegs.mvcs.dispatcher {
 
 		public function registerSignalClass(signalClass:Class, targetControllerClass:Class, methodName:String):void {
 			notifier.addEventListener(findEventType(signalClass), handleSignal);
+
 			executionMap[signalClass] = function(event:Event):void {
 				var controller:* = lifetime.getInstance(targetControllerClass);
 				controller[methodName].call(null, event);

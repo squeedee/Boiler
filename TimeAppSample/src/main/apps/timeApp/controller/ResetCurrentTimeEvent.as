@@ -4,7 +4,7 @@ package apps.timeApp.controller {
 
 	public class ResetCurrentTimeEvent extends Event {
 
-		public static const RESET:String = "RESET";
+		public static const RESET:String = "ResetCurrentTime";
 
 		public function ResetCurrentTimeEvent() {
 			super(RESET);

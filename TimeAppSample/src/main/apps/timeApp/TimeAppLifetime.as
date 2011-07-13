@@ -8,5 +8,6 @@ package apps.timeApp {
 			addConfigurationHandler(TimeAppConfig);
 			live();
 		}
+
 	}
 }

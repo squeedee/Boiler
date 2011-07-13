@@ -1,22 +1,66 @@
 <?xml version="1.0"?>
-<mx:Canvas
+<mx:HBox
+
 		borderColor="{0x454545}" borderThickness="2" borderStyle="solid" backgroundColor="{0x121212}"
-		width="300" height="50"
-		xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:timeapp="apps.timeApp.*">
+		color="{0xaaaaaa}"
+
+		width="500" height="50"
+		xmlns:mx="http://www.adobe.com/2006/mxml" xmlns:timeapp="apps.timeApp.*"
+		creationComplete="alive()"
+		>
 
 
 	<mx:Script><![CDATA[
+		import apps.timeApp.controller.HourDownEvent;
+		import apps.timeApp.controller.HourUpEvent;
+		import apps.timeApp.controller.MinuteDownEvent;
+		import apps.timeApp.controller.MinuteUpEvent;
 		import apps.timeApp.controller.ResetCurrentTimeEvent;
+		import apps.timeApp.model.CurrentTime;
+		import apps.timeApp.model.CurrentTimeChangedEvent;
+
+		private var notifier:IEventDispatcher;
 
 		private function fakeMediator(event:Event):void {
-			var notifier:IEventDispatcher = lifetime.getInstance(IEventDispatcher);
-
 			notifier.dispatchEvent(event);
 		}
+
+		public function alive():void {
+			notifier = lifetime.getInstance(IEventDispatcher);
+
+			notifier.addEventListener(CurrentTimeChangedEvent.CHANGED, updateFromCurrentTime);
+			updateFromModel();
+		}
+
+		private function updateFromCurrentTime(event:CurrentTimeChangedEvent):void {
+			updateFromModel();
+		}
+
+		public function updateFromModel():void {
+			var currentTime:CurrentTime = lifetime.getInstance(CurrentTime);
+			hours.text = currentTime.hour.toString();
+			mins.text = currentTime.minutes.toString();
+		}
+
 		]]></mx:Script>
 
 	<timeapp:TimeAppLifetime id="lifetime"/>
 
-	<mx:Button label="Reset" click="fakeMediator(new ResetCurrentTimeEvent())"/>
+	<mx:Button label="R" click="fakeMediator(new ResetCurrentTimeEvent())" />
+	<mx:VBox>
+		<mx:Button label="H+" click="fakeMediator(new HourUpEvent())" />
+		<mx:Button label="H-" click="fakeMediator(new HourDownEvent())" />
+	</mx:VBox>
+	<mx:VBox>
+		<mx:Button label="M+" click="fakeMediator(new MinuteUpEvent())" />
+		<mx:Button label="M-" click="fakeMediator(new MinuteDownEvent())" />
+	</mx:VBox>
 
-</mx:Canvas>
+	<mx:Spacer width="10" />
+
+	<mx:Label id="hours" />
+	<mx:Label text=":" />
+	<mx:Label id="mins"/>
+
+
+</mx:HBox>

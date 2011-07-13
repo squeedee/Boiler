@@ -1,5 +1,5 @@
 package apps.timeApp.model {
-	import metalegs.base.Lifetime;
+	import flash.events.IEventDispatcher;
 
 	public class CurrentTime {
 
@@ -8,12 +8,8 @@ package apps.timeApp.model {
 		private var _am:Boolean;
 
 		[Inject]
-		public var lifetime:Lifetime;
+		public var notifier:IEventDispatcher;
 
-		[PostConstruct]
-		public function setup():void {
-			setTimeToNow();
-		}
 
 		public function setTimeToNow():void {
 			var date:Date = new Date();
@@ -23,6 +19,8 @@ package apps.timeApp.model {
 			_am = (hour24 == _hour);
 
 			_minutes = date.getMinutes();
+
+			notifier.dispatchEvent(new CurrentTimeChangedEvent());
 		}
 
 		public function get hour():int {

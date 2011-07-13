@@ -77,7 +77,7 @@ package metalegs.hookableSuspenders {
 
 		internal function callBeforeMapClassHandlers(existingConfig:InjectionConfig, instanciateClass:Class):void {
 			for each (var handler:BeforeMapClassHandler in beforeClassHandlers) {
-				handler.beforeMapValue(existingConfig, instanciateClass);
+				handler.beforeMapClass(existingConfig, instanciateClass);
 			}
 		}
 
@@ -96,7 +96,7 @@ package metalegs.hookableSuspenders {
 
 		internal function callAfterMapSingletonHandlers(newConfig:InjectionConfig):void {
 			for each (var handler:AfterMapSingletonHandler in afterSingletonHandlers) {
-				handler.afterMapValue(newConfig);
+				handler.afterMapSingleton(newConfig);
 			}
 		}
 

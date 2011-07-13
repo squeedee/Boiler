@@ -13,7 +13,7 @@ package metalegs.mvcs.controller {
 		[Inject]
 		public var methodMapper:ControllerMethodMapper;
 
-		public function afterMapValue(newConfig:InjectionConfig):void {
+		public function afterMapSingleton(newConfig:InjectionConfig):void {
 			handleMapping(newConfig.request)
 		}
 
