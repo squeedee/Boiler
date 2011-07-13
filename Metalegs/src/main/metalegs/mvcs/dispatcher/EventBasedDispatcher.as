@@ -6,7 +6,6 @@ package metalegs.mvcs.dispatcher {
 	import flash.utils.getQualifiedClassName;
 
 	import metalegs.base.Lifetime;
-
 	import metalegs.base.reflection.Reflector;
 	import metalegs.mvcs.reflection.MVCSReflection;
 
@@ -51,10 +50,10 @@ package metalegs.mvcs.dispatcher {
 
 			/*
 			 in case it's not obvious, this is a constant lookup..
-			  We cant enumerate constants on the class itself because we expect only one - "SimpleEvent"
-			  If we enumerate, we get all the constants from flash.event::Event
-			  Reflection gives us the locally defined one.
-			  */
+			 We cant enumerate constants on the class itself because we expect only one - "SimpleEvent"
+			 If we enumerate, we get all the constants from flash.event::Event
+			 Reflection gives us the locally defined one.
+			 */
 
 			var soleConstantName:String = classConstants[0].@name;
 			return eventClass[soleConstantName];

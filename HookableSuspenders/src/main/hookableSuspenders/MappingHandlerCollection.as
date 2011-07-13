@@ -1,11 +1,11 @@
-package metalegs.hookableSuspenders {
-	import metalegs.hookableSuspenders.errors.NotAMappingHandlerError;
-	import metalegs.hookableSuspenders.handlers.mapping.AfterMapClassHandler;
-	import metalegs.hookableSuspenders.handlers.mapping.AfterMapSingletonHandler;
-	import metalegs.hookableSuspenders.handlers.mapping.AfterMapValueHandler;
-	import metalegs.hookableSuspenders.handlers.mapping.BeforeMapClassHandler;
-	import metalegs.hookableSuspenders.handlers.mapping.BeforeMapSingletonHandler;
-	import metalegs.hookableSuspenders.handlers.mapping.BeforeMapValueHandler;
+package hookableSuspenders {
+	import hookableSuspenders.errors.NotAMappingHandlerError;
+	import hookableSuspenders.handlers.mapping.AfterMapClassHandler;
+	import hookableSuspenders.handlers.mapping.AfterMapSingletonHandler;
+	import hookableSuspenders.handlers.mapping.AfterMapValueHandler;
+	import hookableSuspenders.handlers.mapping.BeforeMapClassHandler;
+	import hookableSuspenders.handlers.mapping.BeforeMapSingletonHandler;
+	import hookableSuspenders.handlers.mapping.BeforeMapValueHandler;
 
 	import org.swiftsuspenders.InjectionConfig;
 

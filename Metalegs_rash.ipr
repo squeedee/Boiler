@@ -87,6 +87,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/HookableSuspenders/HookableSuspenders.iml" filepath="$PROJECT_DIR$/HookableSuspenders/HookableSuspenders.iml" />
       <module fileurl="file://$PROJECT_DIR$/Metalegs/Metalegs.iml" filepath="$PROJECT_DIR$/Metalegs/Metalegs.iml" />
       <module fileurl="file://$PROJECT_DIR$/vendor/SwiftSuspenders.iml" filepath="$PROJECT_DIR$/vendor/SwiftSuspenders.iml" />
       <module fileurl="file://$PROJECT_DIR$/TimeAppSample/TimeAppSample.iml" filepath="$PROJECT_DIR$/TimeAppSample/TimeAppSample.iml" />
@@ -102,14 +103,6 @@
     <mapping directory="" vcs="Git" />
   </component>
   <component name="libraryTable">
-    <library name="global-libs" type="flex">
-      <CLASSES>
-        <root url="file://$PROJECT_DIR$/global-libs" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES />
-      <jarDirectory url="file://$PROJECT_DIR$/global-libs" recursive="false" />
-    </library>
     <library name="test-libs" type="flex">
       <CLASSES>
         <root url="file://$PROJECT_DIR$/test-libs" />

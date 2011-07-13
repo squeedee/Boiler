@@ -15,7 +15,7 @@ package metalegs.mvcs.reflection {
 			_source = type;
 
 			_type = describeType(type);
-			
+
 			try {
 				_instance = describeType(new type());
 			} catch (error:Error) {

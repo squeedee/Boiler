@@ -3,9 +3,8 @@
   <component name="Flex.Build.Configuration">
     <option name="DO_BUILD" value="true" />
     <option name="OUTPUT_TYPE" value="Library" />
-    <option name="OUTPUT_FILE_NAME" value="Metalegs.swc" />
+    <option name="OUTPUT_FILE_NAME" value="HookableSuspenders.swc" />
     <option name="TARGET_PLAYER_VERSION" value="9.0.124" />
-    <option name="ADDITIONAL_COMPILER_OPTIONS" value="-keep-as3-metadata+=Inject -keep-as3-metadata+=PostConstruct -keep-as3-metadata+=Controller" />
     <option name="VERSION" value="3" />
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
@@ -16,9 +15,8 @@
     </content>
     <orderEntry type="jdk" jdkName="flex_sdk_3.5.0.12683 (player 9.0)" jdkType="Flex SDK Type" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="TEST" name="test-libs" level="project" />
     <orderEntry type="module" module-name="SwiftSuspenders" />
-    <orderEntry type="module" module-name="HookableSuspenders" />
+    <orderEntry type="library" name="test-libs" level="project" />
   </component>
 </module>
 

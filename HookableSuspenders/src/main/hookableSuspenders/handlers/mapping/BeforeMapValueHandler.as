@@ -1,4 +1,4 @@
-package metalegs.hookableSuspenders.handlers.mapping {
+package hookableSuspenders.handlers.mapping {
 	import org.swiftsuspenders.InjectionConfig;
 
 	public interface BeforeMapValueHandler {

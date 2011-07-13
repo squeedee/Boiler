@@ -23,8 +23,6 @@ package metalegs.base.configuration {
 		public function execute():void {
 			var handler:ConfigurationHandler;
 
-
-
 			while (handlers.length > 0) {
 				handler = new (handlers.shift())();
 				trace("::::CONFIGURE HANDLER: " + getQualifiedClassName(handler));

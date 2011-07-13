@@ -1,7 +1,7 @@
-package metalegs.hookableSuspenders {
-	import metalegs.hookableSuspenders.errors.NotAnInstanceHandlerError;
-	import metalegs.hookableSuspenders.handlers.instance.AfterInstanceHandler;
-	import metalegs.hookableSuspenders.handlers.instance.BeforeInstanceHandler;
+package hookableSuspenders {
+	import hookableSuspenders.errors.NotAnInstanceHandlerError;
+	import hookableSuspenders.handlers.instance.AfterInstanceHandler;
+	import hookableSuspenders.handlers.instance.BeforeInstanceHandler;
 
 	public class InstanceHandlerCollection {
 

@@ -1,6 +1,7 @@
 package metalegs.base {
+	import hookableSuspenders.HookableInjector;
+
 	import metalegs.base.configuration.ConfigurationHandlerCollection;
-	import metalegs.hookableSuspenders.HookableInjector;
 
 	public class Lifetime extends HookableInjector {
 		private var configurationHandlers:ConfigurationHandlerCollection;

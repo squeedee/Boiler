@@ -1,4 +1,4 @@
-package metalegs.hookableSuspenders.handlers.instance {
+package hookableSuspenders.handlers.instance {
 	public interface BeforeInstanceHandler {
 		function beforeInstanced(type:Class):void;
 	}

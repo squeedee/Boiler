@@ -1,4 +1,4 @@
-package metalegs.hookableSuspenders.errors {
+package hookableSuspenders.errors {
 	import flash.utils.describeType;
 
 	import mx.utils.StringUtil;

@@ -1,7 +1,6 @@
 package metalegs.mvcs.controller {
-	import metalegs.hookableSuspenders.handlers.mapping.AfterMapClassHandler;
-	import metalegs.hookableSuspenders.handlers.mapping.AfterMapSingletonHandler;
-	import metalegs.mvcs.reflection.MVCSReflection;
+	import hookableSuspenders.handlers.mapping.AfterMapClassHandler;
+	import hookableSuspenders.handlers.mapping.AfterMapSingletonHandler;
 
 	import org.swiftsuspenders.InjectionConfig;
 

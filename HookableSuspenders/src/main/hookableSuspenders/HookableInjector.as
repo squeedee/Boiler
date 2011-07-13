@@ -1,4 +1,4 @@
-package metalegs.hookableSuspenders {
+package hookableSuspenders {
 	import org.swiftsuspenders.InjectionConfig;
 	import org.swiftsuspenders.Injector;
 
