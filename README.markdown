@@ -30,6 +30,60 @@ Lots of WIP, so don't be suprised at:
   * The lack of teardown support. It's certainly intended, but I don't need it for a Proof Of Concept which this is now.
   * Sanity.. I'm not sane.
 	
+## Shoulders of giants.
+
+None of which is not possible without:
+
+  * Robotlegs and the team.
+  * SwiftSuspenders and Till.
+  * Ruby On Rails and the team.
+  * Ruby and the team.
+
 ## Architecture
 
 ![Layer Diagram](http://www.gliffy.com/pubdoc/2791221/L.png)
+
+## MVCS Configurations
+
+### Notifier (Event Based)
+A simple notification bus
+
+### SignalNotifier (Planned)
+
+An as3-Signals based notification bus
+
+### Dispatcher (WIP)
+
+A configuration that can be told to listen for events/signals on one or more notifiers and execute a specific class/method 
+
+May need splitting into Dispatcher and SignalDispatcher - however I think this can be avoided. It's quite a generic approach.
+
+### Controller (WIP) 
+
+A configuration that is aware of mappings that look like controllers. It picks up controller methods and adds them to the Dispatcher.
+
+To be a controller, a class needs only be:
+  
+  * nested in a namespace called "controller": modules.coolThing.controllers.AControlClass
+  * end with "Controller": modules.coolThing.actionerators.CoolController
+  * have class metadata [Controller]: [Controller] public class AControlClass {}  
+
+To have methods called, a controller class must define methods with a single parameter, which is either an event or signal.
+
+### DisplayTreeInstancer (Planned)
+
+A configuration aware of Display tree events. It watches the events and asks the injector to instance class(es) mapped to be created whenever the display component is added.
+
+### Mediator (Planned)
+
+A configuration that is aware of mappings that look like they expect a view to be injected. It picks them up and adds them to the DisplayTreeInstancer to ensure the mediator(s) get built and injected with the views.
+
+To be a mediator, a class needs only be:
+
+  * NOT a display-object  
+  * nested in a namespace called "view"
+  * nested in a namespace called "mediator"
+  * have class metadata [Mediator] 
+  * have public access metadata [View]
+
+Notice, this mechanism gives us multi-mediation for free.
