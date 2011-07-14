@@ -10,7 +10,6 @@ package apps.timeApp.model {
 		[Inject]
 		public var notifier:IEventDispatcher;
 
-
 		public function setTimeToNow():void {
 			var date:Date = new Date();
 

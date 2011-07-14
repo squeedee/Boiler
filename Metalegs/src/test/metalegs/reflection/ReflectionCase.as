@@ -1,5 +1,7 @@
-package metalegs.mvcs.reflection {
-	import metalegs.mvcs.reflection.fixtures.EmptyClassWithMetadata;
+package metalegs.reflection {
+	import metalegs.reflection.fixtures.EmptyClassWithMetadata;
+	import metalegs.reflection.Reflection;
+	import metalegs.reflection.ReflectionBase;
 
 	import org.flexunit.asserts.assertNotNull;
 
@@ -7,13 +9,13 @@ package metalegs.mvcs.reflection {
 	import org.hamcrest.assertThat;
 	import org.hamcrest.number.greaterThan;
 
-	public class MVCSReflectionCase {
+	public class ReflectionCase {
 
-		private var reflection:MVCSReflection;
+		private var reflection:Reflection;
 
 		[Before]
 		public function setup():void {
-			reflection = new MVCSReflection();
+			reflection = new ReflectionBase();
 		}
 
 		[Test(

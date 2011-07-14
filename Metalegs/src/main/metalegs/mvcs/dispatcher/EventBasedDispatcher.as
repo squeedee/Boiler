@@ -6,8 +6,8 @@ package metalegs.mvcs.dispatcher {
 	import flash.utils.getQualifiedClassName;
 
 	import metalegs.base.Lifetime;
-	import metalegs.base.reflection.Reflector;
-	import metalegs.mvcs.reflection.MVCSReflection;
+	import metalegs.reflection.Reflection;
+	import metalegs.reflection.Reflector;
 
 	public class EventBasedDispatcher implements Dispatcher {
 
@@ -41,7 +41,7 @@ package metalegs.mvcs.dispatcher {
 		}
 
 		private function findEventType(eventClass:Class):String {
-			var reflection:MVCSReflection = MVCSReflection(reflector.getReflection(eventClass));
+			var reflection:Reflection = reflector.getReflection(eventClass);
 
 			const classConstants:XMLList = reflection.classConstants();
 

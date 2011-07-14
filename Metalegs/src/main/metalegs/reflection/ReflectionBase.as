@@ -1,16 +1,9 @@
-package metalegs.mvcs.reflection {
+package metalegs.reflection {
 	import flash.utils.describeType;
-
-	import metalegs.base.reflection.Reflection;
 
 	import mx.utils.StringUtil;
 
-	/**
-	 *
-	 * @todo consider using a helper, not polymorphism, and then move that helper up into metalegs base.
-	 * All these helpers are there to strengthen the capabilities of the hooks.
-	 */
-	public class MVCSReflection implements Reflection {
+	public class ReflectionBase implements Reflection {
 		private var _source:Class;
 		private var _type:XML;
 		private var _instance:XML;
@@ -46,6 +39,13 @@ package metalegs.mvcs.reflection {
 			return _fqn ||= _type.@name;
 		}
 
+		public function instance():XML {
+			return _instance;
+
+		}
+
+		// Helpers
+
 		public function hasAnyNamespace(anyNamespaceCalled:String):Boolean {
 			return (fqn().search("\\.*" + anyNamespaceCalled + "[:.]") >= 0);
 		}
@@ -55,12 +55,8 @@ package metalegs.mvcs.reflection {
 		}
 
 		public function classConstants():XMLList {
+
 			return type().constant;
-
-		}
-
-		public function instance():XML {
-			return _instance;
 		}
 	}
 }

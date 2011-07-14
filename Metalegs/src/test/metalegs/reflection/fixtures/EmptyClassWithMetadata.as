@@ -1,4 +1,4 @@
-package metalegs.mvcs.reflection.fixtures {
+package metalegs.reflection.fixtures {
 
 	[Controller]
 	public class EmptyClassWithMetadata {

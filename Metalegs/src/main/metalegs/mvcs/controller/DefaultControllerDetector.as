@@ -1,6 +1,6 @@
 package metalegs.mvcs.controller {
-	import metalegs.base.reflection.Reflector;
-	import metalegs.mvcs.reflection.MVCSReflection;
+	import metalegs.reflection.Reflection;
+	import metalegs.reflection.Reflector;
 
 	public class DefaultControllerDetector implements ControllerDetector {
 
@@ -11,7 +11,7 @@ package metalegs.mvcs.controller {
 
 		public function isController(type:Class):Boolean {
 
-			var reflection:MVCSReflection = MVCSReflection(reflector.getReflection(type));
+			var reflection:Reflection = reflector.getReflection(type);
 
 			return (reflection.instance() && hasControllerMetadata(reflection)) ||
 					hasControllerClassName(reflection) ||
@@ -20,11 +20,11 @@ package metalegs.mvcs.controller {
 		}
 
 		// todo: detect [Controller]
-		private function hasControllerMetadata(reflection:MVCSReflection):Boolean {
+		private function hasControllerMetadata(reflection:Reflection):Boolean {
 			return false;
 		}
 
-		private function hasControllerClassName(reflection:MVCSReflection):Boolean {
+		private function hasControllerClassName(reflection:Reflection):Boolean {
 			return reflection.fqn().search(/Controller$/) > 0;
 		}
 	}

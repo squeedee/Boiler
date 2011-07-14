@@ -1,8 +1,7 @@
-package metalegs.base.reflection {
+package metalegs.reflection {
 	import flash.utils.Dictionary;
 
 	import metalegs.base.*;
-	import metalegs.mvcs.reflection.MVCSReflection;
 
 	public class Reflector {
 
@@ -15,8 +14,8 @@ package metalegs.base.reflection {
 			return reflections[type] || addReflection(type);
 		}
 
-		private function addReflection(type:Class):Reflection {
-			var reflection:Reflection = lifetime.getInstance(Reflection);
+		private function addReflection(type:Class):ReflectionBase {
+			var reflection:ReflectionBase = lifetime.getInstance(ReflectionBase);
 			reflections[type] = reflection.reflect(type);
 			return reflection;
 		}

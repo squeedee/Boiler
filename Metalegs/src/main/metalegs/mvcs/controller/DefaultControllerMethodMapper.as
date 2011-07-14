@@ -1,9 +1,9 @@
 package metalegs.mvcs.controller {
 	import flash.utils.getDefinitionByName;
 
-	import metalegs.base.reflection.Reflector;
+	import metalegs.reflection.Reflection;
+	import metalegs.reflection.Reflector;
 	import metalegs.mvcs.dispatcher.Dispatcher;
-	import metalegs.mvcs.reflection.MVCSReflection;
 
 	public class DefaultControllerMethodMapper implements ControllerMethodMapper {
 		[Inject]
@@ -13,7 +13,7 @@ package metalegs.mvcs.controller {
 		public var dispatcher:Dispatcher;
 
 		public function mapController(type:Class):void {
-			var reflection:MVCSReflection = MVCSReflection(reflector.getReflection(type));
+			var reflection:Reflection = reflector.getReflection(type);
 
 			for each (var method:XML in reflection.type().factory.method) {
 				registerMethod(method, type);
