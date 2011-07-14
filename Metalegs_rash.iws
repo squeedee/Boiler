@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10faf334-9a2c-49fc-9b7a-88c719405f03" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/Reflector.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/Reflector.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/ByClassNameController.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/NotAControllerAtAll.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/controller/ControllerByNamespace.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/controller/subNamespace/ControllerByParentNamespace.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/notController/AlsoNotAControllerAtAll.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/test/fixtures/reflection/EmptyClass.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/test/fixtures/reflection/EmptyClassWithMetadata.as" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Metalegs/src/test/metalegs/reflection/fixtures/EmptyClassWithMetadata.as" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/Reflection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/Reflection.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ReflectionBase.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ReflectionBase.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/test/metalegs/reflection/ReflectionCase.as" afterPath="$PROJECT_DIR$/Metalegs/src/test/metalegs/reflection/ReflectionCase.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs_rash.iws" afterPath="$PROJECT_DIR$/Metalegs_rash.iws" />
     </list>
     <ignored path="Minilegs_rash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,118 +89,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="ReflectionCase.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Metalegs/src/test/metalegs/reflection/ReflectionCase.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="31" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.5615866">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ReflectionBase.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ReflectionBase.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="25" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+            <state line="18" column="35" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reflector.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/Reflector.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="61" selection-start="392" selection-end="392" vertical-scroll-proportion="0.4536862">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectionCase.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/test/metalegs/reflection/ReflectionCase.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="29" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeApp.mxml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/TimeApp.mxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding>
-                <marker date="1310672025000" expanded="true" signature="269:276" placeholder="{...}" />
-                <marker date="1310672025000" expanded="true" signature="269:276" placeholder="{...}" />
-                <marker date="1310672025000" expanded="true" signature="315:647" placeholder="..." />
-                <marker date="1310672025000" expanded="true" signature="741:780" placeholder="{...}" />
-                <marker date="1310672025000" expanded="true" signature="813:981" placeholder="{...}" />
-                <marker date="1310672025000" expanded="true" signature="1060:1087" placeholder="{...}" />
-                <marker date="1310672025000" expanded="true" signature="1130:1295" placeholder="{...}" />
-                <marker date="1310672025000" expanded="true" signature="1387:1428" placeholder="{...}" />
-                <marker date="1310672025000" expanded="true" signature="1387:1428" placeholder="{...}" />
-                <marker date="1310672025000" expanded="true" signature="1474:1505" placeholder="{...}" />
-                <marker date="1310672025000" expanded="true" signature="1474:1505" placeholder="{...}" />
-                <marker date="1310672025000" expanded="true" signature="1540:1573" placeholder="{...}" />
-                <marker date="1310672025000" expanded="true" signature="1540:1573" placeholder="{...}" />
-                <marker date="1310672025000" expanded="true" signature="1631:1664" placeholder="{...}" />
-                <marker date="1310672025000" expanded="true" signature="1631:1664" placeholder="{...}" />
-                <marker date="1310672025000" expanded="true" signature="1699:1734" placeholder="{...}" />
-                <marker date="1310672025000" expanded="true" signature="1699:1734" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StyleManager.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Adobe/flex_sdk_3.5.0.12683/frameworks/projects/framework/src/mx/styles/StyleManager.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="0" selection-start="2335" selection-end="2335" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrentTime.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/model/CurrentTime.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrentTimeController.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/controller/CurrentTimeController.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="4" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Injector.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/SwiftSuspenders/src/org/swiftsuspenders/Injector.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="171" column="0" selection-start="5984" selection-end="5984" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Singleton.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Adobe/flex_sdk_3.5.0.12683/frameworks/projects/framework/src/mx/core/Singleton.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="0" selection-start="3719" selection-end="3719" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sample.mxml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TimeAppSample/src/main/Sample.mxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="-4.375">
-              <folding>
-                <marker date="1310671980000" expanded="true" signature="102:110" placeholder="{...}" />
-                <marker date="1310671980000" expanded="true" signature="227:306" placeholder="{...}" />
-                <marker date="1310671980000" expanded="true" signature="248:283" placeholder="{...}" />
-                <marker date="1310671980000" expanded="true" signature="345:391" placeholder="{...}" />
-                <marker date="1310671980000" expanded="true" signature="429:481" placeholder="{...}" />
-                <marker date="1310671980000" expanded="true" signature="519:547" placeholder="{...}" />
-                <marker date="1310671980000" expanded="true" signature="586:594" placeholder="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -208,22 +121,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/Configuration.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/ConfigurationBase.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/test/metalegs/mvcs/reflection/MVCSReflectionCase.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/reflection/MVCSReflection.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/test/metalegs/base/reflection/ReflectionCase.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/reflection/NamespaceReflectionHelper.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/reflection/Reflection.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/reflection/Reflector.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/DefaultControllerDetector.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/DefaultControllerMethodMapper.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcher.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/reflection/ReflectionBase.as" />
         <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureReflection.as" />
         <option value="$PROJECT_DIR$/TimeAppSample/src/main/Sample.mxml" />
         <option value="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/TimeApp.mxml" />
         <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/Reflector.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/Reflection.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ReflectionBase.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/test/fixtures/EmptyClassWithMetadata.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/test/fixtures/reflection/EmptyClassWithMetadata.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/test/fixtures/reflection/NotAControllerAtAll.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/test/fixtures/reflection/ByClassNameController.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/ByClassNameController.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/controller/ControllerByNamespace.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/controller/subNamespace/ControllerByParentNamespace.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/AlsoNotAControllerAtAll.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/notController/AlsoNotAControllerAtAll.as" />
+        <option value="$PROJECT_DIR$/Metalegs/src/test/metalegs/reflection/ReflectionCase.as" />
       </list>
     </option>
   </component>
@@ -380,6 +293,32 @@
               <option name="myItemId" value="metalegs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -396,6 +335,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reflection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Metalegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -503,6 +478,10 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection" />
+      <recent name="$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/controller/subNamespace" />
+    </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
       <recent name="metalegs.base.errors" />
       <recent name="metalegs.mvcs.dispatcher" />
@@ -511,27 +490,27 @@
       <recent name="metalegs.mvcs.controller" />
     </key>
     <key name="com.intellij.javascript.flex.refactoring.moveClass.FlexMoveClassDialog.target_package">
+      <recent name="fixtures.mvcs.reflection.notController" />
+      <recent name="fixtures.mvcs.reflection" />
+      <recent name="fixtures.reflection" />
       <recent name="metalegs.reflection" />
       <recent name="metalegs.base.reflection" />
-      <recent name="metalegs.base" />
-      <recent name="metalegs.mvcs.reflection.fixtures" />
-      <recent name="metalegs.mvcs.reflection" />
     </key>
     <key name="JSExtractSuperBase.RECENT_KEYS">
       <recent name="metalegs.base.reflection" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="metalegs.reflection" />
       <recent name="metalegs" />
       <recent name="metalegs.base.reflection" />
       <recent name="metalegs.base" />
-      <recent name="metalegs.mvcs" />
     </key>
     <key name="JSIntroduceConstantDialog">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Flex.Sample">
+  <component name="RunManager" selected="FlexUnit.ReflectionCase">
     <configuration default="false" name="Sample" type="FlexRunConfigurationType" factoryName="Flex" temporary="true" browser_family="FIREFOX" debugger_sdk="flex_sdk_3.5.0.12683 (player 9.0)" html_or_swf_file_path="$PROJECT_DIR$/out/production/TimeAppSample/_Sample.swf" launcher_type="Player" main_class_name="Sample" module_name="TimeAppSample" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
       <RunnerSettings RunnerId="FlexDebugRunner" />
       <RunnerSettings RunnerId="FlexRunner" />
@@ -680,7 +659,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="jenkinsBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23544973" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34126985" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -689,8 +668,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23364486" sideWeight="0.76455027" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23364486" sideWeight="0.6719577" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32804233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="674" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -754,89 +733,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/Configuration.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="4" selection-start="1121" selection-end="1122" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/DefaultControllerDetector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/DefaultControllerMethodMapper.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="68" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcher.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureReflection.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="40" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/base/ConfigurationCollection.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TimeAppSample/src/main/Sample.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="-4.375">
-          <folding>
-            <marker date="1310671980000" expanded="true" signature="102:110" placeholder="{...}" />
-            <marker date="1310671980000" expanded="true" signature="227:306" placeholder="{...}" />
-            <marker date="1310671980000" expanded="true" signature="248:283" placeholder="{...}" />
-            <marker date="1310671980000" expanded="true" signature="345:391" placeholder="{...}" />
-            <marker date="1310671980000" expanded="true" signature="429:481" placeholder="{...}" />
-            <marker date="1310671980000" expanded="true" signature="519:547" placeholder="{...}" />
-            <marker date="1310671980000" expanded="true" signature="586:594" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Adobe/flex_sdk_3.5.0.12683/frameworks/projects/framework/src/mx/core/Singleton.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="0" selection-start="3719" selection-end="3719" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/TimeApp.mxml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
           <folding>
-            <marker date="1310672025000" expanded="true" signature="269:276" placeholder="{...}" />
-            <marker date="1310672025000" expanded="true" signature="269:276" placeholder="{...}" />
-            <marker date="1310672025000" expanded="true" signature="315:647" placeholder="..." />
-            <marker date="1310672025000" expanded="true" signature="741:780" placeholder="{...}" />
-            <marker date="1310672025000" expanded="true" signature="813:981" placeholder="{...}" />
-            <marker date="1310672025000" expanded="true" signature="1060:1087" placeholder="{...}" />
-            <marker date="1310672025000" expanded="true" signature="1130:1295" placeholder="{...}" />
-            <marker date="1310672025000" expanded="true" signature="1387:1428" placeholder="{...}" />
-            <marker date="1310672025000" expanded="true" signature="1387:1428" placeholder="{...}" />
-            <marker date="1310672025000" expanded="true" signature="1474:1505" placeholder="{...}" />
-            <marker date="1310672025000" expanded="true" signature="1474:1505" placeholder="{...}" />
-            <marker date="1310672025000" expanded="true" signature="1540:1573" placeholder="{...}" />
-            <marker date="1310672025000" expanded="true" signature="1540:1573" placeholder="{...}" />
-            <marker date="1310672025000" expanded="true" signature="1631:1664" placeholder="{...}" />
-            <marker date="1310672025000" expanded="true" signature="1631:1664" placeholder="{...}" />
-            <marker date="1310672025000" expanded="true" signature="1699:1734" placeholder="{...}" />
-            <marker date="1310672025000" expanded="true" signature="1699:1734" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1310672025000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -869,23 +786,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/test/metalegs/reflection/ReflectionCase.as">
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/Reflection.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="29" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
+        <state line="18" column="17" selection-start="390" selection-end="390" vertical-scroll-proportion="0.57569295">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ReflectionBase.as">
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/test/fixtures/reflection/EmptyClassWithMetadata.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="25" selection-start="117" selection-end="117" vertical-scroll-proportion="0.0">
+        <state line="5" column="16" selection-start="93" selection-end="93" vertical-scroll-proportion="0.15991472">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/NotAControllerAtAll.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="12" selection-start="258" selection-end="258" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/ByClassNameController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="212" selection-end="264" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/controller/ControllerByNamespace.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/controller/subNamespace/ControllerByParentNamespace.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="8" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/notController/AlsoNotAControllerAtAll.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="346" selection-end="346" vertical-scroll-proportion="0.47974414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/test/fixtures/reflection/EmptyClass.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/Reflector.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="61" selection-start="392" selection-end="392" vertical-scroll-proportion="0.4536862">
+        <state line="15" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="0.5011136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ReflectionBase.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="35" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/test/metalegs/reflection/ReflectionCase.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="31" selection-start="1706" selection-end="1706" vertical-scroll-proportion="0.5615866">
           <folding />
         </state>
       </provider>

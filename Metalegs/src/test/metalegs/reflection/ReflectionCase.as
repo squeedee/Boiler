@@ -1,11 +1,10 @@
 package metalegs.reflection {
-	import metalegs.reflection.fixtures.EmptyClassWithMetadata;
-	import metalegs.reflection.Reflection;
-	import metalegs.reflection.ReflectionBase;
+	import fixtures.reflection.EmptyClass;
+	import fixtures.reflection.EmptyClassWithMetadata;
 
+	import org.flexunit.asserts.assertFalse;
 	import org.flexunit.asserts.assertNotNull;
-
-	import org.flexunit.asserts.assertTrue;
+	import org.flexunit.asserts.fail;
 	import org.hamcrest.assertThat;
 	import org.hamcrest.number.greaterThan;
 
@@ -16,6 +15,11 @@ package metalegs.reflection {
 		[Before]
 		public function setup():void {
 			reflection = new ReflectionBase();
+		}
+
+		[After]
+		public function teardown():void {
+			reflection = null;
 		}
 
 		[Test(
@@ -35,11 +39,53 @@ package metalegs.reflection {
 		public function ItHasClassMetadata():void {
 			withAnEmptyClassWithMetadata();
 
-			assertThat(reflection.instance().metadata.length(), greaterThan(0));
+			assertThat(reflection.classMetadata().length(), greaterThan(0));
+		}
+
+		[Test(
+				given="An empty class with a namespace",
+				it="Can find the leaf namespace"
+				)]
+		public function ItCanFindTheLeafNamespace():void {
+			withAnEmptyClass();
+			assertThat(reflection.hasLeafNamespace("reflection"));
+		}
+
+		[Test(
+				given="An empty class with a namespace",
+				it="Does not find a non-existant leaf namespace"
+				)]
+		public function ItDoesNotFindANonExistantLeafNamespace():void {
+			withAnEmptyClass();
+			assertFalse(reflection.hasLeafNamespace("notanamespace"));
+		}
+
+		[Test(
+				given="An empty class with a namespace",
+				it="Can find a non-leaf namespace"
+				)]
+		public function ItCanFindANonLeafNamespace():void {
+			withAnEmptyClass();
+			assertThat(reflection.hasAnyNamespace("fixtures"));
+
+		}
+
+		[Test(
+				given="An empty class with a namespace",
+				it="Does not find a non-existant non-leaf namespace"
+				)]
+		public function ItDoesNotFindANonExistantNonLeafNamespace():void {
+			withAnEmptyClass();
+			assertFalse(reflection.hasAnyNamespace("notanamespace"));
+
 		}
 
 		private function withAnEmptyClassWithMetadata():void {
 			reflection.reflect(EmptyClassWithMetadata);
+		}
+
+		private function withAnEmptyClass():void {
+			reflection.reflect(EmptyClass);
 		}
 
 	}

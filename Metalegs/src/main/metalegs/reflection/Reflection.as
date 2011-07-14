@@ -15,5 +15,7 @@ package metalegs.reflection {
 		function hasLeafNamespace(leafNamespaceCalled:String):Boolean;
 
 		function classConstants():XMLList;
+
+		function classMetadata():XMLList;
 	}
 }

@@ -58,5 +58,9 @@ package metalegs.reflection {
 
 			return type().constant;
 		}
+
+		public function classMetadata():XMLList {
+			return instance().metadata;
+		}
 	}
 }
