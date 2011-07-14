@@ -41,7 +41,7 @@ None of which is not possible without:
 
 ## Architecture
 
-![Layer Diagram](http://www.gliffy.com/pubdoc/2791221/L.png)
+![Layer Diagram](http://www.gliffy.com/pubdoc/2791221/L.png?1)
 
 ## MVCS Configurations
 
