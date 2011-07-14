@@ -1,9 +1,11 @@
-package metalegs.base.configuration {
-	import flash.utils.getQualifiedClassName;
+package metalegs.base {
+	import metalegs.base.configuration.*;
+	import metalegs.base.errors.ConfigurationCannotBeAddedError;
+	import metalegs.base.errors.StartupCanOnlyBeRunOnceError;
+	import metalegs.base.errors.TeardownAlreadyRunError;
+	import metalegs.base.errors.TeardownCanOnlyRunAfterStartupError;
 
-	import metalegs.base.*;
-
-	public class ConfigurationHandlerCollection {
+	internal class ConfigurationHandlerCollection {
 
 		private var lifetime:Lifetime;
 		private var setupHandlers:Array;
@@ -16,14 +18,14 @@ package metalegs.base.configuration {
 
 		public function add(handler:Class):void {
 			if (hasStarted())
-				throw new Error("You're too late");
+				throw new ConfigurationCannotBeAddedError();
 
 			setupHandlers.push(handler);
 		}
 
 		public function startup():void {
 			if (hasStarted())
-				throw new Error("You can only live once");
+				throw new StartupCanOnlyBeRunOnceError();
 
 			teardownHandlers = [];
 
@@ -47,12 +49,14 @@ package metalegs.base.configuration {
 
 		public function teardown():void {
 			if (!hasStarted())
-				throw new Error("Only the good die young");
+				throw new TeardownCanOnlyRunAfterStartupError();
 
-			while(teardownHandlers.length > 0) {
+			if (teardownHandlers == null)
+				throw new TeardownAlreadyRunError();
+
+			while (teardownHandlers.length > 0) {
 				teardownNextConfiguration();
 			}
-
 
 			teardownHandlers = null;
 		}
