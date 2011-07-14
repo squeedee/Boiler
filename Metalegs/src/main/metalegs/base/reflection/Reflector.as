@@ -16,7 +16,7 @@ package metalegs.base.reflection {
 		}
 
 		private function addReflection(type:Class):Reflection {
-			var reflection:MVCSReflection = lifetime.getInstance(Reflection);
+			var reflection:Reflection = lifetime.getInstance(Reflection);
 			reflections[type] = reflection.reflect(type);
 			return reflection;
 		}

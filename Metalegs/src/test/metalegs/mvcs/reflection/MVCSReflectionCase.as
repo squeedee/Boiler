@@ -1,6 +1,8 @@
 package metalegs.mvcs.reflection {
 	import metalegs.mvcs.reflection.fixtures.EmptyClassWithMetadata;
 
+	import org.flexunit.asserts.assertNotNull;
+
 	import org.flexunit.asserts.assertTrue;
 	import org.hamcrest.assertThat;
 	import org.hamcrest.number.greaterThan;
@@ -16,12 +18,12 @@ package metalegs.mvcs.reflection {
 
 		[Test(
 				given="An empty class with class metadata",
-				it="Sets includesClassMetadata to true"
+				it="Has class instance xml"
 				)]
-		public function ItSetsIncludesClassMetadataToTrue():void {
+		public function ItHasClassInstanceXML():void {
 			withAnEmptyClassWithMetadata();
 
-			assertTrue(reflection.includesClassMetadata());
+			assertNotNull(reflection.instance());
 		}
 
 		[Test(
@@ -31,8 +33,7 @@ package metalegs.mvcs.reflection {
 		public function ItHasClassMetadata():void {
 			withAnEmptyClassWithMetadata();
 
-			assertThat(reflection.type().metadata.length(), greaterThan(0));
-
+			assertThat(reflection.instance().metadata.length(), greaterThan(0));
 		}
 
 		private function withAnEmptyClassWithMetadata():void {

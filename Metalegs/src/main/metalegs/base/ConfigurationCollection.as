@@ -5,13 +5,13 @@ package metalegs.base {
 	import metalegs.base.errors.TeardownAlreadyRunError;
 	import metalegs.base.errors.TeardownCanOnlyRunAfterStartupError;
 
-	internal class ConfigurationHandlerCollection {
+	internal class ConfigurationCollection {
 
 		private var lifetime:Lifetime;
 		private var setupHandlers:Array;
 		private var teardownHandlers:Array;
 
-		public function ConfigurationHandlerCollection(lifetime:Lifetime) {
+		public function ConfigurationCollection(lifetime:Lifetime) {
 			this.lifetime = lifetime;
 			setupHandlers = [];
 		}
@@ -37,7 +37,7 @@ package metalegs.base {
 		}
 
 		private function setupNextConfiguration():void {
-			var handler:ConfigurationHandler = new (setupHandlers.shift())();
+			var handler:Configuration = new (setupHandlers.shift())();
 			lifetime.injectInto(handler);
 			handler.startup();
 			teardownHandlers.push(handler);
@@ -62,7 +62,7 @@ package metalegs.base {
 		}
 
 		private function teardownNextConfiguration():void {
-			var handler:ConfigurationHandler = teardownHandlers.shift();
+			var handler:Configuration = teardownHandlers.shift();
 			handler.teardown();
 		}
 	}

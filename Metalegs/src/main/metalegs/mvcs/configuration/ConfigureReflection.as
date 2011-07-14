@@ -1,10 +1,10 @@
 package metalegs.mvcs.configuration {
-	import metalegs.base.configuration.Configuration;
+	import metalegs.base.configuration.ConfigurationBase;
 	import metalegs.base.reflection.Reflection;
 	import metalegs.base.reflection.Reflector;
 	import metalegs.mvcs.reflection.MVCSReflection;
 
-	public class ConfigureReflection extends Configuration {
+	public class ConfigureReflection extends ConfigurationBase {
 
 		override public function startup():void {
 			lifetime.mapClass(Reflection, MVCSReflection);

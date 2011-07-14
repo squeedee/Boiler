@@ -1,7 +1,7 @@
 package metalegs.base {
 	import hookableSuspenders.HookableInjector;
 
-	import metalegs.base.ConfigurationHandlerCollection;
+	import metalegs.base.ConfigurationCollection;
 
 	/**
 	 * Lifetime is a SwistSuspenders/HookableSuspenders Injector with setup/teardown configuration support
@@ -18,12 +18,12 @@ package metalegs.base {
 	 * without running into multiple-inheritence issues. For more details, see the Metalegs documentation and website.
 	 */
 	public class Lifetime extends HookableInjector {
-		private var configurationHandlers:ConfigurationHandlerCollection;
+		private var configurationHandlers:ConfigurationCollection;
 
 		public function Lifetime(xmlConfig:XML = null) {
 			super(xmlConfig);
 			mapValue(Lifetime, this);
-			configurationHandlers = new ConfigurationHandlerCollection(this);
+			configurationHandlers = new ConfigurationCollection(this);
 		}
 
 		/**

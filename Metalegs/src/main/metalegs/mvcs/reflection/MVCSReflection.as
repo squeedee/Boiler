@@ -5,6 +5,11 @@ package metalegs.mvcs.reflection {
 
 	import mx.utils.StringUtil;
 
+	/**
+	 *
+	 * @todo consider using a helper, not polymorphism, and then move that helper up into metalegs base.
+	 * All these helpers are there to strengthen the capabilities of the hooks.
+	 */
 	public class MVCSReflection implements Reflection {
 		private var _source:Class;
 		private var _type:XML;

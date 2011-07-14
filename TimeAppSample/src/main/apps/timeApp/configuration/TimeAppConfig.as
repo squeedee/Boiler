@@ -2,9 +2,9 @@ package apps.timeApp.configuration {
 	import apps.timeApp.controller.CurrentTimeController;
 	import apps.timeApp.model.CurrentTime;
 
-	import metalegs.base.configuration.Configuration;
+	import metalegs.base.configuration.ConfigurationBase;
 
-	public class TimeAppConfig extends Configuration {
+	public class TimeAppConfig extends ConfigurationBase {
 
 		override public function startup():void {
 
