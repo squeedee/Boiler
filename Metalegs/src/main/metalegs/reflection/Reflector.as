@@ -14,8 +14,8 @@ package metalegs.reflection {
 			return reflections[type] || addReflection(type);
 		}
 
-		private function addReflection(type:Class):ReflectionBase {
-			var reflection:ReflectionBase = lifetime.getInstance(ReflectionBase);
+		private function addReflection(type:Class):Reflection {
+			var reflection:Reflection = lifetime.getInstance(Reflection);
 			reflections[type] = reflection.reflect(type);
 			return reflection;
 		}
