@@ -2,6 +2,7 @@ package metalegs.mvcs.dispatcher {
 	import flash.events.IEventDispatcher;
 	import flash.utils.Dictionary;
 
+	// @todo the name, it sucks.. whats the responsibility here? MapperMappingStore? HookUpAndBeAbleToSplitUp? gah
 	public class EventBasedNotifierConnector {
 
 		[Inject]

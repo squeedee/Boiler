@@ -1,7 +1,5 @@
 package metalegs.mvcs.controller {
-
-	public interface  ControllerDetector {
-
+	public interface ControllerDetector {
 		function isController(type:Class):Boolean;
 	}
 }

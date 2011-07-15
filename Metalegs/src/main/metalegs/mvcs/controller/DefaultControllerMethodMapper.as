@@ -18,11 +18,10 @@ package metalegs.mvcs.controller {
 			for each (var method:XML in reflection.type().factory.method) {
 				registerMethod(method, type);
 			}
-
 		}
 
 		private function registerMethod(method:XML, type:Class):void {
-			if (! correctParameterLength(method))
+			if (! hasCorrectParameterLength(method))
 				return;
 
 			dispatcher.registerSignalClass(getSignalParameterClass(method), type, method.@name);
@@ -32,7 +31,7 @@ package metalegs.mvcs.controller {
 			return getDefinitionByName(method.parameter[0].@type);
 		}
 
-		private function correctParameterLength(method:XML):Boolean {
+		private function hasCorrectParameterLength(method:XML):Boolean {
 			return method.parameter.length() == 1;
 		}
 

@@ -21,7 +21,6 @@ package metalegs.mvcs.controller {
 		}
 
 		private function handleMapping(type:Class):void {
-
 			if (! controllerDetector.isController(type))
 				return;
 
