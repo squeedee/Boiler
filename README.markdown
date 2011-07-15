@@ -4,15 +4,20 @@
   * Inspired by the superb framework Robotlegs, but in reality only shares the DI framework.
   * Doesn't depend on Metadata (other than injection metadata) at all.
 
+*Please* offer me some clever name that
+  
+  * Can have a cool logo :D
+  * Describes the principle of least astonishment.
+
 ## Metalegs is about convention
 
-  * Add a DI mapping of a class, it's namespace and structure will do the rest (Like Rails)
+  * Add a DI mapping of a class, it's namespace and/or structure will do the rest (Like Rails)
   * Add Metadata only when you can't depend on convention
   * Change the conventions by injecting different 'detectors'
 
 ## Metalegs is about extensibility
   
-  * Does not add methods that then get stuck in polymorphic hell.
+  * Does not add methods that then get stuck in polymorphic inheritance hell.
   * Let's you configure the order that 'detectors' are run in.
   * Let's you define the kinds of mapping and injections that 'detectors' run on. 
 
@@ -31,7 +36,6 @@
 Lots of WIP, so don't be suprised at:
   
   * The lack of tests (Im not a TDDer, that might turn you off to begin with)
-  * The lack of teardown support. It's certainly intended, but I don't need it for a Proof Of Concept which this is now.
   * Sanity.. I'm not sane.
 	
 ## Shoulders of giants.
@@ -56,13 +60,13 @@ A simple notification bus
 
 An as3-Signals based notification bus
 
-### Dispatcher (WIP)
+### Dispatcher (Done for events)
 
 A configuration that can be told to listen for events/signals on one or more notifiers and execute a specific class/method 
 
 May need splitting into Dispatcher and SignalDispatcher - however I think this can be avoided. It's quite a generic approach.
 
-### Controller (WIP) 
+### Controller (Done for Events) 
 
 A configuration that is aware of mappings that look like controllers. It picks up controller methods and adds them to the Dispatcher.
 
