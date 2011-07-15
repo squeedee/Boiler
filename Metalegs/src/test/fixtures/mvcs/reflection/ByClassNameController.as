@@ -9,6 +9,6 @@ package fixtures.mvcs.reflection {
 		public function anAction(event:Event):void {
 
 		}
-		
+
 	}
 }

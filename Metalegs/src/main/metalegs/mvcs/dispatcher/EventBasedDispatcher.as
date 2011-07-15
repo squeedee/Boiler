@@ -1,14 +1,11 @@
 package metalegs.mvcs.dispatcher {
 	import flash.events.Event;
-	import flash.events.IEventDispatcher;
 	import flash.utils.Dictionary;
-	import flash.utils.getDefinitionByName;
-	import flash.utils.getQualifiedClassName;
 
 	import metalegs.base.Lifetime;
+	import metalegs.reflection.ClassByInstanceCache;
 	import metalegs.reflection.Reflection;
 	import metalegs.reflection.Reflector;
-
 
 	/**
 	 * @Todo this class is too big, two obvious refactorings marked
@@ -16,24 +13,26 @@ package metalegs.mvcs.dispatcher {
 	public class EventBasedDispatcher implements Dispatcher {
 
 		[Inject]
-		public var notifier:IEventDispatcher;
-
-		[Inject]
 		public var reflector:Reflector;
 
 		[Inject]
 		public var lifetime:Lifetime;
 
+		[Inject]
+		public var classCache:ClassByInstanceCache;
+
+		[Inject]
+		public var connector:EventBasedNotifierConnector;
+
 		private var executionMap:Dictionary = new Dictionary();
 
-		// @todo needs a seperate class
-		private var eventClassCache:Dictionary = new Dictionary();
-
-		// @todo needs a listener registry class.
-		private var listeners:Dictionary = new Dictionary();
+		[PostConstruct]
+		public function setup():void {
+			connector.setHandler(handleSignal);
+		}
 
 		public function registerSignalClass(signalClass:Class, targetControllerClass:Class, methodName:String):void {
-			registerListener(findEventType(signalClass));
+			connector.connect(findEventType(signalClass));
 
 			executionMap[signalClass] = function(event:Event):void {
 				var controller:* = lifetime.getInstance(targetControllerClass);
@@ -41,22 +40,11 @@ package metalegs.mvcs.dispatcher {
 			}
 		}
 
-		private function registerListener(eventType:String):void {
-			if (listeners[eventType])
-				return;
-
-			notifier.addEventListener(eventType, handleSignal);
-			listeners[eventType] = true;
-		}
-
 		private function handleSignal(event:Event):void {
-			executionMap[getClass(event)].call(null, event);
+			executionMap[classCache.getClassByInstance(event)].call(null, event);
 		}
 
-		private function getClass(event:Event):Object {
-			return eventClassCache[event] ||= getDefinitionByName(getQualifiedClassName(event));
-		}
-
+		// @todo move to reflection util
 		private function findEventType(eventClass:Class):String {
 			var reflection:Reflection = reflector.getReflection(eventClass);
 
@@ -77,15 +65,9 @@ package metalegs.mvcs.dispatcher {
 		}
 
 		public function destruct():void {
-			deregisterAllListeners();
+			connector.disconnectAll();
 			executionMap = null;
 		}
 
-		private function deregisterAllListeners():void {
-			for (var eventType:String in listeners) {
-				notifier.removeEventListener(eventType, handleSignal);
-			}
-			listeners = null;
-		}
 	}
 }

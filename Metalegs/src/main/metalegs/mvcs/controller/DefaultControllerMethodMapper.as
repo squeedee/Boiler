@@ -1,9 +1,9 @@
 package metalegs.mvcs.controller {
 	import flash.utils.getDefinitionByName;
 
+	import metalegs.mvcs.dispatcher.Dispatcher;
 	import metalegs.reflection.Reflection;
 	import metalegs.reflection.Reflector;
-	import metalegs.mvcs.dispatcher.Dispatcher;
 
 	public class DefaultControllerMethodMapper implements ControllerMethodMapper {
 		[Inject]

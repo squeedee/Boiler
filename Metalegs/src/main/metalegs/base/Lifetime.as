@@ -1,8 +1,6 @@
 package metalegs.base {
 	import hookableSuspenders.HookableInjector;
 
-	import metalegs.base.ConfigurationCollection;
-
 	/**
 	 * Lifetime is a SwistSuspenders/HookableSuspenders Injector with setup/teardown configuration support
 	 * built in.
@@ -35,11 +33,11 @@ package metalegs.base {
 		 *
 		 * @example
 		 *   public class MyAppLifetime extends FrameworkLifetime {
-		 *     public function MyAppLifetime() {
-		 *       super()
-		 *       addConfigurationHandler(MyAppConfiguration);
-		 *       live();
-		 *     }
+		 *	 public function MyAppLifetime() {
+		 *	   super()
+		 *	   addConfigurationHandler(MyAppConfiguration);
+		 *	   live();
+		 *	 }
 		 *   }
 		 */
 		public function live():void {
