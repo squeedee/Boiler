@@ -1,6 +1,22 @@
-I should explain what this is about.
+## Metalegs is poorly named:
 
-I want an extensible microarchitecture for frameworks. 
+  * A portmanteau of Metadata and Robotlegs.
+  * Inspired by the superb framework Robotlegs, but in reality only shares the DI framework.
+  * Doesn't depend on Metadata (other than injection metadata) at all.
+
+## Metalegs is about convention
+
+  * Add a DI mapping of a class, it's namespace and structure will do the rest (Like Rails)
+  * Add Metadata only when you can't depend on convention
+  * Change the conventions by injecting different 'detectors'
+
+## Metalegs is about extensibility
+  
+  * Does not add methods that then get stuck in polymorphic hell.
+  * Let's you configure the order that 'detectors' are run in.
+  * Let's you define the kinds of mapping and injections that 'detectors' run on. 
+
+# Architecture
 
 ## Absolute guiding principles
 
@@ -8,21 +24,9 @@ I want an extensible microarchitecture for frameworks.
   * Very little boilerplate
   * strict/strong typed
   * Does not stop you from leaning on your tools (I use Intellij's refactoring heavily)
-
-## Hypothesis
-
-I think I can achieve these goals with the following concept.
-
-  * Base the framework on a DI system. I started with SwiftSuspenders as I know it well.
-  * Provide extension points to the mapping and injection actions of the DI system. (HookableSuspenders)
-  * Provide a configuration layer that makes bootstrapping the system easy. (Base)
-  * No method's are added to the framework by extensions, only metadata.
   * Metadata never defines type (that includes 'names'). If metadata needs to attach to type, it should annotate strong typed, first class language constructs such as var and function.
 
-All configurations are kept seperate, so that, if you want to extend the framework, you extend base::lifetime, and include the configurations
-from preceding plugins/extensions until you end up with the system you need. 
-
-The controller extension is almost complete, which should demonstrate the concept pretty well.
+## Still very incomplete
 
 Lots of WIP, so don't be suprised at:
   
@@ -32,7 +36,7 @@ Lots of WIP, so don't be suprised at:
 	
 ## Shoulders of giants.
 
-None of which is not possible without:
+All of this is possible because of the amazing work of:
 
   * Robotlegs and the team.
   * SwiftSuspenders and Till.
