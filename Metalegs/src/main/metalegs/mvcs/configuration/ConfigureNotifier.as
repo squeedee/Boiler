@@ -9,5 +9,9 @@ package metalegs.mvcs.configuration {
 
 			lifetime.mapValue(IEventDispatcher, new EventDispatcher());
 		}
+
+		override public function teardown():void {
+			lifetime.unmap(IEventDispatcher);
+		}
 	}
 }

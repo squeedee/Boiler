@@ -8,5 +8,10 @@ package metalegs.mvcs.configuration {
 		override public function startup():void {
 			lifetime.mapSingletonOf(Dispatcher, EventBasedDispatcher);
 		}
+
+		override public function teardown():void {
+			Dispatcher(lifetime.getInstance(Dispatcher)).destruct();
+			lifetime.unmap(Dispatcher);
+		}
 	}
 }

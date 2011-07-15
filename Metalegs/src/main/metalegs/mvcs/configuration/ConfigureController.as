@@ -13,5 +13,13 @@ package metalegs.mvcs.configuration {
 			lifetime.mapSingletonOf(ControllerMethodMapper, DefaultControllerMethodMapper);
 			lifetime.mappingHandlers.add(ControllerExtension);
 		}
+
+		override public function teardown():void {
+
+			lifetime.mappingHandlers.remove(ControllerExtension);
+			lifetime.unmap(ControllerMethodMapper);
+			lifetime.unmap(ControllerDetector);
+
+		}
 	}
 }

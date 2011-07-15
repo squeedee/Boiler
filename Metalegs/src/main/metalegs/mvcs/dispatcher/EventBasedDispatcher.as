@@ -9,6 +9,10 @@ package metalegs.mvcs.dispatcher {
 	import metalegs.reflection.Reflection;
 	import metalegs.reflection.Reflector;
 
+
+	/**
+	 * @Todo this class is too big, two obvious refactorings marked
+	 */
 	public class EventBasedDispatcher implements Dispatcher {
 
 		[Inject]
@@ -21,15 +25,28 @@ package metalegs.mvcs.dispatcher {
 		public var lifetime:Lifetime;
 
 		private var executionMap:Dictionary = new Dictionary();
+
+		// @todo needs a seperate class
 		private var eventClassCache:Dictionary = new Dictionary();
 
+		// @todo needs a listener registry class.
+		private var listeners:Dictionary = new Dictionary();
+
 		public function registerSignalClass(signalClass:Class, targetControllerClass:Class, methodName:String):void {
-			notifier.addEventListener(findEventType(signalClass), handleSignal);
+			registerListener(findEventType(signalClass));
 
 			executionMap[signalClass] = function(event:Event):void {
 				var controller:* = lifetime.getInstance(targetControllerClass);
 				controller[methodName].call(null, event);
 			}
+		}
+
+		private function registerListener(eventType:String):void {
+			if (listeners[eventType])
+				return;
+
+			notifier.addEventListener(eventType, handleSignal);
+			listeners[eventType] = true;
 		}
 
 		private function handleSignal(event:Event):void {
@@ -59,5 +76,16 @@ package metalegs.mvcs.dispatcher {
 			return eventClass[soleConstantName];
 		}
 
+		public function destruct():void {
+			deregisterAllListeners();
+			executionMap = null;
+		}
+
+		private function deregisterAllListeners():void {
+			for (var eventType:String in listeners) {
+				notifier.removeEventListener(eventType, handleSignal);
+			}
+			listeners = null;
+		}
 	}
 }

@@ -105,5 +105,14 @@ package hookableSuspenders {
 				injector.mapSingleton(handlerClass);
 			return injector.getInstance(handlerClass);
 		}
+
+		public function remove(handlerType:Class):void {
+			if (injector.hasMapping(handlerType))
+				injector.unmap(handlerType);
+
+			// @todo still need to take the handler instance out of the appropriate handler list
+			// @todo will probable need a mapping to find them quickly.
+
+		}
 	}
 }

@@ -10,5 +10,10 @@ package metalegs.mvcs.configuration {
 			lifetime.mapClass(Reflection, ReflectionBase);
 			lifetime.mapSingleton(Reflector);
 		}
+
+		override public function teardown():void {
+			lifetime.unmap(Reflector);
+			lifetime.unmap(Reflection);
+		}
 	}
 }
