@@ -4,7 +4,6 @@ package metalegs.reflection {
 
 	import org.flexunit.asserts.assertFalse;
 	import org.flexunit.asserts.assertNotNull;
-	import org.flexunit.asserts.fail;
 	import org.hamcrest.assertThat;
 	import org.hamcrest.number.greaterThan;
 
@@ -79,6 +78,8 @@ package metalegs.reflection {
 			assertFalse(reflection.hasAnyNamespace("notanamespace"));
 
 		}
+
+		//*********** Givens ***********//
 
 		private function withAnEmptyClassWithMetadata():void {
 			reflection.reflect(EmptyClassWithMetadata);

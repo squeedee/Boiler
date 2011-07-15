@@ -19,9 +19,8 @@ package metalegs.mvcs.controller {
 					reflection.hasAnyNamespace(CONTROLLER_NAMESPACE);
 		}
 
-		// todo: detect [Controller]
 		private function hasControllerMetadata(reflection:Reflection):Boolean {
-			return false;
+			return reflection.classMetadata().(@name == "Controller").length() > 0;
 		}
 
 		private function hasControllerClassName(reflection:Reflection):Boolean {
