@@ -7,9 +7,6 @@ package metalegs.mvcs.dispatcher {
 	import metalegs.reflection.Reflection;
 	import metalegs.reflection.Reflector;
 
-	/**
-	 * @Todo this class is too big, two obvious refactorings marked
-	 */
 	public class EventBasedDispatcher implements Dispatcher {
 
 		[Inject]
