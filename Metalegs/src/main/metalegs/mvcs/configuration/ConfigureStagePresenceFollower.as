@@ -11,6 +11,6 @@ package metalegs.mvcs.configuration {
 		override public function teardown():void {
 			lifetime.unmap(StagePresence);
 		}
-		
+
 	}
 }

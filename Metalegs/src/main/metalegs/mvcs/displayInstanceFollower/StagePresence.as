@@ -1,4 +1,5 @@
 package metalegs.mvcs.displayInstanceFollower {
+	import flash.display.DisplayObject;
 	import flash.events.Event;
 	import flash.utils.Dictionary;
 
@@ -10,7 +11,7 @@ package metalegs.mvcs.displayInstanceFollower {
 		[Inject]
 		public var lifetime:Lifetime;
 
-		private var eventContext:DisplayContext;
+		private var eventContext:DisplayObject;
 
 		[PostConstruct]
 		public function setup():void {
@@ -21,8 +22,8 @@ package metalegs.mvcs.displayInstanceFollower {
 		}
 
 		private function injectDisplayContext():void {
-			if (lifetime.hasMapping(DisplayContext))
-				eventContext = lifetime.getInstance(DisplayContext);
+			if (lifetime.hasMapping(DisplayObject))
+				eventContext = lifetime.getInstance(DisplayObject);
 		}
 
 		public function follow(viewType:Class):FollowConfiguration {

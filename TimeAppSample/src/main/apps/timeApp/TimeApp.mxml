@@ -42,7 +42,7 @@
 		}
 		]]></mx:Script>
 
-	<timeapp:TimeAppLifetime id="lifetime"/>
+	<timeapp:TimeAppLifetime id="lifetime" root="{this}"/>
 
 	<mx:Button label="R" click="fakeMediator(new ResetCurrentTimeEvent())"/>
 	<mx:VBox>
