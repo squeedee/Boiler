@@ -1,6 +1,4 @@
 package metalegs.base {
-	import flash.display.DisplayObject;
-
 	import hookableSuspenders.HookableInjector;
 
 	/**
@@ -19,11 +17,9 @@ package metalegs.base {
 	 */
 	public class Lifetime extends HookableInjector {
 		private var configurationHandlers:ConfigurationCollection;
-		private var _displayEventContext:DisplayObject;
 
-		public function Lifetime(xmlConfig:XML = null, displayEventContext:DisplayObject = null) {
+		public function Lifetime(xmlConfig:XML = null) {
 			super(xmlConfig);
-			_displayEventContext = displayEventContext;
 			mapValue(Lifetime, this);
 			configurationHandlers = new ConfigurationCollection(this);
 		}
@@ -86,16 +82,5 @@ package metalegs.base {
 			return this;
 		}
 
-		/**
-		 * This is my one concession to reality. I don't think this framework can survive not having access to
-		 * a context for display events.
-		 */
-		public function get displayEventContext():DisplayObject {
-			return _displayEventContext;
-		}
-
-		public function set displayEventContext(value:DisplayObject):void {
-			_displayEventContext = value;
-		}
 	}
 }
