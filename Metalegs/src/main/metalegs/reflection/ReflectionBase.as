@@ -15,7 +15,8 @@ package metalegs.reflection {
 			_type = describeType(type);
 
 			try {
-				_instance = describeType(new type());
+				if (isClass())
+					_instance = describeType(new type());
 			} catch (error:Error) {
 				trace(StringUtil.substitute(
 						"Warning, could not read class metadata of {0} with error:\n{1}",
@@ -27,6 +28,15 @@ package metalegs.reflection {
 			return this;
 		}
 
+		private function isClass():Boolean {
+			return ! isInterface();
+		}
+
+		private function isInterface():Boolean {
+			return (_type.factory.extendsClass.length() == 0) && (_type.factory.type != "Object")
+
+		}
+
 		public function source():Class {
 			return _source;
 		}
@@ -36,7 +46,7 @@ package metalegs.reflection {
 		}
 
 		public function fqn():String {
-			return _fqn ||= _type.@name;
+			return _fqn ||= _type.@name.replace(/::/,".");
 		}
 
 		public function instance():XML {

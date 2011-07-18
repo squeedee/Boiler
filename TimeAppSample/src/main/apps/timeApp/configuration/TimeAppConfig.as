@@ -1,6 +1,7 @@
 package apps.timeApp.configuration {
 	import apps.timeApp.controller.CurrentTimeController;
 	import apps.timeApp.model.CurrentTime;
+	import apps.timeApp.view.ResetMediator;
 
 	import metalegs.base.configuration.ConfigurationBase;
 
@@ -13,6 +14,9 @@ package apps.timeApp.configuration {
 
 			// controllers
 			lifetime.mapSingleton(CurrentTimeController);
+
+			// mediators
+			lifetime.mapClass(ResetMediator,ResetMediator);
 		}
 	}
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <mx:HBox xmlns:mx="http://www.adobe.com/2006/mxml"
-		 xmlns:timeapp="apps.timeApp.*"
+		 xmlns:timeapp="apps.timeApp.*" xmlns:view="apps.timeApp.view.*"
 		 borderColor="0x454545" borderThickness="2" borderStyle="solid" backgroundColor="0x121212"
 		 color="0xaaaaaa"
 
@@ -44,7 +44,8 @@
 
 	<timeapp:TimeAppLifetime id="lifetime" root="{this}"/>
 
-	<mx:Button label="R" click="fakeMediator(new ResetCurrentTimeEvent())"/>
+	<view:Reset />
+
 	<mx:VBox>
 		<mx:Button label="H+" click="fakeMediator(new HourUpEvent())"/>
 		<mx:Button label="H-" click="fakeMediator(new HourDownEvent())"/>
