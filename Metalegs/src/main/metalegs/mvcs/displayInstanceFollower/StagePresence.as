@@ -70,6 +70,7 @@ package metalegs.mvcs.displayInstanceFollower {
 
 		// todo: need flex hack for when they move containers.
 		// todo: domain language here is really murky, responsibility betweein this and FollowConf is poorly split
+
 		private function handleAdd(event:Event):void {
 
 			var view:DisplayObject = DisplayObject(event.target);
@@ -80,13 +81,7 @@ package metalegs.mvcs.displayInstanceFollower {
 			if (!config)
 				return;
 
-			// todo: I wonder if this gymnastics could be avoided with mediators that have obvious methods for
-			// todo: mediation, like register(view:MyView) ?
-			lifetime.mapValue(viewType,view);
-			
 			config.instanceMediators(view);
-
-			lifetime.unmap(viewType);
 
 		}
 	}
@@ -96,6 +91,7 @@ import flash.utils.Dictionary;
 
 import metalegs.base.Lifetime;
 
+// todo Refactor this. Its a factory, and the mapper is a trigger. need to sort this out..
 class FollowConfiguration {
 	private var _lifetime:Lifetime;
 	private var typesToInstance:Dictionary = new Dictionary();
@@ -114,6 +110,7 @@ class FollowConfiguration {
 	public function instanceMediators(view:*):void {
 		for each (var type:Class in typesToInstance) {
 			instances[view] = _lifetime.getInstance(type);
+			instances[view]["register"].call(null,view);
 		}
 	}
 

@@ -1,5 +1,5 @@
 package metalegs.mvcs.mediator {
 	public interface MediatorDetector {
-		function isMediator(type:Class):Boolean;
+		function mediatedViewType(mediatorType:Class):Class;
 	}
 }

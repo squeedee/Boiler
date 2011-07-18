@@ -5,14 +5,11 @@ package apps.timeApp.view {
 	import flash.events.MouseEvent;
 
 	public class ResetMediator {
-		[Inject]
-		public var view:Reset;
 
 		[Inject]
 		public var dispatcher:IEventDispatcher;
 
-		[PostConstruct]
-		public function setup():void {
+		public function register(view:Reset):void {
 			view.addEventListener(MouseEvent.CLICK, handleClick);
 		}
 

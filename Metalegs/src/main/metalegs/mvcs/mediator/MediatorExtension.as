@@ -1,6 +1,4 @@
 package metalegs.mvcs.mediator {
-	import flash.utils.getQualifiedClassName;
-
 	import hookableSuspenders.handlers.mapping.AfterMapClassHandler;
 
 	import metalegs.mvcs.displayInstanceFollower.StagePresence;
@@ -13,17 +11,19 @@ package metalegs.mvcs.mediator {
 		public var detector:MediatorDetector;
 
 		[Inject]
-		public var mapper:MediatorInstanceMapper;
-		
+		public var presence:StagePresence;
+
 		public function afterMapClass(newConfig:InjectionConfig):void {
 			handleMapping(newConfig.request)
 		}
 
 		public function handleMapping(type:Class):void {
-			if (! detector.isMediator(type))
+			var viewType:Class = detector.mediatedViewType(type);
+
+			if (viewType == null)
 				return;
 
-			mapper.mapMediator(type);
+			presence.follow(viewType).withType(type);
 		}
 
 	}
