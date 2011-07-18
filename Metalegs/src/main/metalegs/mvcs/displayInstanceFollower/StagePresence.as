@@ -2,8 +2,10 @@ package metalegs.mvcs.displayInstanceFollower {
 	import flash.display.DisplayObject;
 	import flash.events.Event;
 	import flash.utils.Dictionary;
+	import flash.utils.getQualifiedClassName;
 
 	import metalegs.base.Lifetime;
+	import metalegs.base.errors.ConfigurationCannotBeAddedError;
 	import metalegs.reflection.ClassByInstanceCache;
 
 	public class StagePresence {
@@ -64,7 +66,17 @@ package metalegs.mvcs.displayInstanceFollower {
 		}
 
 		private function handleRemove(event:Event):void {
-			trace("Removed: " + event.target.toString());
+			var view:DisplayObject = DisplayObject(event.target);
+			var viewType:Class = instanceCache.getClassByInstance(view);
+
+			var config:FollowConfiguration = following[viewType];
+
+			if (!config)
+				return;
+
+			trace("Remove: " + getQualifiedClassName(viewType));
+
+			config.destroyMediators(view);
 
 		}
 
@@ -81,6 +93,8 @@ package metalegs.mvcs.displayInstanceFollower {
 			if (!config)
 				return;
 
+			trace("Add: " + getQualifiedClassName(viewType));
+
 			config.instanceMediators(view);
 
 		}
@@ -94,30 +108,51 @@ import metalegs.base.Lifetime;
 // todo Refactor this. Its a factory, and the mapper is a trigger. need to sort this out..
 class FollowConfiguration {
 	private var _lifetime:Lifetime;
-	private var typesToInstance:Dictionary = new Dictionary();
-	private var instances:Dictionary = new Dictionary();
+	private var mediatorTypesToInstance:Dictionary = new Dictionary();
+	private var mediatorInstancesByView:Dictionary = new Dictionary();
 
 	public function FollowConfiguration(lifetime:Lifetime) {
 		_lifetime = lifetime;
 	}
 
 	public function withType(factoryType:Class):FollowConfiguration {
-		typesToInstance[factoryType] = factoryType;
+		mediatorTypesToInstance[factoryType] = factoryType;
 
 		return this;
 	}
 
+	private static const REGISTER:String = "register";
+
 	public function instanceMediators(view:*):void {
-		for each (var type:Class in typesToInstance) {
-			instances[view] = _lifetime.getInstance(type);
-			instances[view]["register"].call(null,view);
+		if (mediatorInstancesByView[view])
+			throw new Error("Shouldn't ever happen. is the destory getting blocked?");
+
+	 	var mediatorInstances:Array = [];
+		mediatorInstancesByView[view] = mediatorInstances;
+
+		for each (var mediatorType:Class in mediatorTypesToInstance) {
+			var mediatorInstance:* = _lifetime.getInstance(mediatorType);
+			mediatorInstances.push(mediatorInstance);
+			mediatorInstance[REGISTER].call(null,view);
 		}
 	}
 
 	public function destruct():void {
-		// gee i'd like to call destroy on those instances
-		instances = null;
-		typesToInstance = null;
+		for (var view:* in mediatorInstancesByView) {
+			destroyMediators(view);
+		}
+		mediatorInstancesByView = null;
+		mediatorTypesToInstance = null;
 	}
 
+	private static const DEREGISTER:String = "deregister";
+
+	public function destroyMediators(view:*):void {
+		var mediatorInstances:Array = mediatorInstancesByView[view];
+		for each (var mediatorInstance:* in mediatorInstances) {
+			if (mediatorInstance.hasOwnProperty(DEREGISTER))
+				mediatorInstance[DEREGISTER]();
+		}
+		mediatorInstancesByView[view] = null;
+	}
 }
