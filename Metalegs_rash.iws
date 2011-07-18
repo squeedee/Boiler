@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10faf334-9a2c-49fc-9b7a-88c719405f03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/DefaultMediatorDetector.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/DefaultMediatorInstanceMapper.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorDetector.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorInstanceMapper.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/view/Reset.mxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/view/ResetMediator.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureMediator.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureMediator.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HookableSuspenders/src/main/hookableSuspenders/InstanceHandlerCollection.as" afterPath="$PROJECT_DIR$/HookableSuspenders/src/main/hookableSuspenders/InstanceHandlerCollection.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/displayInstanceFollower/StagePresence.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/displayInstanceFollower/StagePresence.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorExtension.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorExtension.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ReflectionBase.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ReflectionBase.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs_rash.iws" afterPath="$PROJECT_DIR$/Metalegs_rash.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/TimeApp.mxml" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/TimeApp.mxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/configuration/TimeAppConfig.as" afterPath="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/configuration/TimeAppConfig.as" />
     </list>
     <ignored path="Minilegs_rash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,8 +69,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -117,6 +106,42 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Reflector.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/Reflector.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="52" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HookableInjector.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HookableSuspenders/src/main/hookableSuspenders/HookableInjector.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstanceHandlerCollection.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HookableSuspenders/src/main/hookableSuspenders/InstanceHandlerCollection.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="0.42432815">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MappingHandlerCollection.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HookableSuspenders/src/main/hookableSuspenders/MappingHandlerCollection.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="13" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ReflectionBase.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ReflectionBase.as">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,10 +151,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StagePresence.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="StagePresence.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/displayInstanceFollower/StagePresence.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="9" selection-start="2544" selection-end="2544" vertical-scroll-proportion="0.5502249">
+            <state line="33" column="0" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -149,7 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerExtension.as" />
         <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/displayInstanceFollower/DisplayContext.as" />
         <option value="$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/TimeAppLifetime.as" />
         <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorDetector.as" />
@@ -165,6 +189,7 @@
         <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/DefaultMediatorInstanceMapper.as" />
         <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ReflectionBase.as" />
         <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/displayInstanceFollower/StagePresence.as" />
+        <option value="$PROJECT_DIR$/HookableSuspenders/src/main/hookableSuspenders/InstanceHandlerCollection.as" />
       </list>
     </option>
   </component>
@@ -198,7 +223,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -339,48 +364,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
+              <option name="myItemId" value="HookableSuspenders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reflection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="metalegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -392,10 +377,13 @@
               <option name="myItemId" value="HookableSuspenders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -528,6 +516,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -544,8 +533,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -631,6 +620,15 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Metalegs" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -642,15 +640,6 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Metalegs" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -748,13 +737,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1174" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285985" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="jenkinsBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3409091" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -766,11 +754,12 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977018" sideWeight="0.65909094" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292595" sideWeight="0.65909094" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="674" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285985" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946082" sideWeight="0.6693122" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -823,114 +812,90 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Adobe/flex_sdk_3.5.0.12683/frameworks/projects/framework/src/mx/binding/Binding.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="0" selection-start="6462" selection-end="6462" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/DefaultMediatorDetector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="789" selection-end="789" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/DefaultControllerMethodMapper.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/Reflector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="52" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcher.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="71" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.5367647">
-          <folding />
-        </state>
+        <state line="55" column="71" selection-start="1707" selection-end="1707" vertical-scroll-proportion="0.5367647" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/SwiftSuspenders/README.textile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="37" selection-start="12691" selection-end="12691" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="205" column="37" selection-start="12691" selection-end="12691" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/SwiftSuspenders/test/org/swiftsuspenders/InjectorTests.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="361" column="87" selection-start="16417" selection-end="16417" vertical-scroll-proportion="0.14683153">
-          <folding />
-        </state>
+        <state line="361" column="87" selection-start="16417" selection-end="16417" vertical-scroll-proportion="0.14683153" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorDetector.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="86" selection-end="86" vertical-scroll-proportion="0.044977512">
+        <state line="2" column="22" selection-start="86" selection-end="86" vertical-scroll-proportion="0.044977512" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/DefaultMediatorInstanceMapper.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="896" selection-end="896" vertical-scroll-proportion="0.64767617" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/view/ResetMediator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="216" selection-end="221" vertical-scroll-proportion="0.112443775" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/SwiftSuspenders/src/org/swiftsuspenders/injectionpoints/PropertyInjectionPoint.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.8095952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorExtension.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="25" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorInstanceMapper.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ReflectionBase.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/displayInstanceFollower/StagePresence.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/Reflection.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+        <state line="9" column="0" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/Reflector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="52" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HookableSuspenders/src/main/hookableSuspenders/HookableInjector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/DefaultMediatorInstanceMapper.as">
+    <entry file="file://$PROJECT_DIR$/HookableSuspenders/src/main/hookableSuspenders/MappingHandlerCollection.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="896" selection-end="896" vertical-scroll-proportion="0.64767617">
+        <state line="32" column="13" selection-start="1270" selection-end="1270" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorInstanceMapper.as">
+    <entry file="file://$PROJECT_DIR$/HookableSuspenders/src/main/hookableSuspenders/InstanceHandlerCollection.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorExtension.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="25" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ReflectionBase.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TimeAppSample/src/main/apps/timeApp/view/ResetMediator.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="216" selection-end="221" vertical-scroll-proportion="0.112443775">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/SwiftSuspenders/src/org/swiftsuspenders/injectionpoints/PropertyInjectionPoint.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.8095952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/displayInstanceFollower/StagePresence.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="9" selection-start="2544" selection-end="2544" vertical-scroll-proportion="0.5502249">
+        <state line="22" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="0.42432815">
           <folding />
         </state>
       </provider>

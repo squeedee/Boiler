@@ -18,7 +18,6 @@ package metalegs.mvcs.displayInstanceFollower {
 
 		[PostConstruct]
 		public function setup():void {
-
 			injectDisplayContext();
 
 			addListeners();
@@ -72,7 +71,6 @@ package metalegs.mvcs.displayInstanceFollower {
 		// todo: need flex hack for when they move containers.
 		// todo: domain language here is really murky, responsibility betweein this and FollowConf is poorly split
 		private function handleAdd(event:Event):void {
-			trace("Added: " + event.target.toString());
 
 			var view:DisplayObject = DisplayObject(event.target);
 			var viewType:Class = instanceCache.getClassByInstance(view);

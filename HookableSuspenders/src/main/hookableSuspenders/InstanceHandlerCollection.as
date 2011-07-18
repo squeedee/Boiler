@@ -16,23 +16,33 @@ package hookableSuspenders {
 
 		public function add(handlerType:Class):InstanceHandlerCollection {
 			var handler:* = instanceClass(handlerType);
-			var foundType:Boolean = false;
 
-			if (handler is BeforeInstanceHandler) {
-				beforeHandlers.push(handler);
-				foundType = true;
-			}
+			var added:Boolean;
+			added = addBeforeHandler(handler);
+			added ||= addAfterHandler(handler);
 
-			if (handler is AfterInstanceHandler) {
-				afterHandlers.push(handler);
-				foundType = true;
-			}
-
-			if (!foundType)
+			if (!added)
 				throw new NotAnInstanceHandlerError(handlerType);
 
 			return this;
 		}
+
+		private function addAfterHandler(handler:*):Boolean {
+			if (!(handler is AfterInstanceHandler))
+				return false;
+
+			afterHandlers.push(handler);
+			return true;
+		}
+
+		private function addBeforeHandler(handler:*):Boolean {
+			if (! (handler is BeforeInstanceHandler))
+				return false;
+
+			beforeHandlers.push(handler);
+			return true;
+		}
+
 
 		internal function callAfterHandlers(instance:*):void {
 			for each (var handler:AfterInstanceHandler in afterHandlers) {
