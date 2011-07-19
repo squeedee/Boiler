@@ -18,7 +18,7 @@ package metalegs.mvcs.mediator {
 		}
 
 		public function handleMapping(type:Class):void {
-			var viewType:Class = detector.mediatedViewType(type);
+			var viewType:Class = detector.getMediatedViewType(type);
 
 			if (viewType == null)
 				return;

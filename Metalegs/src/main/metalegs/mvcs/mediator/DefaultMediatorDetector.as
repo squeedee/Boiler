@@ -19,7 +19,7 @@ package metalegs.mvcs.mediator {
 		[Inject]
 		public var instanceCache:ClassByInstanceCache;
 
-		public function mediatedViewType(type:Class):Class {
+		public function getMediatedViewType(type:Class):Class {
 			reflection = reflector.getReflection(type);
 
 			if (!isMediator())

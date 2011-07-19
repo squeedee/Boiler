@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	 Inversion of Control/Dependency Injection Using 'Metalegs'
+	 Image Gallery
+
+	 Any portion of this demonstration may be reused for any purpose where not
+	 licensed by another party restricting such use. Please leave the credits intact.
+
+	 Joel Hooks
+	 http://joelhooks.com
+	 joelhooks@gmail.com
+
+
+	 Metalegs demo by R. Abdul-Aziz (twitter: @squeedee)
+-->
+<s:Application
+		xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
+		xmlns:mx="library://ns.adobe.com/flex/mx"
+		xmlns:imagegallery="org.robotlegs.demos.imagegallery.*"
+		xmlns:components="org.robotlegs.demos.imagegallery.views.components.*"
+		maxWidth="520"
+		>
+
+	<s:layout>
+		<s:VerticalLayout paddingBottom="10"
+						  paddingLeft="10"
+						  paddingRight="10"
+						  paddingTop="10"/>
+	</s:layout>
+
+	<fx:Declarations>
+		<imagegallery:FlickrGalleryLifetime id="lifetime" root="{this}"/>
+	</fx:Declarations>
+
+	<components:GalleryHeader/>
+
+	<components:GallerySearch id="search"
+							  width="100%"
+							  visible="false"
+							  includeInLayout="false"/>
+
+	<components:GalleryView id="gallery"/>
+
+</s:Application>

@@ -87,16 +87,16 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/FlickrGallerySample/FlickrGallerySample.iml" filepath="$PROJECT_DIR$/FlickrGallerySample/FlickrGallerySample.iml" />
       <module fileurl="file://$PROJECT_DIR$/HookableSuspenders/HookableSuspenders.iml" filepath="$PROJECT_DIR$/HookableSuspenders/HookableSuspenders.iml" />
       <module fileurl="file://$PROJECT_DIR$/Metalegs/Metalegs.iml" filepath="$PROJECT_DIR$/Metalegs/Metalegs.iml" />
       <module fileurl="file://$PROJECT_DIR$/vendor/SwiftSuspenders.iml" filepath="$PROJECT_DIR$/vendor/SwiftSuspenders.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TimeAppSample/TimeAppSample.iml" filepath="$PROJECT_DIR$/TimeAppSample/TimeAppSample.iml" />
     </modules>
   </component>
   <component name="ProjectResources">
     <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="flex_sdk_3.5.0.12683 (player 9.0)" project-jdk-type="Flex SDK Type">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="flex_sdk_4.1.0.16076 (player 10.0)" project-jdk-type="Flex SDK Type">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="VcsDirectoryMappings">
