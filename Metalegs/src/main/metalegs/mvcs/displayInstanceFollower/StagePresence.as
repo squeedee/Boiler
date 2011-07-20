@@ -5,7 +5,6 @@ package metalegs.mvcs.displayInstanceFollower {
 	import flash.utils.getQualifiedClassName;
 
 	import metalegs.base.Lifetime;
-	import metalegs.base.errors.ConfigurationCannotBeAddedError;
 	import metalegs.reflection.ClassByInstanceCache;
 
 	public class StagePresence {
@@ -25,11 +24,6 @@ package metalegs.mvcs.displayInstanceFollower {
 			addListeners();
 		}
 
-		private function injectDisplayContext():void {
-			if (lifetime.hasMapping(DisplayObject))
-				eventContext = lifetime.getInstance(DisplayObject);
-		}
-
 		public function follow(viewType:Class):FollowConfiguration {
 			return following[viewType] ||= new FollowConfiguration(lifetime);
 		}
@@ -38,31 +32,36 @@ package metalegs.mvcs.displayInstanceFollower {
 			removeListeners();
 
 			for each (var followConfiguration:FollowConfiguration in following) {
-				// @todo I feel like this collection should be its own class too
 				followConfiguration.destruct();
 			}
 
 			following = null;
 		}
 
+		private function injectDisplayContext():void {
+			if (lifetime.hasMapping(DisplayObject))
+				eventContext = lifetime.getInstance(DisplayObject);
+		}
+
 		private function addListeners():void {
-			if (contextWasInjected())
+			if (!contextExists())
 				return;
 
+			trace("Listening to context: " + getQualifiedClassName(eventContext));
 			eventContext.addEventListener(Event.ADDED_TO_STAGE, handleAdd, true);
 			eventContext.addEventListener(Event.REMOVED_FROM_STAGE, handleRemove, true)
 		}
 
 		private function removeListeners():void {
-			if (contextWasInjected())
+			if (!contextExists())
 				return;
 
 			eventContext.removeEventListener(Event.ADDED_TO_STAGE, handleAdd, true);
 			eventContext.removeEventListener(Event.REMOVED_FROM_STAGE, handleRemove, true)
 		}
 
-		private function contextWasInjected():Boolean {
-			return eventContext == null;
+		private function contextExists():Boolean {
+			return eventContext != null;
 		}
 
 		private function handleRemove(event:Event):void {
@@ -93,7 +92,6 @@ package metalegs.mvcs.displayInstanceFollower {
 			if (!config)
 				return;
 
-			trace("Add: " + getQualifiedClassName(viewType));
 
 			config.instanceMediators(view);
 
@@ -127,13 +125,13 @@ class FollowConfiguration {
 		if (mediatorInstancesByView[view])
 			throw new Error("Shouldn't ever happen. is the destory getting blocked?");
 
-	 	var mediatorInstances:Array = [];
+		var mediatorInstances:Array = [];
 		mediatorInstancesByView[view] = mediatorInstances;
 
 		for each (var mediatorType:Class in mediatorTypesToInstance) {
 			var mediatorInstance:* = _lifetime.getInstance(mediatorType);
 			mediatorInstances.push(mediatorInstance);
-			mediatorInstance[REGISTER].call(null,view);
+			mediatorInstance[REGISTER].call(null, view);
 		}
 	}
 

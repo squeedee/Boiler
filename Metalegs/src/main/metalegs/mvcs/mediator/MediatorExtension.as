@@ -1,4 +1,6 @@
 package metalegs.mvcs.mediator {
+	import flash.utils.getQualifiedClassName;
+
 	import hookableSuspenders.handlers.mapping.AfterMapClassHandler;
 
 	import metalegs.mvcs.displayInstanceFollower.StagePresence;

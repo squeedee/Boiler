@@ -30,6 +30,7 @@ package metalegs.mvcs.mediator {
 
 		private function extractClassFromMethod():Class {
 			var method:XML = getRegisterMethodDescription();
+			trace(method.toXMLString());
 
 			if (method == null)
 				return null;
@@ -49,6 +50,7 @@ package metalegs.mvcs.mediator {
 
 
 		private function getRegisterMethodDescription():XML {
+			trace(reflection.type().toXMLString());
 			var descriptionList:XMLList = reflection.type().factory.method.(@name = VIEW_METHOD_NAME);
 			if (descriptionList.length() == 0)
 				return null;

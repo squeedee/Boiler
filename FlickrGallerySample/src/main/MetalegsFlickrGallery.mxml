@@ -29,7 +29,7 @@
 	</s:layout>
 
 	<fx:Declarations>
-		<imagegallery:FlickrGalleryLifetime id="lifetime" root="{this}"/>
+		<imagegallery:FlickrGalleryLifetime root="{this}"/>
 	</fx:Declarations>
 
 	<components:GalleryHeader/>
