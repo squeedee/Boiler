@@ -5,6 +5,7 @@
     <option name="MAIN_CLASS" value="MetalegsFlickrGallery" />
     <option name="OUTPUT_FILE_NAME" value="FlickrGallerySample.swf" />
     <option name="TARGET_PLAYER_VERSION" value="10.0.0" />
+    <option name="ADDITIONAL_COMPILER_OPTIONS" value="--default-size 520 685" />
     <option name="VERSION" value="3" />
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">

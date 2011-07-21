@@ -50,8 +50,9 @@ package metalegs.mvcs.mediator {
 
 
 		private function getRegisterMethodDescription():XML {
-			trace(reflection.type().toXMLString());
-			var descriptionList:XMLList = reflection.type().factory.method.(@name = VIEW_METHOD_NAME);
+
+			var descriptionList:XMLList = reflection.type().factory.method.(@name == VIEW_METHOD_NAME);
+
 			if (descriptionList.length() == 0)
 				return null;
 
