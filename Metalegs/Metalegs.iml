@@ -19,6 +19,7 @@
     <orderEntry type="library" scope="TEST" name="test-libs" level="project" />
     <orderEntry type="module" module-name="SwiftSuspenders" />
     <orderEntry type="module" module-name="HookableSuspenders" />
+    <orderEntry type="module" module-name="funk-as3" />
   </component>
 </module>
 

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!--
+
+    Copyright 2008 Marvin Herman Froeder
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>flashx</groupId>
+  <artifactId>funk</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>swc</packaging>
+
+  <name>funk</name>
+  
+  <scm>
+    <connection>http://funk-as3.googlecode.com/hg/</connection>
+    <developerConnection>https://funk-as3.googlecode.com/hg/</developerConnection>
+    <url>http://code.google.com/p/funk-as3/source/browse/</url>
+  </scm>
+  
+  <build>
+    <sourceDirectory>src/main/as3</sourceDirectory>
+    <testSourceDirectory>src/test/as3</testSourceDirectory>
+    <plugins>
+      <plugin>
+        <groupId>org.sonatype.flexmojos</groupId>
+        <artifactId>flexmojos-maven-plugin</artifactId>
+        <version>4.0-SNAPSHOT</version>
+        <extensions>true</extensions>
+		<configuration>
+          <coverage>true</coverage>
+		  <coverageProvider>cobertura</coverageProvider>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.adobe.flex.framework</groupId>
+      <artifactId>flex-framework</artifactId>
+      <version>4.0.0.14159</version>
+      <type>pom</type>
+    </dependency>
+
+    <dependency>
+      <groupId>com.adobe.flexunit</groupId>
+      <artifactId>flexunit</artifactId>
+      <version>0.85</version>
+      <type>swc</type>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  
+  <reporting>
+    <plugins>
+      <plugin>
+        <groupId>org.sonatype.flexmojos</groupId>
+        <artifactId>flexmojos-maven-plugin</artifactId>
+        <version>4.0-SNAPSHOT</version>
+        <reportSets>
+          <reportSet>
+            <id>flex-reports</id>
+            <reports>
+              <report>asdoc-report</report>
+            </reports>
+            <configuration>
+              <windowTitle>Funk Documentation</windowTitle>
+			  <mainTitle>Funk Documentation</mainTitle>
+              <footer>http://funk-as3.googlecode.com/</footer>
+            </configuration>
+          </reportSet>
+        </reportSets>
+      </plugin>
+    </plugins>
+  </reporting>
+
+</project>
