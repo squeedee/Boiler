@@ -1,7 +1,7 @@
 package org.robotlegs.demos.imagegallery {
 	import flash.display.DisplayObject;
 
-	import metalegs.mvcs.MVCSLifetime;
+	import boiler.mvcs.MVCSLifetime;
 
 	import org.robotlegs.demos.imagegallery.configuration.FlickrGalleryConfiguration;
 

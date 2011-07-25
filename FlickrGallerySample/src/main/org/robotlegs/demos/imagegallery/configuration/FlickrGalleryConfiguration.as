@@ -1,5 +1,5 @@
 package org.robotlegs.demos.imagegallery.configuration {
-	import metalegs.base.configuration.ConfigurationBase;
+	import boiler.base.configuration.ConfigurationBase;
 
 	import org.robotlegs.demos.imagegallery.controller.GalleryController;
 	import org.robotlegs.demos.imagegallery.controller.SelectedImageController;

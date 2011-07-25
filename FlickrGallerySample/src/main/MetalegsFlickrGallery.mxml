@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-	 Inversion of Control/Dependency Injection Using 'Metalegs'
+	 Inversion of Control/Dependency Injection Using 'Boiler'
 	 Image Gallery
 
 	 Any portion of this demonstration may be reused for any purpose where not
@@ -11,7 +11,7 @@
 	 joelhooks@gmail.com
 
 
-	 Metalegs demo by R. Abdul-Aziz (twitter: @squeedee)
+	 Boiler demo by R. Abdul-Aziz (twitter: @squeedee)
 -->
 <s:Application
 		xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"

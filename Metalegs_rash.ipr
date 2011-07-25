@@ -87,11 +87,10 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Metalegs/Boiler.iml" filepath="$PROJECT_DIR$/Metalegs/Boiler.iml" />
       <module fileurl="file://$PROJECT_DIR$/FlickrGallerySample/FlickrGallerySample.iml" filepath="$PROJECT_DIR$/FlickrGallerySample/FlickrGallerySample.iml" />
       <module fileurl="file://$PROJECT_DIR$/HookableSuspenders/HookableSuspenders.iml" filepath="$PROJECT_DIR$/HookableSuspenders/HookableSuspenders.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Metalegs/Metalegs.iml" filepath="$PROJECT_DIR$/Metalegs/Metalegs.iml" />
       <module fileurl="file://$PROJECT_DIR$/vendor/SwiftSuspenders.iml" filepath="$PROJECT_DIR$/vendor/SwiftSuspenders.iml" />
-      <module fileurl="file://$PROJECT_DIR$/vendor/funk-as3/funk-as3.iml" filepath="$PROJECT_DIR$/vendor/funk-as3/funk-as3.iml" />
     </modules>
   </component>
   <component name="ProjectResources">
