@@ -1,25 +1,16 @@
-## Metalegs is poorly named:
-
-  * A portmanteau of Metadata and Robotlegs.
-  * Inspired by the superb framework Robotlegs, but in reality only shares the DI framework.
-  * Doesn't depend on Metadata (other than injection metadata) at all.
-
-*Please* offer me some clever name that
-  
-  * Can have a cool logo :D
-  * Describes the principle of least astonishment.
-
-## Metalegs is about convention
+## Boiler is about convention
 
   * Add a DI mapping of a class, it's namespace and/or structure will do the rest (Like Rails)
   * Add Metadata only when you can't depend on convention
   * Change the conventions by injecting different 'detectors'
 
-## Metalegs is about extensibility
+## Boiler is about extensibility
   
-  * Does not add methods that then get stuck in polymorphic inheritance hell.
+  * Does not add methods that then get stuck in polymorphic inheritance hell. 
   * Let's you configure the order that 'detectors' are run in.
   * Let's you define the kinds of mapping and injections that 'detectors' run on. 
+
+I need to show an example of how to add sugar, and what to avoid. I have no problem with using sugar, but it has no place being a dependent part of the framework.
 
 # Architecture
 

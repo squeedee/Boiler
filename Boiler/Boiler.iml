@@ -3,7 +3,7 @@
   <component name="Flex.Build.Configuration">
     <option name="DO_BUILD" value="true" />
     <option name="OUTPUT_TYPE" value="Library" />
-    <option name="OUTPUT_FILE_NAME" value="Metalegs.swc" />
+    <option name="OUTPUT_FILE_NAME" value="Boiler.swc" />
     <option name="TARGET_PLAYER_VERSION" value="10.0.0" />
     <option name="ADDITIONAL_COMPILER_OPTIONS" value="-keep-as3-metadata+=Inject -keep-as3-metadata+=PostConstruct -keep-as3-metadata+=Controller" />
     <option name="VERSION" value="3" />

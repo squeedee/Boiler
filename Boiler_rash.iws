@@ -2,80 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10faf334-9a2c-49fc-9b7a-88c719405f03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/base/ConfigurationCollection.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/base/configuration/ConfigurationBase.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/base/errors/ConfigurationCannotBeAddedError.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/base/errors/StartupCanOnlyBeRunOnceError.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/base/errors/TeardownAlreadyRunError.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/base/errors/TeardownCanOnlyRunAfterStartupError.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/MVCSLifetime.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/configuration/ConfigureController.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/configuration/ConfigureDispatcher.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/configuration/ConfigureMediator.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/configuration/ConfigureNotifier.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/configuration/ConfigureReflection.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/configuration/ConfigureStagePresenceFollower.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/controller/ControllerDetector.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/controller/ControllerExtension.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/controller/ControllerMethodMapper.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/controller/DefaultControllerDetector.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/controller/DefaultControllerMethodMapper.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/dispatcher/Dispatcher.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/dispatcher/EventBasedDispatcher.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/dispatcher/EventBasedDispatcherError.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/dispatcher/EventBasedNotifierConnector.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/displayInstanceFollower/StagePresence.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/mediator/DefaultMediatorDetector.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/mediator/MediatorDetector.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/mediator/MediatorExtension.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/reflection/ClassByInstanceCache.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/reflection/Reflection.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/reflection/ReflectionBase.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/reflection/Reflector.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/test/boiler/mvcs/controller/DefaultControllerDetectorCase.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/test/boiler/mvcs/displayInstanceFollower/StagePresenceCase.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Metalegs/src/test/boiler/reflection/ReflectionCase.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/Metalegs.iml" afterPath="$PROJECT_DIR$/Metalegs/Boiler.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/ConfigurationCollection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/base/ConfigurationCollection.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/Lifetime.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/base/Lifetime.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/Configuration.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/base/configuration/Configuration.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/ConfigurationBase.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/base/configuration/ConfigurationBase.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/errors/ConfigurationCannotBeAddedError.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/base/errors/ConfigurationCannotBeAddedError.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/errors/StartupCanOnlyBeRunOnceError.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/base/errors/StartupCanOnlyBeRunOnceError.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/errors/TeardownAlreadyRunError.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/base/errors/TeardownAlreadyRunError.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/errors/TeardownCanOnlyRunAfterStartupError.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/base/errors/TeardownCanOnlyRunAfterStartupError.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/MVCSLifetime.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/MVCSLifetime.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureController.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/configuration/ConfigureController.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureDispatcher.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/configuration/ConfigureDispatcher.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureMediator.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/configuration/ConfigureMediator.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureNotifier.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/configuration/ConfigureNotifier.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureReflection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/configuration/ConfigureReflection.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureStagePresenceFollower.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/configuration/ConfigureStagePresenceFollower.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerDetector.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/controller/ControllerDetector.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerExtension.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/controller/ControllerExtension.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/ControllerMethodMapper.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/controller/ControllerMethodMapper.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/DefaultControllerDetector.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/controller/DefaultControllerDetector.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/controller/DefaultControllerMethodMapper.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/controller/DefaultControllerMethodMapper.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/Dispatcher.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/dispatcher/Dispatcher.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcher.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/dispatcher/EventBasedDispatcher.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedDispatcherError.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/dispatcher/EventBasedDispatcherError.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/dispatcher/EventBasedNotifierConnector.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/dispatcher/EventBasedNotifierConnector.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/displayInstanceFollower/StagePresence.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/displayInstanceFollower/StagePresence.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/DefaultMediatorDetector.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/mediator/DefaultMediatorDetector.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorDetector.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/mediator/MediatorDetector.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorExtension.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/mediator/MediatorExtension.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ClassByInstanceCache.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/reflection/ClassByInstanceCache.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/Reflection.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/reflection/Reflection.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ReflectionBase.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/reflection/ReflectionBase.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/Reflector.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/boiler/reflection/Reflector.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/test/metalegs/mvcs/controller/DefaultControllerDetectorCase.as" afterPath="$PROJECT_DIR$/Metalegs/src/test/boiler/mvcs/controller/DefaultControllerDetectorCase.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/test/metalegs/mvcs/displayInstanceFollower/StagePresenceCase.as" afterPath="$PROJECT_DIR$/Metalegs/src/test/boiler/mvcs/displayInstanceFollower/StagePresenceCase.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Metalegs/src/test/metalegs/reflection/ReflectionCase.as" afterPath="$PROJECT_DIR$/Metalegs/src/test/boiler/reflection/ReflectionCase.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrGallerySample/src/main/MetalegsFlickrGallery.mxml" afterPath="$PROJECT_DIR$/FlickrGallerySample/src/main/MetalegsFlickrGallery.mxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/FlickrGalleryLifetime.as" afterPath="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/FlickrGalleryLifetime.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/configuration/FlickrGalleryConfiguration.as" afterPath="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/configuration/FlickrGalleryConfiguration.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs_rash.ipr" afterPath="$PROJECT_DIR$/Metalegs_rash.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs_rash.iws" afterPath="$PROJECT_DIR$/Metalegs_rash.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler_rash.iws" afterPath="$PROJECT_DIR$/Boiler_rash.iws" />
     </list>
     <ignored path="Minilegs_rash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -160,26 +87,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultMediatorDetector.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/mediator/DefaultMediatorDetector.as">
+      <file leaf-file-name="ReflectionBase.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/reflection/ReflectionBase.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectionBase.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/boiler/reflection/ReflectionBase.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+            <state line="47" column="38" selection-start="984" selection-end="984" vertical-scroll-proportion="0.48019803">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Lifetime.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/boiler/base/Lifetime.as">
+        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/base/Lifetime.as">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="89" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
               <folding />
@@ -188,7 +106,7 @@
         </entry>
       </file>
       <file leaf-file-name="Configuration.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/boiler/base/configuration/Configuration.as">
+        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/base/configuration/Configuration.as">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="102" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
               <folding />
@@ -196,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MetalegsFlickrGallery.mxml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/MetalegsFlickrGallery.mxml">
+      <file leaf-file-name="BoilerFlickrGallery.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/BoilerFlickrGallery.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="36" selection-start="528" selection-end="528" vertical-scroll-proportion="0.39534885">
+            <state line="44" column="0" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-27.5">
               <folding />
             </state>
           </provider>
@@ -223,18 +141,18 @@
         <option value="$PROJECT_DIR$/FlickrGallerySample/libs/com/joelhooks/display/ImageSwap.mxml" />
         <option value="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/views/components/GalleryView.mxml" />
         <option value="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/configuration/FlickrGalleryConfiguration.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/Configuration.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/configuration/ConfigurationBase.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/configuration/ConfigureStagePresenceFollower.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/base/ConfigurationCollection.as" />
+        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/base/configuration/Configuration.as" />
+        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/base/configuration/ConfigurationBase.as" />
+        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ConfigureStagePresenceFollower.as" />
+        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/base/ConfigurationCollection.as" />
         <option value="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/FlickrGalleryLifetime.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorExtension.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/displayInstanceFollower/StagePresence.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/DefaultMediatorDetector.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/boiler/reflection/ReflectionBase.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/boiler/base/Lifetime.as" />
-        <option value="$PROJECT_DIR$/Metalegs/src/main/boiler/base/configuration/Configuration.as" />
-        <option value="$PROJECT_DIR$/FlickrGallerySample/src/main/MetalegsFlickrGallery.mxml" />
+        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorExtension.as" />
+        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/displayInstanceFollower/StagePresence.as" />
+        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/DefaultMediatorDetector.as" />
+        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/ReflectionBase.as" />
+        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/base/Lifetime.as" />
+        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/base/configuration/Configuration.as" />
+        <option value="$PROJECT_DIR$/FlickrGallerySample/src/main/BoilerFlickrGallery.mxml" />
       </list>
     </option>
   </component>
@@ -284,33 +202,52 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemId" value="Boiler_rash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemId" value="Boiler_rash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
+              <option name="myItemId" value="HookableSuspenders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemId" value="Boiler_rash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
+              <option name="myItemId" value="FlickrGallerySample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -324,11 +261,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemId" value="Boiler_rash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
+              <option name="myItemId" value="Boiler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -346,11 +283,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemId" value="Boiler_rash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
+              <option name="myItemId" value="Boiler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -372,11 +309,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemId" value="Boiler_rash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
+              <option name="myItemId" value="Boiler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -402,11 +339,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemId" value="Boiler_rash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
+              <option name="myItemId" value="Boiler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -432,11 +369,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemId" value="Boiler_rash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
+              <option name="myItemId" value="Boiler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -458,11 +395,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemId" value="Boiler_rash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
+              <option name="myItemId" value="Boiler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -488,11 +425,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
+              <option name="myItemId" value="Boiler_rash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs" />
+              <option name="myItemId" value="Boiler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -516,29 +453,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Metalegs_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlickrGallerySample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -560,38 +478,38 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection" />
-      <recent name="$PROJECT_DIR$/Metalegs/src/test/fixtures/mvcs/reflection/controller/subNamespace" />
+      <recent name="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection" />
+      <recent name="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection/controller/subNamespace" />
     </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
       <recent name="org.robotlegs.demos.imagegallery.controller" />
       <recent name="org.robotlegs.demos.imagegallery.remote.services" />
       <recent name="org.robotlegs.demos.imagegallery.configuration" />
-      <recent name="metalegs.base.errors" />
-      <recent name="metalegs.mvcs.dispatcher" />
+      <recent name="boiler.base.errors" />
+      <recent name="boiler.mvcs.dispatcher" />
     </key>
     <key name="com.intellij.javascript.flex.refactoring.moveClass.FlexMoveClassDialog.target_package">
-      <recent name="metalegs.mvcs.displayInstanceFollower" />
-      <recent name="metalegs.reflection" />
-      <recent name="metalegs.mvcs.controller" />
+      <recent name="boiler.mvcs.displayInstanceFollower" />
+      <recent name="boiler.reflection" />
+      <recent name="boiler.mvcs.controller" />
       <recent name="fixtures.mvcs.reflection.notController" />
       <recent name="fixtures.mvcs.reflection" />
     </key>
     <key name="JSExtractSuperBase.RECENT_KEYS">
-      <recent name="metalegs.base.reflection" />
+      <recent name="boiler.base.reflection" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-      <recent name="metalegs.reflection" />
-      <recent name="metalegs" />
-      <recent name="metalegs.base.reflection" />
-      <recent name="metalegs.base" />
+      <recent name="boiler.reflection" />
+      <recent name="boiler" />
+      <recent name="boiler.base.reflection" />
+      <recent name="boiler.base" />
     </key>
     <key name="JSIntroduceConstantDialog">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Flex.MetalegsFlickrGallery">
+  <component name="RunManager" selected="Flex.BoilerFlickrGallery">
     <configuration default="false" name="Sample" type="FlexRunConfigurationType" factoryName="Flex" temporary="true" browser_family="FIREFOX" debugger_sdk="flex_sdk_3.5.0.12683 (player 9.0)" html_or_swf_file_path="$PROJECT_DIR$/out/production/TimeAppSample/_Sample.swf" launcher_type="Player" main_class_name="Sample" module_name="TimeAppSample" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
       <RunnerSettings RunnerId="FlexDebugRunner" />
       <RunnerSettings RunnerId="FlexRunner" />
@@ -599,28 +517,28 @@
       <ConfigurationWrapper RunnerId="FlexRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="MetalegsFlickrGallery" type="FlexRunConfigurationType" factoryName="Flex" temporary="true" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="$PROJECT_DIR$/out/production/FlickrGallerySample/_MetalegsFlickrGallery.swf" launcher_type="Player" main_class_name="MetalegsFlickrGallery" module_name="FlickrGallerySample" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="true" url_to_launch="http://">
+    <configuration default="false" name="BoilerFlickrGallery" type="FlexRunConfigurationType" factoryName="Flex" temporary="true" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="$PROJECT_DIR$/out/production/FlickrGallerySample/_BoilerFlickrGallery.swf" launcher_type="Player" main_class_name="BoilerFlickrGallery" module_name="FlickrGallerySample" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="true" url_to_launch="http://">
       <RunnerSettings RunnerId="FlexDebugRunner" />
       <RunnerSettings RunnerId="FlexRunner" />
       <ConfigurationWrapper RunnerId="FlexDebugRunner" />
       <ConfigurationWrapper RunnerId="FlexRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="ReflectionCase" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" temporary="true" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="metalegs.reflection.ReflectionCase" debugger_sdk="Module SDK" html_or_swf_file_path="$PROJECT_DIR$/out/test/Metalegs/_flexunit.swf" launcher_type="Player" main_class_name="" method_name="" module_name="Metalegs" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="7832" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="7852" url_to_launch="http://">
+    <configuration default="false" name="ReflectionCase" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" temporary="true" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="boiler.reflection.ReflectionCase" debugger_sdk="Module SDK" html_or_swf_file_path="$PROJECT_DIR$/out/test/Boiler/_flexunit.swf" launcher_type="Player" main_class_name="" method_name="" module_name="Boiler" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="7832" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="7852" url_to_launch="http://">
       <RunnerSettings RunnerId="FlexDebugRunner" />
       <RunnerSettings RunnerId="FlexRunner" />
       <ConfigurationWrapper RunnerId="FlexDebugRunner" />
       <ConfigurationWrapper RunnerId="FlexRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="ReflectionCase.ItSetsIncludesClassMetadataToTrue()" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" temporary="true" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="metalegs.reflection.ReflectionCase" debugger_sdk="Module SDK" html_or_swf_file_path="$PROJECT_DIR$/out/test/Metalegs/_flexunit.swf" launcher_type="Player" main_class_name="" method_name="ItSetsIncludesClassMetadataToTrue" module_name="Metalegs" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="7833" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Method" socket_policy_port="7852" url_to_launch="http://">
+    <configuration default="false" name="ReflectionCase.ItSetsIncludesClassMetadataToTrue()" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" temporary="true" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="boiler.reflection.ReflectionCase" debugger_sdk="Module SDK" html_or_swf_file_path="$PROJECT_DIR$/out/test/Boiler/_flexunit.swf" launcher_type="Player" main_class_name="" method_name="ItSetsIncludesClassMetadataToTrue" module_name="Boiler" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="7833" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Method" socket_policy_port="7852" url_to_launch="http://">
       <RunnerSettings RunnerId="FlexDebugRunner" />
       <RunnerSettings RunnerId="FlexRunner" />
       <ConfigurationWrapper RunnerId="FlexDebugRunner" />
       <ConfigurationWrapper RunnerId="FlexRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="DefaultControllerDetectorCase" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" temporary="true" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="metalegs.mvcs.controller.DefaultControllerDetectorCase" debugger_sdk="Module SDK" html_or_swf_file_path="$PROJECT_DIR$/out/test/Metalegs/_flexunit.swf" launcher_type="Player" main_class_name="" method_name="" module_name="Metalegs" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="7832" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="7852" url_to_launch="http://">
+    <configuration default="false" name="DefaultControllerDetectorCase" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" temporary="true" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="boiler.mvcs.controller.DefaultControllerDetectorCase" debugger_sdk="Module SDK" html_or_swf_file_path="$PROJECT_DIR$/out/test/Boiler/_flexunit.swf" launcher_type="Player" main_class_name="" method_name="" module_name="Boiler" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="7832" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="7852" url_to_launch="http://">
       <RunnerSettings RunnerId="FlexDebugRunner" />
       <RunnerSettings RunnerId="FlexRunner" />
       <ConfigurationWrapper RunnerId="FlexDebugRunner" />
@@ -640,7 +558,7 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" method_name="" module_name="Metalegs" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="0" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="0" url_to_launch="http://">
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" method_name="" module_name="Boiler" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="0" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="0" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -649,7 +567,7 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Metalegs" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
+    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Boiler" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -727,7 +645,7 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Flex.Sample" />
-      <item index="1" class="java.lang.String" itemvalue="Flex.MetalegsFlickrGallery" />
+      <item index="1" class="java.lang.String" itemvalue="Flex.BoilerFlickrGallery" />
       <item index="2" class="java.lang.String" itemvalue="FlexUnit.ReflectionCase" />
       <item index="3" class="java.lang.String" itemvalue="FlexUnit.ReflectionCase.ItSetsIncludesClassMetadataToTrue()" />
       <item index="4" class="java.lang.String" itemvalue="FlexUnit.DefaultControllerDetectorCase" />
@@ -768,29 +686,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1912" height="1157" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Robotlegs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916266" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916266" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3282002" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="jenkinsBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24254091" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276515" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24530327" sideWeight="0.6717998" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24530327" sideWeight="0.6717998" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="674" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276515" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3282002" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946082" sideWeight="0.6693122" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -843,32 +761,32 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/configuration/ConfigureReflection.as">
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ConfigureReflection.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="51" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/boiler/base/configuration/ConfigurationBase.as">
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/base/configuration/ConfigurationBase.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="11" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/configuration/ConfigureStagePresenceFollower.as">
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ConfigureStagePresenceFollower.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs_rash.iws">
+    <entry file="file://$PROJECT_DIR$/Boiler_rash.iws">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/boiler/base/ConfigurationCollection.as">
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/base/ConfigurationCollection.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/mediator/MediatorDetector.as">
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorDetector.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.019480519" />
       </provider>
@@ -878,12 +796,12 @@
         <state line="33" column="28" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.22077923" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/displayInstanceFollower/StagePresence.as">
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/displayInstanceFollower/StagePresence.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="0.04491018" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/mediator/MediatorExtension.as">
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorExtension.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="20" selection-start="541" selection-end="541" vertical-scroll-proportion="0.33682635" />
       </provider>
@@ -898,37 +816,31 @@
         <state line="105" column="12" selection-start="8592" selection-end="8592" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/boiler/mvcs/mediator/DefaultMediatorDetector.as">
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/DefaultMediatorDetector.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+        <state line="32" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/base/Lifetime.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="89" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/BoilerFlickrGallery.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-27.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/boiler/reflection/ReflectionBase.as">
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/base/configuration/Configuration.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="102" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/boiler/base/Lifetime.as">
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/reflection/ReflectionBase.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="89" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/boiler/base/configuration/Configuration.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="102" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/MetalegsFlickrGallery.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="36" selection-start="528" selection-end="528" vertical-scroll-proportion="0.39534885">
+        <state line="47" column="38" selection-start="984" selection-end="984" vertical-scroll-proportion="0.48019803">
           <folding />
         </state>
       </provider>
@@ -986,12 +898,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>funk-as3</last-edited>
+          <last-edited>SwiftSuspenders</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

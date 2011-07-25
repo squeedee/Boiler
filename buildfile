@@ -1,9 +1,9 @@
 require 'buildr/as3'
 
 # Don't see the point in language subdirs on this project 
-metalegs_layout = Layout.new
-metalegs_layout[:source, :main, :as3] = 'src/main'
-metalegs_layout[:source, :test, :as3] = 'src/test'
+boiler_layout = Layout.new
+boiler_layout[:source, :main, :as3] = 'src/main'
+boiler_layout[:source, :test, :as3] = 'src/test'
 
 vendor_layout = Layout.new
 vendor_layout[:source,:main,:as3] = 'src'
@@ -14,7 +14,7 @@ repositories.remote <<
 	"http://repo2.maven.org/maven2"
 
 desc "Robotlegs inspired, responsibility-oriented-configuration framework and MVCS reference implementation."
-define "Metalegs", :layout => metalegs_layout do
+define "Boiler", :layout => boiler_layout do 
 
   # Do i need to build against 4 for 4 and 4.5 for 4.5? I guess I probably do. I wonder how I instruct buildr to do that
   DEFAULT_SDK = FlexSDK.new("3.5.0.12683")
@@ -37,14 +37,14 @@ define "Metalegs", :layout => metalegs_layout do
     compile.using :compc
   end
   
-  define "Metalegs" do
+  define "Boiler" do
     # todo depend on HS
     # todo keep Inject/PostConstruct
     # todo configure tests
   	compile.using :compc
   end
 
-	define "TimeAppSample" do
+	define "FlickrGallerySample" do
 	  # todo depend on ML
 		compile.using :mxmlc
 	  compile.options[:main] = _(:src,:main,:as3) + "/Sample.mxml"
