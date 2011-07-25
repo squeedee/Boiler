@@ -1,9 +1,3 @@
 [submodule "vendor/SwiftSuspenders"]
 	path = vendor/SwiftSuspenders
 	url = https://github.com/tschneidereit/SwiftSuspenders.git
-[submodule "vendor/as3-signals"]
-	path = vendor/as3-signals
-	url = https://github.com/robertpenner/as3-signals.git
-[submodule "vendor/raix"]
-	path = vendor/raix
-	url = https://github.com/richardszalay/raix.git

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10faf334-9a2c-49fc-9b7a-88c719405f03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/funk-as3/funk-as3.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/Metalegs.iml" afterPath="$PROJECT_DIR$/Metalegs/Metalegs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs_rash.ipr" afterPath="$PROJECT_DIR$/Metalegs_rash.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitmodules" afterPath="$PROJECT_DIR$/.gitmodules" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/displayInstanceFollower/StagePresence.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/displayInstanceFollower/StagePresence.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/DefaultMediatorDetector.as" afterPath="$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/DefaultMediatorDetector.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Metalegs_rash.iws" afterPath="$PROJECT_DIR$/Metalegs_rash.iws" />
     </list>
     <ignored path="Minilegs_rash.iws" />
@@ -71,8 +71,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -81,28 +81,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FlickrGalleryLifetime.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/FlickrGalleryLifetime.as">
+      <file leaf-file-name="TweenLite.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlickrGallerySample/libs/gs/TweenLite.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StagePresence.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/displayInstanceFollower/StagePresence.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="47" selection-start="842" selection-end="842" vertical-scroll-proportion="0.44182622">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MediatorExtension.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorExtension.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="20" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+            <state line="105" column="12" selection-start="8592" selection-end="8592" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,7 +93,16 @@
       <file leaf-file-name="DefaultMediatorDetector.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/DefaultMediatorDetector.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="22" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0">
+            <state line="32" column="0" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectionBase.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ReflectionBase.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="24" selection-start="627" selection-end="627" vertical-scroll-proportion="0.49472296">
               <folding />
             </state>
           </provider>
@@ -196,6 +187,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -368,8 +361,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Favorites" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -387,8 +378,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -481,6 +472,15 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Metalegs" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -492,15 +492,6 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Metalegs" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -599,16 +590,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1174" extended-state="0" />
+    <frame x="0" y="22" width="1912" height="1157" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Robotlegs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Robotlegs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916266" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916266" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282002" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="jenkinsBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24337122" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24254091" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -617,12 +609,11 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24532336" sideWeight="0.67045456" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24530327" sideWeight="0.7574591" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="674" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3285985" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946082" sideWeight="0.6693122" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -675,16 +666,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/configuration/FlickrGalleryConfiguration.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/remote/services/GalleryLoadedEvent.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/base/Lifetime.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="0" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.0" />
@@ -735,26 +716,44 @@
         <state line="33" column="28" selection-start="1017" selection-end="1017" vertical-scroll-proportion="0.22077923" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/FlickrGalleryLifetime.as">
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/displayInstanceFollower/StagePresence.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorExtension.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="20" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/DefaultMediatorDetector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0">
+        <state line="8" column="0" selection-start="271" selection-end="271" vertical-scroll-proportion="0.04491018">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/displayInstanceFollower/StagePresence.as">
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/MediatorExtension.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="47" selection-start="842" selection-end="842" vertical-scroll-proportion="0.44182622">
+        <state line="21" column="20" selection-start="541" selection-end="541" vertical-scroll-proportion="0.33682635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/FlickrGalleryLifetime.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="547" selection-end="547" vertical-scroll-proportion="0.4041916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/libs/gs/TweenLite.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="12" selection-start="8592" selection-end="8592" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/mvcs/mediator/DefaultMediatorDetector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Metalegs/src/main/metalegs/reflection/ReflectionBase.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="24" selection-start="627" selection-end="627" vertical-scroll-proportion="0.49472296">
           <folding />
         </state>
       </provider>

@@ -47,7 +47,6 @@ package metalegs.mvcs.displayInstanceFollower {
 			if (!contextExists())
 				return;
 
-			trace("Listening to context: " + getQualifiedClassName(eventContext));
 			eventContext.addEventListener(Event.ADDED_TO_STAGE, handleAdd, true);
 			eventContext.addEventListener(Event.REMOVED_FROM_STAGE, handleRemove, true)
 		}
@@ -72,8 +71,6 @@ package metalegs.mvcs.displayInstanceFollower {
 
 			if (!config)
 				return;
-
-			trace("Remove: " + getQualifiedClassName(viewType));
 
 			config.destroyMediators(view);
 
