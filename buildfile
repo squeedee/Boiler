@@ -8,9 +8,6 @@ boiler_layout[:source, :test, :as3] = 'src/test'
 vendor_layout = Layout.new
 vendor_layout[:source, :main, :as3] = 'src'
 
-flickr_layout = Layout.new
-flickr_layout[:source,:main,:as3] = "."
-
 # We need these maven repositories to download the flexunit4 and junit files
 repositories.remote <<
     "http://artifacts.devboy.org" <<
@@ -40,7 +37,6 @@ define "Boiler_Project", :layout => boiler_layout do
   end
 
   define "HookableSuspenders" do
-    # todo depend on SS
     # todo configure tests
     compile.with projects("vendor:SwiftSuspenders")
     compile.using :compc
@@ -48,18 +44,21 @@ define "Boiler_Project", :layout => boiler_layout do
   end
 
   define "Boiler" do
-    # todo depend on HS
-    # todo keep Inject/PostConstruct
     # todo configure tests
     compile.with projects("HookableSuspenders")
     compile.using :compc
+
+    #skip tests
+    test.compile.using :javac
+
     package :swc
   end
 
-  define "FlickrGallerySample", :layout => flickr_layout do
+  define "FlickrGallerySample" do
     compile.with projects("Boiler")
     compile.using :mxmlc
-    compile.options[:main] = _(:src, :main, :as3) + "/BoilerFlickrGallery.mxml"
+    compile.from _("libs")
+    compile.options[:main] = _(:source, :main, :as3) + "/BoilerFlickrGallery.mxml"
     package :swf
   end
 

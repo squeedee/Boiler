@@ -3,3 +3,5 @@ out
 .DS_Store
 .bundle
 .rvmrc
+**/target/*
+Boiler/reports/*
