@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark">
+	<fx:Script><![CDATA[
+		]]></fx:Script>
+
+	<s:layout>
+		<s:VerticalLayout/>
+	</s:layout>
+
+	<LapTime/>
+	<ElapsedTime/>
+	<s:Group>
+		<s:layout>
+			<s:HorizontalLayout/>
+		</s:layout>
+		<StartStopButton />
+		<LapResetButton />
+	</s:Group>
+	<LapTimes />
+
+</s:Application>
