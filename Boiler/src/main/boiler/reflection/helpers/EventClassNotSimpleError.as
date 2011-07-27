@@ -1,8 +1,8 @@
-package boiler.mvcs.dispatcher {
+package boiler.reflection.helpers {
 	import mx.utils.StringUtil;
 
-	public class EventBasedDispatcherError extends Error {
-		public function EventBasedDispatcherError(className:String) {
+	public class EventClassNotSimpleError extends Error {
+		public function EventClassNotSimpleError(className:String) {
 			super(
 					StringUtil.substitute(
 							"Events registered for dispatch must be 'Simple'. {0} is not simple. " +

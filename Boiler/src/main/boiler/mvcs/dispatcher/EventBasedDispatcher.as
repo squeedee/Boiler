@@ -3,14 +3,12 @@ package boiler.mvcs.dispatcher {
 	import boiler.reflection.ClassByInstanceCache;
 	import boiler.reflection.Reflection;
 	import boiler.reflection.Reflector;
+	import boiler.reflection.helpers.EventClassHelper;
 
 	import flash.events.Event;
 	import flash.utils.Dictionary;
 
 	public class EventBasedDispatcher implements Dispatcher {
-
-		[Inject]
-		public var reflector:Reflector;
 
 		[Inject]
 		public var lifetime:Lifetime;
@@ -21,6 +19,9 @@ package boiler.mvcs.dispatcher {
 		[Inject]
 		public var connector:EventBasedNotifierConnector;
 
+		[Inject]
+		public var eventClassReflection:EventClassHelper;
+
 		private var executionMap:Dictionary = new Dictionary();
 
 		[PostConstruct]
@@ -29,8 +30,11 @@ package boiler.mvcs.dispatcher {
 		}
 
 		public function registerSignalClass(signalClass:Class, targetControllerClass:Class, methodName:String):void {
-			connector.connect(findEventType(signalClass));
+			connector.connect(eventClassReflection.findSimpleEventType(signalClass));
+			createExecutor(signalClass, targetControllerClass, methodName);
+		}
 
+		private function createExecutor(signalClass:Class, targetControllerClass:Class, methodName:String):void {
 			executionMap[signalClass] = function(event:Event):void {
 				var controller:* = lifetime.getInstance(targetControllerClass);
 				controller[methodName].call(null, event);
@@ -39,26 +43,6 @@ package boiler.mvcs.dispatcher {
 
 		private function handleSignal(event:Event):void {
 			executionMap[classCache.getClassByInstance(event)].call(null, event);
-		}
-
-		// @todo move to reflection util
-		private function findEventType(eventClass:Class):String {
-			var reflection:Reflection = reflector.getReflection(eventClass);
-
-			const classConstants:XMLList = reflection.classConstants();
-
-			if (classConstants.length() != 1)
-				throw new EventBasedDispatcherError(reflection.fqn());
-
-			/*
-			 in case it's not obvious, this is a constant lookup..
-			 We cant enumerate constants on the class itself because we expect only one - "SimpleEvent"
-			 If we enumerate, we get all the constants from flash.event::Event
-			 Reflection gives us the locally defined one.
-			 */
-
-			var soleConstantName:String = classConstants[0].@name;
-			return eventClass[soleConstantName];
 		}
 
 		public function destruct():void {

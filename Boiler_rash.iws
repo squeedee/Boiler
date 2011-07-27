@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10faf334-9a2c-49fc-9b7a-88c719405f03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/StageObserverConfiguration.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/ViewInstanceHandler.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/map/MediatorFactory.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/map/MediatorMap.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/map/MediatorMapImpl.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/stageObserver/StageObserver.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/stageObserver/StageObserverHandler.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/stageObserver/StageObserverImpl.as" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ConfigureStagePresenceFollower.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/displayInstanceFollower/StagePresence.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Boiler/src/test/boiler/mvcs/displayInstanceFollower/StagePresenceCase.as" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ConfigureController.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ControllerConfiguration.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ConfigureDispatcher.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/DispatcherConfiguration.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ConfigureMediator.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/MediatorConfiguration.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ConfigureNotifier.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/NotifierConfiguration.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ConfigureReflection.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ReflectionConfiguration.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/Boiler.iml" afterPath="$PROJECT_DIR$/Boiler/Boiler.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/MVCSLifetime.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/MVCSLifetime.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/controller/DefaultControllerMethodMapper.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/controller/DefaultControllerMethodMapper.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/dispatcher/Dispatcher.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/dispatcher/Dispatcher.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/dispatcher/EventBasedDispatcherError.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/helpers/EventClassNotSimpleError.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/dispatcher/EventBasedDispatcher.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/dispatcher/EventBasedDispatcher.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/DefaultMediatorDetector.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/DefaultMediatorDetector.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorDetector.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorDetector.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorExtension.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorExtension.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/ReflectionBase.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/ReflectionBase.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/Reflector.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/Reflector.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/test/boiler/mvcs/controller/DefaultControllerDetectorCase.as" afterPath="$PROJECT_DIR$/Boiler/src/test/boiler/mvcs/controller/DefaultControllerDetectorCase.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler_rash.iws" afterPath="$PROJECT_DIR$/Boiler_rash.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HookableSuspenders/src/main/hookableSuspenders/HookableInjector.as" afterPath="$PROJECT_DIR$/HookableSuspenders/src/main/hookableSuspenders/HookableInjector.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todo.markdown" afterPath="$PROJECT_DIR$/todo.markdown" />
     </list>
     <ignored path="Minilegs_rash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -97,8 +70,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -107,91 +80,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InjectSingletonResult.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/SwiftSuspenders/src/org/swiftsuspenders/injectionresults/InjectSingletonResult.as">
+      <file leaf-file-name="EventBasedDispatcher.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/dispatcher/EventBasedDispatcher.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MediatorMap.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/map/MediatorMap.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MediatorMapImpl.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/map/MediatorMapImpl.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="34" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewInstanceHandler.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/ViewInstanceHandler.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultMediatorDetector.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/DefaultMediatorDetector.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reflector.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/reflection/Reflector.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="todo.markdown" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/todo.markdown">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="22" selection-start="243" selection-end="243" vertical-scroll-proportion="0.18181819">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MediatorDetector.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorDetector.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MediatorExtension.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorExtension.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MediatorFactory.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/map/MediatorFactory.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="41" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+            <state line="10" column="61" selection-start="358" selection-end="358" vertical-scroll-proportion="0.066176474">
               <folding />
             </state>
           </provider>
@@ -215,9 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorConfiguration.as" />
-        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorProxyMethods.as" />
-        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/stageObserver/StageObserverImpl.as" />
         <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/StageObserverConfiguration.as" />
         <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/MediatorConfiguration.as" />
         <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorFactory.as" />
@@ -231,6 +120,9 @@
         <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/DefaultMediatorDetector.as" />
         <option value="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/Reflector.as" />
         <option value="$PROJECT_DIR$/todo.markdown" />
+        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/helpers/EventBasedDispatcherError.as" />
+        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/helpers/EventClassHelper.as" />
+        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/dispatcher/EventBasedDispatcher.as" />
       </list>
     </option>
   </component>
@@ -281,6 +173,332 @@
     </navigator>
     <panes>
       <pane id="Favorites" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handlers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reflection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stageObserver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mediator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mediator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dispatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hookableSuspenders" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -473,256 +691,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="handlers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapping" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="handlers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stageObserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mediator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mediator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="map" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configuration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -739,14 +707,10 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection" />
-      <recent name="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection/controller/subNamespace" />
-    </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
       <recent name="boiler.mvcs.mediator" />
       <recent name="boiler.mvcs.displayInstanceFollower" />
@@ -754,12 +718,16 @@
       <recent name="org.robotlegs.demos.imagegallery.remote.services" />
       <recent name="org.robotlegs.demos.imagegallery.configuration" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection" />
+      <recent name="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection/controller/subNamespace" />
+    </key>
     <key name="com.intellij.javascript.flex.refactoring.moveClass.FlexMoveClassDialog.target_package">
+      <recent name="boiler.reflection.helpers" />
       <recent name="boiler.mvcs.mediator" />
       <recent name="boiler.mvcs.mediator.detector" />
       <recent name="boiler.mvcs.mediator.map" />
       <recent name="boiler.mvcs.configuration" />
-      <recent name="boiler.mvcs.stageObserver" />
     </key>
     <key name="JSExtractSuperBase.RECENT_KEYS">
       <recent name="boiler.mvcs.displayInstanceFollower" />
@@ -834,6 +802,15 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Boiler" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -845,15 +822,6 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Boiler" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -1029,92 +997,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/stageObserver/StageObserverImpl.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="29" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.50075644" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/StageObserverConfiguration.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/SwiftSuspenders/src/org/swiftsuspenders/injectionpoints/PropertyInjectionPoint.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="55" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/boiler.mvcs">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>boiler.mvcs</OriginalElement>
-          <nodes>
-            <node x="0.0" y="75.0">boiler.mvcs.configuration</node>
-            <node x="0.0" y="225.0">boiler.mvcs.controller</node>
-            <node x="0.0" y="150.0">boiler.mvcs.dispatcher</node>
-            <node x="0.0" y="300.0">boiler.mvcs.mediator</node>
-            <node x="0.0" y="0.0">boiler.mvcs.stageObserver</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="107.0" y="165.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JS/boiler.mvcs.mediator">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JS</ID>
-          <OriginalElement>boiler.mvcs.mediator</OriginalElement>
-          <nodes>
-            <node x="0.0" y="235.0">boiler.mvcs.mediator.MediatorMapImpl</node>
-            <node x="0.0" y="310.0">boiler.mvcs.mediator.ViewInstanceHandler</node>
-            <node x="24.5" y="0.0">boiler.mvcs.mediator.MediatorDetector</node>
-            <node x="15.0" y="155.0">boiler.mvcs.mediator.MediatorMap</node>
-            <node x="0.0" y="80.0">boiler.mvcs.mediator.DefaultMediatorDetector</node>
-            <node x="198.0" y="155.0">boiler.mvcs.configuration.MediatorConfiguration</node>
-            <node x="0.0" y="385.0">boiler.mvcs.mediator.MediatorFactory</node>
-            <node x="222.0" y="310.0">boiler.mvcs.mediator.MediatorExtension</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="boiler.mvcs.mediator.MediatorMapImpl" target="boiler.mvcs.mediator.MediatorMap">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="boiler.mvcs.mediator.DefaultMediatorDetector" target="boiler.mvcs.mediator.MediatorDetector">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="188.0" y="144.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>PRIVATE</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/MediatorConfiguration.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="53" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/SwiftSuspenders/src/org/swiftsuspenders/injectionresults/InjectSingletonResult.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/map/MediatorMap.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/map/MediatorMapImpl.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="34" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0" />
@@ -1123,6 +1005,16 @@
     <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/ViewInstanceHandler.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/DefaultMediatorDetector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/reflection/Reflector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorDetector.as">
@@ -1140,23 +1032,65 @@
         <state line="14" column="41" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/DefaultMediatorDetector.as">
+    <entry file="file://$PROJECT_DIR$/todo.markdown">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0">
+        <state line="8" column="16" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/reflection/Reflector.as">
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/controller/ControllerDetector.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todo.markdown">
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/controller/ControllerExtension.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="243" selection-end="243" vertical-scroll-proportion="0.18181819">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/controller/ControllerMethodMapper.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/dispatcher/Dispatcher.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/dispatcher/EventBasedNotifierConnector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/reflection/helpers/EventClassHelper.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.15441176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/reflection/helpers/EventClassNotSimpleError.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="14" selection-start="400" selection-end="400" vertical-scroll-proportion="0.2647059">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/dispatcher/EventBasedDispatcher.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="61" selection-start="358" selection-end="358" vertical-scroll-proportion="0.066176474">
           <folding />
         </state>
       </provider>
