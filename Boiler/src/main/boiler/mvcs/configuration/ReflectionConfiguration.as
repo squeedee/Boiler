@@ -5,7 +5,7 @@ package boiler.mvcs.configuration {
 	import boiler.reflection.ReflectionBase;
 	import boiler.reflection.Reflector;
 
-	public class ConfigureReflection extends ConfigurationBase {
+	public class ReflectionConfiguration extends ConfigurationBase {
 
 		override public function startup():void {
 			lifetime.mapClass(Reflection, ReflectionBase);

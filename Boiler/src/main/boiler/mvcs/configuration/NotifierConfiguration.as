@@ -1,10 +1,10 @@
 package boiler.mvcs.configuration {
+	import boiler.base.configuration.ConfigurationBase;
+
 	import flash.events.EventDispatcher;
 	import flash.events.IEventDispatcher;
 
-	import boiler.base.configuration.ConfigurationBase;
-
-	public class ConfigureNotifier extends ConfigurationBase {
+	public class NotifierConfiguration extends ConfigurationBase {
 		override public function startup():void {
 
 			lifetime.mapValue(IEventDispatcher, new EventDispatcher());

@@ -1,9 +1,9 @@
 package boiler.mvcs.controller {
-	import flash.utils.getDefinitionByName;
-
 	import boiler.mvcs.dispatcher.Dispatcher;
 	import boiler.reflection.Reflection;
 	import boiler.reflection.Reflector;
+
+	import flash.utils.getDefinitionByName;
 
 	public class DefaultControllerMethodMapper implements ControllerMethodMapper {
 		[Inject]

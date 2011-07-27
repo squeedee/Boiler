@@ -4,11 +4,11 @@ package boiler.mvcs.configuration {
 	import boiler.mvcs.dispatcher.EventBasedDispatcher;
 	import boiler.mvcs.dispatcher.EventBasedNotifierConnector;
 
-	public class ConfigureDispatcher extends ConfigurationBase {
+	public class DispatcherConfiguration extends ConfigurationBase {
 
 		override public function startup():void {
 			lifetime.mapSingletonOf(Dispatcher, EventBasedDispatcher);
-			lifetime.mapClass(EventBasedNotifierConnector,EventBasedNotifierConnector);
+			lifetime.mapClass(EventBasedNotifierConnector, EventBasedNotifierConnector);
 		}
 
 		override public function teardown():void {

@@ -1,5 +1,7 @@
 package boiler.mvcs.mediator {
+	import boiler.mvcs.mediator.map.MediatorFactory;
+
 	public interface MediatorDetector {
-		function getMediatedViewType(mediatorType:Class):Class;
+		function getConfigurationFor(mediatorType:Class):MediatorFactory;
 	}
 }

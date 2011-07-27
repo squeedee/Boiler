@@ -15,6 +15,8 @@ package hookableSuspenders {
 	 *
 	 * @author Rasheed Abdul-Aziz
 	 * @license MIT
+	 *
+	 * @todo : unmapping!
 	 */
 	public class HookableInjector extends Injector {
 		private var _instanceHandlers:InstanceHandlerCollection;

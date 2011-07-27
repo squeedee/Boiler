@@ -46,7 +46,7 @@ package boiler.reflection {
 		}
 
 		public function fqn():String {
-			return _fqn ||= _type.@name.replace(/::/,".");
+			return _fqn ||= _type.@name.replace(/::/, ".");
 		}
 
 		public function instance():XML {

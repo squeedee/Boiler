@@ -1,11 +1,11 @@
 package boiler.mvcs.dispatcher {
-	import flash.events.Event;
-	import flash.utils.Dictionary;
-
 	import boiler.base.Lifetime;
 	import boiler.reflection.ClassByInstanceCache;
 	import boiler.reflection.Reflection;
 	import boiler.reflection.Reflector;
+
+	import flash.events.Event;
+	import flash.utils.Dictionary;
 
 	public class EventBasedDispatcher implements Dispatcher {
 

@@ -1,7 +1,8 @@
 ## Quick Task List
 
-  * Mediator and Mediator base sugar (non required classes) that bring the eventMap without connecting anyone to it.
-  * as3-signals notifier
+  * Mediator helpers with sugar (non required classes) that bring the eventMap without connecting anyone to it.
+  * unmapping handlers in hookable
+  * unmapping support in mediation.
 
 ## Next major
   

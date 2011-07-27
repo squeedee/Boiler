@@ -6,7 +6,7 @@ package boiler.mvcs.configuration {
 	import boiler.mvcs.controller.DefaultControllerDetector;
 	import boiler.mvcs.controller.DefaultControllerMethodMapper;
 
-	public class ConfigureController extends ConfigurationBase {
+	public class ControllerConfiguration extends ConfigurationBase {
 
 		override public function startup():void {
 			lifetime.mapSingletonOf(ControllerDetector, DefaultControllerDetector);

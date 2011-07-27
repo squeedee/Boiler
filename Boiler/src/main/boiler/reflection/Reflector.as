@@ -1,7 +1,7 @@
 package boiler.reflection {
-	import flash.utils.Dictionary;
-
 	import boiler.base.*;
+
+	import flash.utils.Dictionary;
 
 	public class Reflector {
 

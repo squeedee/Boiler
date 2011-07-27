@@ -1,14 +1,14 @@
 package boiler.mvcs.controller {
+	import boiler.base.Lifetime;
+	import boiler.reflection.Reflection;
+	import boiler.reflection.ReflectionBase;
+	import boiler.reflection.Reflector;
+
 	import fixtures.mvcs.reflection.ByClassNameController;
 	import fixtures.mvcs.reflection.ControllerByMetadata;
 	import fixtures.mvcs.reflection.controller.ControllerByNamespace;
 	import fixtures.mvcs.reflection.controller.subNamespace.ControllerByParentNamespace;
 	import fixtures.mvcs.reflection.notController.NotAControllerAtAll;
-
-	import boiler.base.Lifetime;
-	import boiler.reflection.Reflection;
-	import boiler.reflection.ReflectionBase;
-	import boiler.reflection.Reflector;
 
 	import org.flexunit.asserts.assertFalse;
 	import org.hamcrest.assertThat;
