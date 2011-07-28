@@ -1,0 +1,78 @@
+h1. Steam Basics
+
+Steam is a reference implementation. It's full of opinion and workflow. Like Rails, Steam doesn't much care for your opinion.
+Steam makes it easy to get going quickly. Steam makes writing apps simple and straightforward, but expects you to
+adhere to best practices to get the most out of it. Steam does care about solid OO practices.
+
+h2. Events
+
+At the outset it's worth noting that Steam uses 'SimpleEvents' only.
+
+A SimpleEvent is defined as an event that:
+
+  * Takes no 'type' parameter in the constructor
+  * Has a single Constant, which is always the type of the event (as set within the constructor)
+  * Always supports the clone method properly.
+
+h4. Example SimpleEvent
+
+<pre><code>
+  public class ToggleStartStopEvent extends Event {
+
+    public static const TOGGLE:String = "ToggleStartStop";
+
+    public function ToggleStartStopEvent() {
+      super(TOGGLE);
+    }
+
+    override public function clone():Event {
+      return new ToggleStartStopEvent();
+    }
+  }
+</code></pre>
+
+h2. Notifier
+
+Steam offers a notification bus (publish/subscribe)
+It is a singleton injection of IEventDispatcher.
+
+If you want access to the notifier, simply add:
+
+<pre><code>
+    [Inject]
+    public var notifier:IEventDispatcher
+</code></pre>
+
+This of course means that you cannot map IEventDispatchers in steam. If you need to use other EventDispatchers, implement a marker interface instead.
+
+h2. Controller
+
+Place controllers in a 'controller' namespace and Steam will do the rest.
+
+To have methods called, a controller class must define public methods with a single flash.events.Event parameter.
+
+h4. Example
+
+<pre><code>
+  package main.controller {
+    import main.model.StopwatchState;
+
+    public class StopwatchController {
+      [Inject]
+      public var state:StopwatchState;
+
+      public function toggle(event:ToggleStartStopEvent):void {
+        state.toggle();
+      }
+
+      public function stop(event:StopStopwatchEvent):void {
+        state.stop();
+      }
+
+    }
+  }
+</code></pre>
+
+*Note:* If you're a fan of 'commands' you can implement them by using controllers with one public method.
+
+h2. Mediator

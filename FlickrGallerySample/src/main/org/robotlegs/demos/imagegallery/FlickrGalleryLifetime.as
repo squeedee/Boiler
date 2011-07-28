@@ -1,11 +1,11 @@
 package org.robotlegs.demos.imagegallery {
 	import flash.display.DisplayObject;
 
-	import boiler.mvcs.MVCSLifetime;
+	import boiler.steam.SteamLifetime;
 
 	import org.robotlegs.demos.imagegallery.configuration.FlickrGalleryConfiguration;
 
-	public class FlickrGalleryLifetime extends MVCSLifetime {
+	public class FlickrGalleryLifetime extends SteamLifetime {
 
 		public function FlickrGalleryLifetime() {
 			addConfigurationHandler(FlickrGalleryConfiguration);

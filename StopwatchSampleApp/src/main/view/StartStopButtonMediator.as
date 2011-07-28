@@ -2,34 +2,38 @@ package main.view {
 	import flash.events.IEventDispatcher;
 	import flash.events.MouseEvent;
 
-	import main.controller.ToggleStopwatchStateEvent;
+	import main.controller.ToggleStartStopEvent;
 	import main.model.StopwatchState;
 	import main.model.StopwatchStateUpdatedEvent;
 
 	public class StartStopButtonMediator {
 
 		[Inject]
-		public var notifier:IEventDispatcher;
+		public var state:StopwatchState;
 
 		[Inject]
-		public var state:StopwatchState;
+		public var notifier:IEventDispatcher;
 
 		private var view:StartStopButton;
 
 		public function register(view:StartStopButton):void {
 			this.view = view;
-
-			view.addEventListener(MouseEvent.CLICK, handleClick);
-
-			notifier.addEventListener(StopwatchStateUpdatedEvent.UPDATED, updateFromModel);
-
+			addListeners();
 			updateFromModel();
-
 		}
 
 		public function deregister():void {
+			removeListeners();
+		}
+
+		private function removeListeners():void {
 			view.removeEventListener(MouseEvent.CLICK, handleClick);
 			notifier.removeEventListener(StopwatchStateUpdatedEvent.UPDATED, updateFromModel)
+		}
+
+		private function addListeners():void {
+			view.addEventListener(MouseEvent.CLICK, handleClick);
+			notifier.addEventListener(StopwatchStateUpdatedEvent.UPDATED, updateFromModel);
 		}
 
 		private function updateFromModel(event:StopwatchStateUpdatedEvent = null):void {
@@ -37,7 +41,7 @@ package main.view {
 		}
 
 		private function handleClick(event:MouseEvent):void {
-			notifier.dispatchEvent(new ToggleStopwatchStateEvent())
+			notifier.dispatchEvent(new ToggleStartStopEvent())
 		}
 	}
 }

@@ -1,11 +1,11 @@
 package main {
-	import boiler.mvcs.MVCSLifetime;
+	import boiler.steam.SteamLifetime;
 
 	import flash.display.DisplayObject;
 
 	import main.configuration.StopwatchConfiguration;
 
-	public class StopwatchSampleAppLifetime extends MVCSLifetime {
+	public class StopwatchSampleAppLifetime extends SteamLifetime {
 
 		public function StopwatchSampleAppLifetime() {
 			addConfigurationHandler(StopwatchConfiguration);

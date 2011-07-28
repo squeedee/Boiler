@@ -5,7 +5,7 @@ package main.controller {
 		[Inject]
 		public var state:StopwatchState;
 
-		public function toggle(event:ToggleStopwatchStateEvent):void {
+		public function toggle(event:ToggleStartStopEvent):void {
 			state.toggle();
 		}
 
