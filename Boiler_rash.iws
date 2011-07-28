@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10faf334-9a2c-49fc-9b7a-88c719405f03" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StopwatchSampleApp/src/main/StopwatchSampleAppLifetime.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StopwatchSampleApp/src/main/configuration/StopwatchConfiguration.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StopwatchSampleApp/src/main/controller/StopwatchController.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StopwatchSampleApp/src/main/controller/ToggleStopwatchStateEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StopwatchSampleApp/src/main/model/StopwatchState.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StopwatchSampleApp/src/main/model/StopwatchStateUpdatedEvent.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StopwatchSampleApp/src/main/view/StartStopButton.mxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/StopwatchSampleApp/src/main/view/StartStopButtonMediator.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/SwiftSuspenders" afterPath="$PROJECT_DIR$/vendor/SwiftSuspenders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ReflectionConfiguration.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ReflectionConfiguration.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler_rash.iws" afterPath="$PROJECT_DIR$/Boiler_rash.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/FlickrGalleryLifetime.as" afterPath="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/FlickrGalleryLifetime.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StopwatchSampleApp/StopwatchSampleApp.iml" afterPath="$PROJECT_DIR$/StopwatchSampleApp/StopwatchSampleApp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/StopwatchSampleApp/src/main/StopwatchSampleApp.mxml" afterPath="$PROJECT_DIR$/StopwatchSampleApp/src/main/StopwatchSampleApp.mxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buildfile" afterPath="$PROJECT_DIR$/buildfile" />
     </list>
     <ignored path="Minilegs_rash.iws" />
@@ -80,55 +91,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EventBasedDispatcher.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/dispatcher/EventBasedDispatcher.as">
+      <file leaf-file-name="StopwatchSampleAppLifetime.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StopwatchSampleApp/src/main/StopwatchSampleAppLifetime.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="37" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+            <state line="7" column="56" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DispatcherConfiguration.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/DispatcherConfiguration.as">
+      <file leaf-file-name="StopwatchController.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StopwatchSampleApp/src/main/controller/StopwatchController.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="12" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
+            <state line="13" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReflectionConfiguration.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ReflectionConfiguration.as">
+      <file leaf-file-name="StopwatchSampleApp.mxml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/StopwatchSampleApp/src/main/StopwatchSampleApp.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="18" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
+            <state line="27" column="16" selection-start="567" selection-end="567" vertical-scroll-proportion="0.5570839">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Configuration.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/base/configuration/Configuration.as">
+      <file leaf-file-name="StartStopButtonMediator.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StopwatchSampleApp/src/main/view/StartStopButtonMediator.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0">
+            <state line="36" column="0" selection-start="923" selection-end="977" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buildfile" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/buildfile">
+      <file leaf-file-name="StopwatchConfiguration.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/StopwatchSampleApp/src/main/configuration/StopwatchConfiguration.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="16" selection-start="1764" selection-end="1764" vertical-scroll-proportion="0.79766536">
+            <state line="12" column="21" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlickrGallerySample.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FlickrGallerySample/FlickrGallerySample.iml">
+      <file leaf-file-name="MediatorMapImpl.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/map/MediatorMapImpl.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MediatorDetector.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorDetector.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="39" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MVCSLifetime.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/MVCSLifetime.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="41" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,22 +181,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorMap.as" />
-        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorMapImpl.as" />
-        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/ViewInstanceHandler.as" />
+        <option value="$PROJECT_DIR$/buildfile" />
+        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/model/StopwatchTimer.as" />
+        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/model/StopwatchStateUpdatedEvent.as" />
+        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/controller/ToggleStopwatchStateEvent.as" />
+        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/controller/StopwatchController.as" />
+        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/model/StopwatchState.as" />
+        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/view/StartStopButton.mxml" />
+        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/view/StartStopButtonMediator.as" />
+        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/configuration/StopwatchConfiguration.as" />
+        <option value="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/FlickrGalleryLifetime.as" />
+        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/StopwatchSampleApp.mxml" />
         <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorExtension.as" />
         <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/map/MediatorMapImpl.as" />
-        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/detector/DefaultMediatorDetector.as" />
-        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorDetector.as" />
-        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/DefaultMediatorDetector.as" />
-        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/Reflector.as" />
-        <option value="$PROJECT_DIR$/todo.markdown" />
-        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/helpers/EventBasedDispatcherError.as" />
-        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/helpers/EventClassHelper.as" />
-        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/dispatcher/EventBasedDispatcher.as" />
-        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/StopwatchSampleApp.mxml" />
-        <option value="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ReflectionConfiguration.as" />
-        <option value="$PROJECT_DIR$/buildfile" />
+        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/StopwatchSampleAppLifetime.as" />
+        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/view/StartStopButtonObserver.as" />
+        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/view/StartStopButtonUpdater.as" />
       </list>
     </option>
   </component>
@@ -441,62 +470,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hookableSuspenders" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlickrGallerySample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlickrGallerySample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -508,7 +481,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
+              <option name="myItemId" value="StopwatchSampleApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -518,7 +503,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
+              <option name="myItemId" value="StopwatchSampleApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -526,97 +511,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fixtures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reflection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fixtures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reflection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reflection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -630,7 +525,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
+              <option name="myItemId" value="StopwatchSampleApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -639,96 +534,112 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dispatcher" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvcs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="configuration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mediator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -774,16 +685,16 @@
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
-      <recent name="boiler.mvcs.mediator" />
-      <recent name="boiler.mvcs.displayInstanceFollower" />
-      <recent name="org.robotlegs.demos.imagegallery.controller" />
-      <recent name="org.robotlegs.demos.imagegallery.remote.services" />
-      <recent name="org.robotlegs.demos.imagegallery.configuration" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection" />
       <recent name="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection/controller/subNamespace" />
+    </key>
+    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="main.controller" />
+      <recent name="main.model" />
+      <recent name="boiler.mvcs.mediator" />
+      <recent name="boiler.mvcs.displayInstanceFollower" />
+      <recent name="org.robotlegs.demos.imagegallery.controller" />
     </key>
     <key name="com.intellij.javascript.flex.refactoring.moveClass.FlexMoveClassDialog.target_package">
       <recent name="boiler.reflection.helpers" />
@@ -807,7 +718,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Flex.BoilerFlickrGallery">
+  <component name="RunManager" selected="Flex.StopwatchSampleApp.swf">
     <configuration default="false" name="Sample" type="FlexRunConfigurationType" factoryName="Flex" temporary="true" browser_family="FIREFOX" debugger_sdk="flex_sdk_3.5.0.12683 (player 9.0)" html_or_swf_file_path="$PROJECT_DIR$/out/production/TimeAppSample/_Sample.swf" launcher_type="Player" main_class_name="Sample" module_name="TimeAppSample" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
       <RunnerSettings RunnerId="FlexDebugRunner" />
       <RunnerSettings RunnerId="FlexRunner" />
@@ -942,6 +853,10 @@
       </method>
     </configuration>
     <configuration default="false" name="StopwatchSampleApp.swf" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="$PROJECT_DIR$/out/production/StopwatchSampleApp/StopwatchSampleApp.swf" launcher_type="Player" main_class_name="" module_name="StopwatchSampleApp" player_path="/Applications/Flash Player Debugger.app" run_mode="HtmlOrSwfFile" run_trusted="false" url_to_launch="http://">
+      <RunnerSettings RunnerId="FlexDebugRunner" />
+      <RunnerSettings RunnerId="FlexRunner" />
+      <ConfigurationWrapper RunnerId="FlexDebugRunner" />
+      <ConfigurationWrapper RunnerId="FlexRunner" />
       <method />
     </configuration>
     <list size="6">
@@ -994,9 +909,10 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276515" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="jenkinsBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24242425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24242425" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1011,7 +927,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946082" sideWeight="0.6693122" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276515" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1064,92 +979,100 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/configuration/FlickrGalleryConfiguration.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="48" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StopwatchSampleApp/src/main/view/StartStopButton.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/map/MediatorMap.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/FlickrGalleryLifetime.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="53" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/BoilerFlickrGallery.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="32" selection-start="568" selection-end="568" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/map/MediatorMapImpl.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorExtension.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/map/MediatorFactory.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="41" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todo.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/controller/ControllerDetector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/controller/ControllerExtension.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/controller/ControllerMethodMapper.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/dispatcher/Dispatcher.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/dispatcher/EventBasedNotifierConnector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/reflection/helpers/EventClassHelper.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.15441176" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/reflection/helpers/EventClassNotSimpleError.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="14" selection-start="400" selection-end="400" vertical-scroll-proportion="0.2647059" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/base/configuration/Configuration.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="906" selection-end="906" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/FlickrGallerySample.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="566" selection-end="566" vertical-scroll-proportion="0.13981359">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/dispatcher/EventBasedDispatcher.as">
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/mediator/MediatorDetector.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="37" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+        <state line="3" column="39" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/DispatcherConfiguration.as">
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/MVCSLifetime.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
+        <state line="13" column="41" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/configuration/ReflectionConfiguration.as">
+    <entry file="file://$PROJECT_DIR$/StopwatchSampleApp/src/main/StopwatchSampleAppLifetime.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="18" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0">
+        <state line="7" column="56" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buildfile">
+    <entry file="file://$PROJECT_DIR$/StopwatchSampleApp/src/main/configuration/StopwatchConfiguration.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="16" selection-start="1764" selection-end="1764" vertical-scroll-proportion="0.79766536">
+        <state line="12" column="21" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StopwatchSampleApp/src/main/controller/StopwatchController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StopwatchSampleApp/src/main/view/StartStopButtonMediator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="923" selection-end="977" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/StopwatchSampleApp/src/main/StopwatchSampleApp.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="16" selection-start="567" selection-end="567" vertical-scroll-proportion="0.5570839">
           <folding />
         </state>
       </provider>
@@ -1207,12 +1130,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>FlickrGallerySample</last-edited>
+          <last-edited>StopwatchSampleApp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

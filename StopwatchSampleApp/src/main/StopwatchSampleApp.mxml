@@ -1,21 +1,28 @@
 <?xml version="1.0"?>
-<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark">
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
+			   xmlns:view="main.view.*" xmlns:main="main.*">
 	<fx:Script><![CDATA[
 		]]></fx:Script>
+
+	<fx:Declarations>
+		<main:StopwatchSampleAppLifetime root="{this}" />
+
+	</fx:Declarations>
+
 
 	<s:layout>
 		<s:VerticalLayout/>
 	</s:layout>
 
-	<LapTime/>
-	<ElapsedTime/>
+	<!--<LapTime/>-->
+	<!--<ElapsedTime/>-->
 	<s:Group>
 		<s:layout>
 			<s:HorizontalLayout/>
 		</s:layout>
-		<StartStopButton />
-		<LapResetButton />
+		<view:StartStopButton />
+		<!--<LapResetButton />-->
 	</s:Group>
-	<LapTimes />
+	<!--<LapTimes />-->
 
 </s:Application>

@@ -3,7 +3,7 @@ require 'buildr/as3'
 # Don't see the point in language subdirs on this project 
 boiler_layout = Layout.new
 boiler_layout[:source, :main, :as3] = 'src/main'
-boiler_layout[:source, :test, :as3] = 'src/test'
+boiler_layout[:source, :test, :as3] = 'src/SkipyDeDooDah'
 
 vendor_layout = Layout.new
 vendor_layout[:source, :main, :as3] = 'src'
@@ -14,7 +14,7 @@ repositories.remote <<
     "http://repo2.maven.org/maven2"
 
 desc "Robotlegs inspired, responsibility-oriented-configuration framework and MVCS reference implementation."
-define "Boiler_Project", :layout => boiler_layout do
+define "BoilerProject", :layout => boiler_layout do
 
   # Do i need to build against 4 for 4 and 4.5 for 4.5? I guess I probably do. I wonder how I instruct buildr to do that
   DEFAULT_SDK = FlexSDK.new("4.5.1.21328")
@@ -41,6 +41,7 @@ define "Boiler_Project", :layout => boiler_layout do
     compile.with projects("vendor:SwiftSuspenders")
     compile.using :compc
     package :swc
+    doc.options[:flexsdk] = DEFAULT_SDK
   end
 
   define "Boiler" do
@@ -48,8 +49,8 @@ define "Boiler_Project", :layout => boiler_layout do
     compile.with projects("HookableSuspenders")
     compile.using :compc
 
-    #skip tests
-    test.compile.using :javac
+    # no more doc options yet.... bummer.
+    doc.options[:flexsdk] = DEFAULT_SDK
 
     package :swc
   end

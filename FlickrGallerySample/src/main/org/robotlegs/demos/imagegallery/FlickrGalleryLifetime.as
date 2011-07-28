@@ -11,16 +11,16 @@ package org.robotlegs.demos.imagegallery {
 			addConfigurationHandler(FlickrGalleryConfiguration);
 		}
 
-		private var _root:DisplayObject;
-
 		public function set root(root:DisplayObject):void {
-			if (_root != null)
+			if (hasMapping(DisplayObject))
 				return;
 
-			_root = root;
-			
 			mapValue(DisplayObject, root);
 			live();
+		}
+
+		public function get root():DisplayObject {
+			return getInstance(DisplayObject);
 		}
 
 	}
