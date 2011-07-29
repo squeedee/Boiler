@@ -33,8 +33,6 @@ package org.robotlegs.demos.imagegallery.views.mediators {
 
 			view.text = "interestingness";
 
-			// todo: it would be nice if notifier was a better version of event dispatcher with the type detection magic built in
-			// todo: better still, use signals
 			notifier.addEventListener(SearchGalleryEvent.SEARCH, handleSearch);
 
 			view.visible = view.includeInLayout = service.searchAvailable;

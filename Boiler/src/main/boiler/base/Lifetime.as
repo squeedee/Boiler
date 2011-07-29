@@ -9,39 +9,24 @@ package boiler.base {
 	 * architecture can be built out of a DIContainer that supports pre-post hooks and a simple configuration
 	 * scheme.
 	 *
-	 * By design, you should not add methods to Lifetime. Instead extend lifetime and during construction, add
-	 * configuration handlers for extension points to the framework.
+	 * By design, you cannot add methods to Lifetime
+	 *
+	 * To extend the framework, use Initialisers and let the end user (app developer) choose to include them.
 	 *
 	 * In avoiding methods, you leave other frameworks and consumers the opportunity to add extensions of their own
 	 * without running into multiple-inheritence issues. For more details, see the Boiler documentation and website.
 	 */
-	public class Lifetime extends HookableInjector {
+	public final class Lifetime extends HookableInjector {
 		private var configurationHandlers:ConfigurationCollection;
+
+		private var _initializers:Array;
 
 		public function Lifetime(xmlConfig:XML = null) {
 			super(xmlConfig);
+
 			mapValue(Lifetime, this);
 			configurationHandlers = new ConfigurationCollection(this);
-		}
 
-		/**
-		 * Framework developers should not call this method.
-		 *
-		 * This method is for the application developer to call when they are satisfied their configuration is ready.
-		 *
-		 * This method can only ever be called once per instance of Lifetime.
-		 *
-		 * @example
-		 *   public class MyAppLifetime extends FrameworkLifetime {
-		 *	 public function MyAppLifetime() {
-		 *	   super()
-		 *	   addConfigurationHandler(MyAppConfiguration);
-		 *	   live();
-		 *	 }
-		 *   }
-		 */
-		public function live():void {
-			configurationHandlers.startup();
 		}
 
 		/**
@@ -80,6 +65,38 @@ package boiler.base {
 		public function addConfigurationHandler(type:Class):Lifetime {
 			configurationHandlers.add(type);
 			return this;
+		}
+
+
+		private function runInitialisers():void {
+			for each (var initializer:* in _initializers) {
+				ensureInstance(initializer).run(this);
+			}
+		}
+
+		private function ensureInstance(initializer:*):Initializer {
+			if (!(initializer is Class))
+				return initializer;
+
+			return Initializer(new initializer());
+		}
+
+
+		public function get initializers():Array {
+			return _initializers;
+		}
+
+		public function set initializers(value:Array):void {
+			if (_initializers != null)
+				return;
+
+			_initializers = value;
+			runInitialisers();
+			startApp();
+		}
+
+		private function startApp():void {
+			configurationHandlers.startup();
 		}
 
 	}

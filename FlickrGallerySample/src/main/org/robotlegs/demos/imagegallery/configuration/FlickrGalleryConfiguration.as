@@ -30,5 +30,23 @@ package org.robotlegs.demos.imagegallery.configuration {
 			lifetime.mapClass(GallerySearchMediator, GallerySearchMediator);
 			lifetime.mapClass(GalleryLabelMediator, GalleryLabelMediator);
 		}
+
+		override public function teardown():void {
+			// mediators
+			lifetime.unmap(GalleryLabelMediator);
+			lifetime.unmap(GallerySearchMediator);
+			lifetime.unmap(GalleryViewMediator);
+
+			// services
+			lifetime.unmap(IGalleryImageService);
+
+			// models
+			lifetime.unmap(GalleryModel);
+
+			// Controllers
+			lifetime.unmap(GalleryController);
+			lifetime.unmap(SelectedImageController);
+
+		}
 	}
 }

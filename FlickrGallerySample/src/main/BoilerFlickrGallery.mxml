@@ -15,11 +15,15 @@
 -->
 <s:Application
 		xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
-		xmlns:mx="library://ns.adobe.com/flex/mx"
-		xmlns:imagegallery="org.robotlegs.demos.imagegallery.*"
-		xmlns:components="org.robotlegs.demos.imagegallery.views.components.*"
+		xmlns:components="org.robotlegs.demos.imagegallery.views.components.*" xmlns:base="boiler.base.*"
 		maxWidth="520"
 		>
+
+	<fx:Script><![CDATA[
+		import boiler.steam.SteamInitializer;
+
+		import org.robotlegs.demos.imagegallery.FlickrGalleryInitializer;
+		]]></fx:Script>
 
 	<s:layout>
 		<s:VerticalLayout paddingBottom="10"
@@ -29,7 +33,7 @@
 	</s:layout>
 
 	<fx:Declarations>
-		<imagegallery:FlickrGalleryLifetime root="{this}"/>
+		<base:Lifetime initializers="{[SteamInitializer,new FlickrGalleryInitializer(this)]}" />
 	</fx:Declarations>
 
 	<components:GalleryHeader/>
