@@ -22,17 +22,17 @@ Steam Docs: http://github.com/squeedee/Boiler/blob/master/steam_doc.textile
 
 Here's a poem:
 
-    Invert Control.
+      Invert Control.
  
-  If you're writing a framework, and you don't want it to force people into a hole.
-    Invert Control.
+    If you're writing a framework, and you don't want it to force people into a hole.
+      Invert Control.
  
-  When you think it's finished but something nags you about a classes role
-    Invert Control
+    When you think it's finished but something nags you about a classes role
+      Invert Control
 
-  When having to extend framework classes is not your goal...
+    When having to extend framework classes is not your goal...
 
-  **I N V E R T C O N T R O L**
+      I N V E R T  C O N T R O L
 
 # Architecture
 
