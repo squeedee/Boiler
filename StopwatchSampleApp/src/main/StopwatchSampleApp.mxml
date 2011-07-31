@@ -2,11 +2,13 @@
 <s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" xmlns:s="library://ns.adobe.com/flex/spark"
 			   xmlns:view="main.view.*" xmlns:main="main.*" xmlns:base="boiler.base.*">
 	<fx:Script><![CDATA[
-		import boiler.steam.SteamInitializer;
+		import boiler.steam.SteamConfiguration;
+		import boiler.steam.Steam;
+		import boiler.steam.SteamConfiguration;
 		]]></fx:Script>
 
 	<fx:Declarations>
-		<base:Lifetime initializers="{[SteamInitializer,new StopwatchSampleAppInitializer(this)]}" />
+		<base:Lifetime initializers="{[SteamConfiguration,new StopwatchSampleAppInitializer(this)]}" />
 
 	</fx:Declarations>
 

@@ -15,7 +15,7 @@ package main {
 		}
 
 		public function run(lifetime:Lifetime):void {
-			lifetime.addConfigurationHandler(StopwatchConfiguration);
+			lifetime.runConfiguration(StopwatchConfiguration);
 			lifetime.mapValue(DisplayObject, root);
 		}
 	}

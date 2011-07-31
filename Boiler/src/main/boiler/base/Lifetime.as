@@ -11,27 +11,23 @@ package boiler.base {
 	 *
 	 * By design, you cannot add methods to Lifetime
 	 *
-	 * To extend the framework, use Initialisers and let the end user (app developer) choose to include them.
+	 * To extend the framework, use Configurations and let the end user (app developer) choose to include them.
 	 *
 	 * In avoiding methods, you leave other frameworks and consumers the opportunity to add extensions of their own
 	 * without running into multiple-inheritence issues. For more details, see the Boiler documentation and website.
 	 */
 	public final class Lifetime extends HookableInjector {
-		private var configurationHandlers:ConfigurationCollection;
-
-		private var _initializers:Array;
+		private var configurations:Configurations;
+		private var _initialConfiguration:*;
 
 		public function Lifetime(xmlConfig:XML = null) {
 			super(xmlConfig);
-
 			mapValue(Lifetime, this);
-			configurationHandlers = new ConfigurationCollection(this);
+			configurations = new Configurations(this);
 
 		}
 
 		/**
-		 * Framework developers should not call this method
-		 *
 		 * This method is for the application developer to call when they want to clean up their app/module.
 		 *
 		 * You should use this, it can give all active members of the system a chance to release handlers and garbage
@@ -40,64 +36,36 @@ package boiler.base {
 		 * Do not use it for 'shutdown' procedures such as closing connections/streams etc. You should set up a framework
 		 * level solution such as a shutdown command, which when finished (possibly asynchronously) invokes this method.
 		 *
-		 * This method can only ever be called once per instance of lifetime, and it must be called after #live
+		 * This method can only ever be called once per instance of lifetime.
+		 *
+		 * Framework developers should not call this method
 		 */
 		public function die():void {
-			configurationHandlers.teardown();
+			configurations.teardown();
 		}
 
-		/**
-		 * For everone's use.
-		 *
-		 * Add your configurations (before #live is called) here. They will be executed in the order they are added after
-		 * #live is called.
-		 *
-		 * Usually you will add configurations in your Lifetime's constructor, however you may wish to do so within
-		 * another configuration. If you do add a configuration within another configuration, it won't be run until the
-		 * end of the configuration stack. You can utilise this as a framework developer to add mapping/instance handlers
-		 * that run after application developer's handlers do.
-		 *
-		 * @todo better documentation of the configuration/startup/instance/mapping sequences.
-		 *
-		 * @param type Any class that implements the ConfigurationHandler interface.
-		 * @return this Liftime object, allowing for fluent use.
-		 */
-		public function addConfigurationHandler(type:Class):Lifetime {
-			configurationHandlers.add(type);
+		public function runConfiguration(configuration:*):Lifetime {
+			configurations.run(configuration);
 			return this;
 		}
 
-
-		private function runInitialisers():void {
-			for each (var initializer:* in _initializers) {
-				ensureInstance(initializer).run(this);
-			}
-		}
-
-		private function ensureInstance(initializer:*):Initializer {
-			if (!(initializer is Class))
-				return initializer;
-
-			return Initializer(new initializer());
-		}
-
-
-		public function get initializers():Array {
-			return _initializers;
-		}
-
-		public function set initializers(value:Array):void {
-			if (_initializers != null)
+		/**
+		 * Just to make Flex dev's life a little easier.
+		 * @param value
+		 */
+		public function set initialConfiguration(value:*):void {
+			if (_initialConfiguration == value)
 				return;
 
-			_initializers = value;
-			runInitialisers();
-			startApp();
+			if (value == null)
+				return;
+
+			_initialConfiguration = value;
+			configurations.run(_initialConfiguration);
 		}
 
-		private function startApp():void {
-			configurationHandlers.startup();
+		public function get initialConfiguration():* {
+			return _initialConfiguration;
 		}
-
 	}
 }

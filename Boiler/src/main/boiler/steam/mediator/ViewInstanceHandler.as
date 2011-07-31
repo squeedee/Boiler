@@ -5,7 +5,6 @@ package boiler.steam.mediator {
 
 	import flash.display.DisplayObject;
 	import flash.utils.Dictionary;
-	import flash.utils.getQualifiedClassName;
 
 	public class ViewInstanceHandler implements StageObserverHandler {
 

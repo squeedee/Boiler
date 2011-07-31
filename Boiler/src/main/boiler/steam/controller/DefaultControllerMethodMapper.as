@@ -1,7 +1,7 @@
 package boiler.steam.controller {
-	import boiler.steam.dispatcher.Dispatcher;
 	import boiler.reflection.Reflection;
 	import boiler.reflection.Reflector;
+	import boiler.steam.dispatcher.Dispatcher;
 
 	import flash.utils.getDefinitionByName;
 

@@ -1,5 +1,8 @@
 package org.robotlegs.demos.imagegallery.configuration {
 	import boiler.base.configuration.ConfigurationBase;
+	import boiler.steam.SteamConfiguration;
+
+	import flash.display.DisplayObject;
 
 	import org.robotlegs.demos.imagegallery.controller.GalleryController;
 	import org.robotlegs.demos.imagegallery.controller.SelectedImageController;
@@ -11,8 +14,16 @@ package org.robotlegs.demos.imagegallery.configuration {
 	import org.robotlegs.demos.imagegallery.views.mediators.GalleryViewMediator;
 
 	public class FlickrGalleryConfiguration extends ConfigurationBase {
+		private var _root:DisplayObject;
+
 
 		override public function startup():void {
+
+			// steam mediator pre-requisites
+			lifetime.mapValue(DisplayObject, _root);
+
+			// introduce steam
+			lifetime.runConfiguration(SteamConfiguration);
 
 			// controllers
 			lifetime.mapClass(GalleryController, GalleryController);
@@ -47,6 +58,19 @@ package org.robotlegs.demos.imagegallery.configuration {
 			lifetime.unmap(GalleryController);
 			lifetime.unmap(SelectedImageController);
 
+			// Steam mediator pre-requisites
+			lifetime.unmap(DisplayObject);
+			
 		}
+
+		public function get root():DisplayObject {
+			return _root;
+		}
+
+		public function set root(value:DisplayObject):void {
+			trace("A Set Root");
+			_root = value;
+		}
+
 	}
 }

@@ -1,9 +1,9 @@
 package boiler.steam.mediator {
 	import boiler.base.Lifetime;
-	import boiler.steam.mediator.map.MediatorFactory;
 	import boiler.reflection.ClassByInstanceCache;
 	import boiler.reflection.Reflection;
 	import boiler.reflection.Reflector;
+	import boiler.steam.mediator.map.MediatorFactory;
 
 	import flash.utils.getDefinitionByName;
 

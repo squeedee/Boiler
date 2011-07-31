@@ -1,12 +1,10 @@
 package boiler.steam.mediator {
 	import boiler.base.Lifetime;
-	import boiler.steam.mediator.MediatorDetector;
 	import boiler.steam.mediator.map.MediatorFactory;
 	import boiler.steam.mediator.map.MediatorMap;
 	import boiler.steam.stageObserver.StageObserver;
 
 	import flash.display.DisplayObject;
-	import flash.utils.getQualifiedClassName;
 
 	import hookableSuspenders.handlers.mapping.AfterMapClassHandler;
 
