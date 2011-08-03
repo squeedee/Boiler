@@ -61,7 +61,3 @@ All of this is possible because of the amazing work of:
   * SwiftSuspenders and Till.
   * Ruby On Rails and the team.
   * Ruby and the team.
-
-## Architecture
-
-![Layer Diagram](http://www.gliffy.com/pubdoc/2791221/L.png?1)
