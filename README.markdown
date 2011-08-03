@@ -5,7 +5,7 @@ Boiler begs you to avoid writing a framework that lets people extend framework c
 Steam is a reference framework emerging from Boiler
 You probably want to start by looking at Steam or the FlickrGallerySample 
 
-Steam Docs: http://github.com/squeedee/Boiler/blob/master/steam_doc.textile 
+[Steam Docs](http://github.com/squeedee/Boiler/blob/master/steam_doc.textile) 
 
 ## Boiler is about convention
 
@@ -50,6 +50,8 @@ Lots of WIP, so don't be suprised at:
   
   * The lack of tests (Im not a TDDer, that might turn you off to begin with)
   * Sanity.. I'm not sane.
+
+  [Current todo list](http://github.com/squeedee/Boiler/blob/master/todo.markdown)
 	
 ## Shoulders of giants.
 
