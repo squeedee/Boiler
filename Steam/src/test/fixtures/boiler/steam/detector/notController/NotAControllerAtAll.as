@@ -1,4 +1,4 @@
-package fixtures.mvcs.reflection.notController {
+package fixtures.boiler.steam.detector.notController {
 	import flash.events.Event;
 
 	/**

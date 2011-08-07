@@ -16,7 +16,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Boiler" />
+    <orderEntry type="module" module-name="Steam" />
   </component>
 </module>
 

@@ -4,11 +4,11 @@ package boiler.steam.controller {
 	import boiler.reflection.ReflectionBase;
 	import boiler.reflection.Reflector;
 
-	import fixtures.mvcs.reflection.ByClassNameController;
-	import fixtures.mvcs.reflection.ControllerByMetadata;
-	import fixtures.mvcs.reflection.controller.ControllerByNamespace;
-	import fixtures.mvcs.reflection.controller.subNamespace.ControllerByParentNamespace;
-	import fixtures.mvcs.reflection.notController.NotAControllerAtAll;
+	import fixtures.boiler.steam.detector.ByClassNameController;
+	import fixtures.boiler.steam.detector.ControllerByMetadata;
+	import fixtures.boiler.steam.detector.controller.ControllerByNamespace;
+	import fixtures.boiler.steam.detector.controller.subNamespace.ControllerByParentNamespace;
+	import fixtures.boiler.steam.detector.notController.NotAControllerAtAll;
 
 	import org.flexunit.asserts.assertFalse;
 	import org.hamcrest.assertThat;

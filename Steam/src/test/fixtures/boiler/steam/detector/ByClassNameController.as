@@ -1,4 +1,4 @@
-package fixtures.mvcs.reflection {
+package fixtures.boiler.steam.detector {
 	import flash.events.Event;
 
 	/**

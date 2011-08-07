@@ -1,4 +1,4 @@
-package fixtures.mvcs.reflection.controller.subNamespace {
+package fixtures.boiler.steam.detector.controller.subNamespace {
 	import flash.events.Event;
 
 	/**
