@@ -76,3 +76,5 @@ h4. Example
 *Note:* If you're a fan of 'commands' you can implement them by using controllers with one public method.
 
 h2. Mediator
+
+Gotta doc this. Look at the FlickrGallery for some examples.

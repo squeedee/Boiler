@@ -5,7 +5,7 @@ Boiler begs you to avoid writing a framework that lets people extend framework c
 Steam is a reference framework emerging from Boiler
 You probably want to start by looking at Steam or the FlickrGallerySample 
 
-[Steam Docs](http://github.com/squeedee/Boiler/blob/master/steam_doc.textile) 
+[Steam Docs](http://github.com/squeedee/Boiler/blob/master/Steam/README.textile)
 
 ## Boiler is about convention
 

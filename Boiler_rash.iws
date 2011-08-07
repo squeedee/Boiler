@@ -2,43 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10faf334-9a2c-49fc-9b7a-88c719405f03" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/SteamConfiguration.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/SteamConfiguration.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/configuration/ControllerConfiguration.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/configuration/ControllerConfiguration.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/configuration/DispatcherConfiguration.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/configuration/DispatcherConfiguration.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/configuration/MediatorConfiguration.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/configuration/MediatorConfiguration.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/configuration/NotifierConfiguration.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/configuration/NotifierConfiguration.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/configuration/ReflectionConfiguration.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/configuration/ReflectionConfiguration.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/configuration/StageObserverConfiguration.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/configuration/StageObserverConfiguration.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/controller/ControllerDetector.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/controller/ControllerDetector.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/controller/ControllerExtension.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/controller/ControllerExtension.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/controller/ControllerMethodMapper.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/controller/ControllerMethodMapper.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/controller/DefaultControllerDetector.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/controller/DefaultControllerDetector.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/controller/DefaultControllerMethodMapper.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/controller/DefaultControllerMethodMapper.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/dispatcher/Dispatcher.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/dispatcher/Dispatcher.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/dispatcher/EventBasedDispatcher.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/dispatcher/EventBasedDispatcher.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/dispatcher/EventBasedNotifierConnector.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/dispatcher/EventBasedNotifierConnector.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/mediator/DefaultMediatorDetector.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/mediator/DefaultMediatorDetector.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/mediator/MediatorDetector.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/mediator/MediatorDetector.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/mediator/MediatorExtension.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/mediator/MediatorExtension.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/mediator/MediatorSugar.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/mediator/MediatorSugar.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/mediator/ViewInstanceHandler.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/mediator/ViewInstanceHandler.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/mediator/map/MediatorFactory.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/mediator/map/MediatorFactory.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/mediator/map/MediatorMap.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/mediator/map/MediatorMap.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/mediator/map/MediatorMapImpl.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/mediator/map/MediatorMapImpl.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/notifier/NotifierExtension.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/notifier/NotifierExtension.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/stageObserver/StageObserver.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/stageObserver/StageObserver.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/stageObserver/StageObserverHandler.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/stageObserver/StageObserverHandler.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/stageObserver/StageObserverImpl.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/stageObserver/StageObserverImpl.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/test/boiler/steam/controller/DefaultControllerDetectorCase.as" afterPath="$PROJECT_DIR$/Steam/src/test/boiler/steam/controller/DefaultControllerDetectorCase.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection/ByClassNameController.as" afterPath="$PROJECT_DIR$/Steam/src/test/fixtures/boiler/steam/detector/ByClassNameController.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection/ControllerByMetadata.as" afterPath="$PROJECT_DIR$/Steam/src/test/fixtures/boiler/steam/detector/ControllerByMetadata.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection/controller/ControllerByNamespace.as" afterPath="$PROJECT_DIR$/Steam/src/test/fixtures/boiler/steam/detector/controller/ControllerByNamespace.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection/controller/subNamespace/ControllerByParentNamespace.as" afterPath="$PROJECT_DIR$/Steam/src/test/fixtures/boiler/steam/detector/controller/subNamespace/ControllerByParentNamespace.as" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection/notController/NotAControllerAtAll.as" afterPath="$PROJECT_DIR$/Steam/src/test/fixtures/boiler/steam/detector/notController/NotAControllerAtAll.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/steam_doc.textile" afterPath="$PROJECT_DIR$/Steam/README.textile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/SwiftSuspenders" afterPath="$PROJECT_DIR$/vendor/SwiftSuspenders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler_rash.iws" afterPath="$PROJECT_DIR$/Boiler_rash.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrGallerySample/FlickrGallerySample.iml" afterPath="$PROJECT_DIR$/FlickrGallerySample/FlickrGallerySample.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Steam/Steam.iml" afterPath="$PROJECT_DIR$/Steam/Steam.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.markdown" afterPath="$PROJECT_DIR$/README.markdown" />
     </list>
     <ignored path="Minilegs_rash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,7 +79,53 @@
     <favorites_list name="Minilegs_rash" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="LICENSE" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.markdown" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="53" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.textile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Steam/README.textile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="79" column="60" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.9031008">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="todo.markdown" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/todo.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="2" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -131,8 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/view/StartStopButtonMediator.as" />
-        <option value="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/views/mediators/GalleryLabelMediator.as" />
         <option value="$PROJECT_DIR$/Boiler/src/main/boiler/steam/SteamConfiguration.as" />
         <option value="$PROJECT_DIR$/Boiler/src/main/boiler/base/errors/StartupCanOnlyBeRunOnceError.as" />
         <option value="$PROJECT_DIR$/Boiler/src/main/boiler/steam/SteamInitializer.as" />
@@ -147,6 +157,8 @@
         <option value="$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/ReflectionBase.as" />
         <option value="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/views/components/GalleryHeader.mxml" />
         <option value="$PROJECT_DIR$/BoilerReflection/src/test/boiler/reflection/ReflectionCase.as" />
+        <option value="$PROJECT_DIR$/README.markdown" />
+        <option value="$PROJECT_DIR$/Steam/README.textile" />
       </list>
     </option>
   </component>
@@ -394,6 +406,46 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Boiler_rash" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Steam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlickrGallerySample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BoilerReflection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -738,7 +790,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1174" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Robotlegs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916266" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="489" y="224" width="1240" height="674" />
@@ -748,7 +800,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276515" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="jenkinsBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23958333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23958333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -814,31 +866,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/base/Configurations.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/base/Lifetime.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="53" selection-start="998" selection-end="998" vertical-scroll-proportion="0.42690814" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/remote/services/GalleryLoadedEvent.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="40" selection-start="320" selection-end="320" vertical-scroll-proportion="0.13583441" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/configuration/FlickrGalleryConfiguration.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="29" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/views/mediators/GallerySearchMediator.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="712" selection-end="712" vertical-scroll-proportion="0.37138927" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BoilerReflection/BoilerReflection.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.29718456">
@@ -912,6 +939,41 @@
     <entry file="file://$PROJECT_DIR$/BoilerReflection/src/test/boiler/reflection/ReflectionCase.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="38" selection-start="423" selection-end="423" vertical-scroll-proportion="0.16066213">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todo.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="2" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="53" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Steam/README.textile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="60" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.9031008">
           <folding />
         </state>
       </provider>
