@@ -2,27 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10faf334-9a2c-49fc-9b7a-88c719405f03" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/base/Configurations.as" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/SteamConfiguration.as" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/base/ConfigurationCollection.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/base/Initializer.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/base/errors/ConfigurationCannotBeAddedError.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/base/errors/StartupCanOnlyBeRunOnceError.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/base/errors/TeardownCanOnlyRunAfterStartupError.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/SteamInitializer.as" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/FlickrGalleryInitializer.as" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BoilerReflection/BoilerReflection.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Steam/Steam.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/ClassByInstanceCache.as" afterPath="$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/ClassByInstanceCache.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/Reflection.as" afterPath="$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/Reflection.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/ReflectionBase.as" afterPath="$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/ReflectionBase.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/Reflector.as" afterPath="$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/Reflector.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/helpers/EventClassHelper.as" afterPath="$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/helpers/EventClassHelper.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/reflection/helpers/EventClassNotSimpleError.as" afterPath="$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/helpers/EventClassNotSimpleError.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/test/boiler/reflection/ReflectionCase.as" afterPath="$PROJECT_DIR$/BoilerReflection/src/test/boiler/reflection/ReflectionCase.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/test/fixtures/reflection/EmptyClass.as" afterPath="$PROJECT_DIR$/BoilerReflection/src/test/boiler/fixtures/boiler/reflection/EmptyClass.as" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Boiler/src/test/fixtures/reflection/EmptyClassWithMetadata.as" afterPath="$PROJECT_DIR$/BoilerReflection/src/test/boiler/fixtures/boiler/reflection/EmptyClassWithMetadata.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/SwiftSuspenders" afterPath="$PROJECT_DIR$/vendor/SwiftSuspenders" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/base/Lifetime.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/base/Lifetime.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/configuration/MediatorConfiguration.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/configuration/MediatorConfiguration.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/controller/DefaultControllerMethodMapper.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/controller/DefaultControllerMethodMapper.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/dispatcher/EventBasedDispatcher.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/dispatcher/EventBasedDispatcher.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/mediator/DefaultMediatorDetector.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/mediator/DefaultMediatorDetector.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/mediator/MediatorExtension.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/mediator/MediatorExtension.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/mediator/ViewInstanceHandler.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/mediator/ViewInstanceHandler.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/notifier/NotifierExtension.as" afterPath="$PROJECT_DIR$/Boiler/src/main/boiler/steam/notifier/NotifierExtension.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler/Boiler.iml" afterPath="$PROJECT_DIR$/Boiler/Boiler.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler_rash.ipr" afterPath="$PROJECT_DIR$/Boiler_rash.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler_rash.iws" afterPath="$PROJECT_DIR$/Boiler_rash.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrGallerySample/src/main/BoilerFlickrGallery.mxml" afterPath="$PROJECT_DIR$/FlickrGallerySample/src/main/BoilerFlickrGallery.mxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/configuration/FlickrGalleryConfiguration.as" afterPath="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/configuration/FlickrGalleryConfiguration.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/views/components/GalleryHeader.mxml" afterPath="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/views/components/GalleryHeader.mxml" />
     </list>
     <ignored path="Minilegs_rash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,8 +83,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -98,10 +93,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FlickrGalleryConfiguration.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/configuration/FlickrGalleryConfiguration.as">
+      <file leaf-file-name="Reflector.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/Reflector.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="44" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.8538163">
+            <state line="13" column="46" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectionBase.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/ReflectionBase.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BoilerFlickrGallery.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/BoilerFlickrGallery.mxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="23" selection-start="871" selection-end="871" vertical-scroll-proportion="-16.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GalleryHeader.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/views/components/GalleryHeader.mxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="-16.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectionCase.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BoilerReflection/src/test/boiler/reflection/ReflectionCase.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="14" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.5958292">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultControllerDetector.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/steam/controller/DefaultControllerDetector.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerExtension.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/steam/controller/ControllerExtension.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Reflection.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/Reflection.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassByInstanceCache.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/ClassByInstanceCache.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,10 +192,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/model/StopwatchTimeModel.as" />
-        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/view/ElapsedTimeMediator.as" />
-        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/view/ElapsedTime.mxml" />
-        <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/configuration/StopwatchConfiguration.as" />
         <option value="$PROJECT_DIR$/StopwatchSampleApp/src/main/view/StartStopButtonMediator.as" />
         <option value="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/views/mediators/GalleryLabelMediator.as" />
         <option value="$PROJECT_DIR$/Boiler/src/main/boiler/steam/SteamConfiguration.as" />
@@ -141,6 +204,10 @@
         <option value="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/FlickrGalleryConfiguration.as" />
         <option value="$PROJECT_DIR$/FlickrGallerySample/src/main/BoilerFlickrGallery.mxml" />
         <option value="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/configuration/FlickrGalleryConfiguration.as" />
+        <option value="$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/Reflector.as" />
+        <option value="$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/ReflectionBase.as" />
+        <option value="$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/views/components/GalleryHeader.mxml" />
+        <option value="$PROJECT_DIR$/BoilerReflection/src/test/boiler/reflection/ReflectionCase.as" />
       </list>
     </option>
   </component>
@@ -451,46 +518,8 @@
               <option name="myItemId" value="imagegallery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Boiler_rash" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FlickrGallerySample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="org" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="robotlegs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="imagegallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="remote" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -525,6 +554,190 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="imagegallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlickrGallerySample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="robotlegs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="imagegallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BoilerReflection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -548,8 +761,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="StopwatchSampleApp" />
+              <option name="myItemId" value="BoilerReflection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BoilerReflection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reflection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -571,10 +826,15 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/notifier" />
+      <recent name="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection" />
+      <recent name="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection/controller/subNamespace" />
+    </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
       <recent name="main.model" />
       <recent name="boiler.steam.mediator" />
@@ -582,26 +842,21 @@
       <recent name="boiler.mvcs.mediator" />
       <recent name="boiler.mvcs.displayInstanceFollower" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/notifier" />
-      <recent name="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection" />
-      <recent name="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection/controller/subNamespace" />
-    </key>
     <key name="com.intellij.javascript.flex.refactoring.moveClass.FlexMoveClassDialog.target_package">
+      <recent name="boiler.reflection" />
       <recent name="boiler.reflection.helpers" />
       <recent name="boiler.mvcs.mediator" />
       <recent name="boiler.mvcs.mediator.detector" />
       <recent name="boiler.mvcs.mediator.map" />
-      <recent name="boiler.mvcs.configuration" />
     </key>
     <key name="JSExtractSuperBase.RECENT_KEYS">
       <recent name="boiler.mvcs.displayInstanceFollower" />
       <recent name="boiler.base.reflection" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="boiler.reflection" />
       <recent name="boiler.mvcs" />
       <recent name="" />
-      <recent name="boiler.reflection" />
       <recent name="boiler" />
       <recent name="boiler.base.reflection" />
     </key>
@@ -609,7 +864,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Flex.BoilerFlickrGallery">
+  <component name="RunManager" selected="FlexUnit.ReflectionCase">
     <configuration default="false" name="Sample" type="FlexRunConfigurationType" factoryName="Flex" temporary="true" browser_family="FIREFOX" debugger_sdk="flex_sdk_3.5.0.12683 (player 9.0)" html_or_swf_file_path="$PROJECT_DIR$/out/production/TimeAppSample/_Sample.swf" launcher_type="Player" main_class_name="Sample" module_name="TimeAppSample" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
       <RunnerSettings RunnerId="FlexDebugRunner" />
       <RunnerSettings RunnerId="FlexRunner" />
@@ -624,10 +879,8 @@
       <ConfigurationWrapper RunnerId="FlexRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="ReflectionCase" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" temporary="true" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="boiler.reflection.ReflectionCase" debugger_sdk="Module SDK" html_or_swf_file_path="$PROJECT_DIR$/out/test/Boiler/_flexunit.swf" launcher_type="Player" main_class_name="" method_name="" module_name="Boiler" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="7832" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="7852" url_to_launch="http://">
-      <RunnerSettings RunnerId="FlexDebugRunner" />
+    <configuration default="false" name="ReflectionCase" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" temporary="true" adl_options="" air_descriptor_path="" air_program_params="" air_publisher_id="" air_root_dir_path="" air_run_mode="AppDescriptor" browser_family="FIREFOX" class_name="boiler.reflection.ReflectionCase" debugger_sdk="Module SDK" html_or_swf_file_path="$PROJECT_DIR$/out/test/BoilerReflection/_flexunit.swf" launcher_type="Player" main_class_name="" method_name="" module_name="BoilerReflection" output_log_level="" package_name="" player_path="/Applications/Flash Player Debugger.app" port="7832" run_mode="HtmlOrSwfFile" run_trusted="false" scope="Class" socket_policy_port="7852" url_to_launch="http://">
       <RunnerSettings RunnerId="FlexRunner" />
-      <ConfigurationWrapper RunnerId="FlexDebugRunner" />
       <ConfigurationWrapper RunnerId="FlexRunner" />
       <method />
     </configuration>
@@ -667,6 +920,15 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Boiler" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+        <option name="PhingTarget" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -678,15 +940,6 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-        <option name="PhingTarget" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" browser_family="FIREFOX" debugger_sdk="Module SDK" html_or_swf_file_path="" launcher_type="Player" main_class_name="" module_name="Boiler" player_path="/Applications/Flash Player Debugger.app" run_mode="MainClass" run_trusted="false" url_to_launch="http://">
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -794,16 +1047,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1174" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Robotlegs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916266" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="489" y="224" width="1240" height="674" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276515" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="jenkinsBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2405303" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23958333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -812,9 +1066,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977018" sideWeight="0.7594697" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32804233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="100" y="122" width="1240" height="674" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24532336" sideWeight="0.6723485" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276515" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946082" sideWeight="0.6693122" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -870,112 +1123,104 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/controller/SelectImageEvent.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="43" selection-start="190" selection-end="190" vertical-scroll-proportion="0.07772021" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/base/configuration/ConfigurationBase.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="25" selection-start="58" selection-end="58" vertical-scroll-proportion="0.014605648">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/steam/configuration/ReflectionConfiguration.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="58" selection-start="468" selection-end="468" vertical-scroll-proportion="0.21345407">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/steam/configuration/NotifierConfiguration.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="0.21345407">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/FlickrGallerySample.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="521" selection-end="521" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Adobe/flex_sdk_4.1.0.16076/frameworks/projects/framework/src/mx/utils/LoaderUtil.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="3583" selection-end="3583" vertical-scroll-proportion="0.3324709">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Adobe/flex_sdk_4.1.0.16076/frameworks/projects/framework/src/mx/managers/SystemManager.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="682" column="0" selection-start="20460" selection-end="20460" vertical-scroll-proportion="0.3324709">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HookableSuspenders/src/main/hookableSuspenders/HookableInjector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="17" selection-start="586" selection-end="586" vertical-scroll-proportion="0.077619664">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/steam/SteamConfiguration.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="567" selection-end="567" vertical-scroll-proportion="0.2522639">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/base/Configurations.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="35" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0">
+        <state line="31" column="35" selection-start="983" selection-end="983" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/base/Lifetime.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="53" selection-start="998" selection-end="998" vertical-scroll-proportion="0.42690814" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/remote/services/GalleryLoadedEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="40" selection-start="320" selection-end="320" vertical-scroll-proportion="0.13583441" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/configuration/FlickrGalleryConfiguration.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="29" selection-start="1409" selection-end="1409" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/views/mediators/GallerySearchMediator.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="712" selection-end="712" vertical-scroll-proportion="0.37138927" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BoilerReflection/BoilerReflection.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.29718456">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/base/configuration/Configuration.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1121" selection-end="1121" vertical-scroll-proportion="0.23285899">
+        <state line="12" column="36" selection-start="526" selection-end="526" vertical-scroll-proportion="0.04692388">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/reflection/ReflectionBase.as">
+    <entry file="file://$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/ClassByInstanceCache.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="32" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/steam/controller/DefaultControllerDetector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/steam/controller/ControllerExtension.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/Reflector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="46" selection-start="413" selection-end="413" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/Reflection.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/ReflectionBase.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/BoilerFlickrGallery.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="4" selection-start="966" selection-end="966" vertical-scroll-proportion="0.66088116">
+        <state line="30" column="23" selection-start="871" selection-end="871" vertical-scroll-proportion="-16.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Boiler/src/main/boiler/base/Lifetime.as">
+    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/views/components/GalleryHeader.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="53" selection-start="998" selection-end="998" vertical-scroll-proportion="0.42690814">
+        <state line="26" column="0" selection-start="663" selection-end="663" vertical-scroll-proportion="-16.25">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/remote/services/GalleryLoadedEvent.as">
+    <entry file="file://$PROJECT_DIR$/BoilerReflection/src/test/boiler/reflection/ReflectionCase.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="40" selection-start="320" selection-end="320" vertical-scroll-proportion="0.13583441">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FlickrGallerySample/src/main/org/robotlegs/demos/imagegallery/configuration/FlickrGalleryConfiguration.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="44" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.8538163">
+        <state line="52" column="14" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.5958292">
           <folding />
         </state>
       </provider>
@@ -1033,7 +1278,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>StopwatchSampleApp</last-edited>
+          <last-edited>BoilerReflection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

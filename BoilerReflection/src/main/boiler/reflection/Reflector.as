@@ -1,12 +1,7 @@
 package boiler.reflection {
-	import boiler.base.*;
-
 	import flash.utils.Dictionary;
 
 	public class Reflector {
-
-		[Inject]
-		public var lifetime:Lifetime;
 
 		private var reflections:Dictionary = new Dictionary(false);
 
@@ -15,7 +10,7 @@ package boiler.reflection {
 		}
 
 		private function addReflection(type:Class):Reflection {
-			var reflection:Reflection = lifetime.getInstance(Reflection);
+			var reflection:Reflection = new ReflectionBase();
 			reflections[type] = reflection.reflect(type);
 			return reflection;
 		}

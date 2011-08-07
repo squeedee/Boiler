@@ -1,4 +1,5 @@
 package boiler.reflection {
+	import boiler.reflection.*;
 	import flash.utils.describeType;
 
 	import mx.utils.StringUtil;
@@ -10,6 +11,9 @@ package boiler.reflection {
 		private var _fqn:String;
 
 		public function reflect(type:Class):Reflection {
+			// todo this is clearly not the way to deal with types needing instances. Time to procure some help with the reflector..
+			// todo I like the look of the code in Fussy that does this. 
+
 			_source = type;
 
 			_type = describeType(type);

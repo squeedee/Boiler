@@ -88,8 +88,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Boiler/Boiler.iml" filepath="$PROJECT_DIR$/Boiler/Boiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BoilerReflection/BoilerReflection.iml" filepath="$PROJECT_DIR$/BoilerReflection/BoilerReflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/FlickrGallerySample/FlickrGallerySample.iml" filepath="$PROJECT_DIR$/FlickrGallerySample/FlickrGallerySample.iml" />
       <module fileurl="file://$PROJECT_DIR$/HookableSuspenders/HookableSuspenders.iml" filepath="$PROJECT_DIR$/HookableSuspenders/HookableSuspenders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Steam/Steam.iml" filepath="$PROJECT_DIR$/Steam/Steam.iml" />
       <module fileurl="file://$PROJECT_DIR$/vendor/SwiftSuspenders.iml" filepath="$PROJECT_DIR$/vendor/SwiftSuspenders.iml" />
     </modules>
   </component>

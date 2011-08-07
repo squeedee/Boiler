@@ -1,6 +1,6 @@
 package boiler.reflection {
-	import fixtures.reflection.EmptyClass;
-	import fixtures.reflection.EmptyClassWithMetadata;
+	import boiler.fixtures.boiler.reflection.EmptyClass;
+	import boiler.fixtures.boiler.reflection.EmptyClassWithMetadata;
 
 	import org.flexunit.asserts.assertFalse;
 	import org.flexunit.asserts.assertNotNull;

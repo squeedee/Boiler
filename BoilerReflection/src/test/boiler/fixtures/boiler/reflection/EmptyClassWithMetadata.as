@@ -1,4 +1,4 @@
-package fixtures.reflection {
+package boiler.fixtures.boiler.reflection {
 
 	/**
 	 * An empty class with class metadata
