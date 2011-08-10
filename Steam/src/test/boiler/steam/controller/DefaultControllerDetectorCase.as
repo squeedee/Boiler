@@ -32,71 +32,35 @@ package boiler.steam.controller {
 			classUnderTest = null;
 		}
 
-		[Test(
-				given="A class with a non leaf namespace 'controller'",
-				it="It detects a class with a non-leaf namespace 'controller'"
-				)]
-		public function ItDetectsAClassWIthANonLeafNamespaceController():void {
-			withControllerByParentNamespace();
+		[Test]
+		public function it_detects_a_controller_by_a_non_leaf_namespace():void {
+			classUnderTest = ControllerByParentNamespace;
 			assertThat(detector.isController(classUnderTest));
 		}
 
-		[Test(
-				given="A class with a leaf namespace 'controller'",
-				it="It detects a class with a leaf namespace 'controller'"
-				)]
-		public function ItDetectsAClassWIthALeafNamespaceController():void {
-			withControllerByNamespace();
+		[Test]
+		public function it_detects_a_controller_by_leaf_namespace():void {
+			classUnderTest = ControllerByNamespace;
 			assertThat(detector.isController(classUnderTest));
 		}
 
-		[Test(
-				given="A class with name that ends in 'Controller'",
-				it="It detects a class with a name ending in 'Controller'"
-				)]
-		public function ItDetectsAClassWithANameEndingInController():void {
-			withControllerByName();
+		[Test]
+		public function it_detects_a_controller_by_class_name_suffix():void {
+			classUnderTest = ByClassNameController;
 			assertThat(detector.isController(classUnderTest));
 		}
 
-		[Test(
-				given="A class marked with controller metadata",
-				it="It detects a class with '[Controller]' metadata"
-				)]
-		public function ItDetectsAClassWithControllerMetadata():void {
-			withControllerByMetadata();
+		[Test]
+		public function it_detects_a_controller_by_metadata():void {
+			classUnderTest = ControllerByMetadata;
 			assertThat(detector.isController(classUnderTest));
 		}
 
-		[Test(
-				given="A class that is not a controller",
-				it="It does not detect a class that is not a controller"
-				)]
-		public function ItDoesNotDetectAClassWithNoControllerNamespace():void {
-			withNotAControllerAtAll();
+		[Test]
+		public function it_does_not_detect_a_non_controller():void {
+			classUnderTest = NotAControllerAtAll;
 			assertFalse(detector.isController(classUnderTest));
 		}
 
-		//************** GIVENS ***************//
-
-		private function withControllerByMetadata():void {
-			classUnderTest = ControllerByMetadata;
-		}
-
-		private function withControllerByName():void {
-			classUnderTest = ByClassNameController;
-		}
-
-		private function withControllerByNamespace():void {
-			classUnderTest = ControllerByNamespace;
-		}
-
-		private function withNotAControllerAtAll():void {
-			classUnderTest = NotAControllerAtAll;
-		}
-
-		private function withControllerByParentNamespace():void {
-			classUnderTest = ControllerByParentNamespace;
-		}
 	}
 }
