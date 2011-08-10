@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10faf334-9a2c-49fc-9b7a-88c719405f03" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CommandExtension/src/test/fixtures/controller/DoesNotEndWithCommandSuffix.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CommandExtension/src/test/fixtures/controller/WithoutExecuteCommand.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CommandExtension/src/test/fixtures/notController/CommandWithoutNamespace.as" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Steam/src/test/fixtures/boiler/steam/detector/controller/subNamespace/ControllerByParentNamespace.as" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Boiler_rash.iws" afterPath="$PROJECT_DIR$/Boiler_rash.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommandExtension/src/main/boiler/commandExtension/DefaultCommandDetector.as" afterPath="$PROJECT_DIR$/CommandExtension/src/main/boiler/commandExtension/DefaultCommandDetector.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CommandExtension/src/test/boiler/commandExtension/DefaultCommandDetectorCase.as" afterPath="$PROJECT_DIR$/CommandExtension/src/test/boiler/commandExtension/DefaultCommandDetectorCase.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Steam/src/main/boiler/steam/controller/DefaultControllerDetector.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/controller/DefaultControllerDetector.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Steam/src/main/boiler/steam/mediator/MediatorDetector.as" afterPath="$PROJECT_DIR$/Steam/src/main/boiler/steam/mediator/MediatorDetector.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Steam/src/test/boiler/steam/controller/DefaultControllerDetectorCase.as" afterPath="$PROJECT_DIR$/Steam/src/test/boiler/steam/controller/DefaultControllerDetectorCase.as" />
     </list>
     <ignored path="Minilegs_rash.iws" />
@@ -79,46 +87,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DefaultCommandDetectorCase.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CommandExtension/src/test/boiler/commandExtension/DefaultCommandDetectorCase.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="10" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultControllerDetector.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Steam/src/main/boiler/steam/controller/DefaultControllerDetector.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultControllerDetectorCase.as" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Steam/src/test/boiler/steam/controller/DefaultControllerDetectorCase.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="2011" selection-end="2011" vertical-scroll-proportion="0.8362445">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultCommandDetector.as" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="DefaultCommandDetector.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CommandExtension/src/main/boiler/commandExtension/DefaultCommandDetector.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+            <state line="27" column="35" selection-start="910" selection-end="910" vertical-scroll-proportion="0.5625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reflector.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/Reflector.as">
+      <file leaf-file-name="ExampleCommand.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CommandExtension/src/test/fixtures/controller/ExampleCommand.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="309" selection-end="367" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,12 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/BoilerReflection/src/test/boiler/reflection/ReflectionCase.as" />
-        <option value="$PROJECT_DIR$/README.markdown" />
-        <option value="$PROJECT_DIR$/Steam/README.textile" />
-        <option value="$PROJECT_DIR$/todo.markdown" />
-        <option value="$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/helpers/EventClassHelper.as" />
-        <option value="$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/helpers/NamespaceHelper.as" />
         <option value="$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/Reflection.as" />
         <option value="$PROJECT_DIR$/CommandExtension/src/test/fixtures/ExampleEvent.as" />
         <option value="$PROJECT_DIR$/CommandExtension/src/test/fixtures/ExampleModel.as" />
@@ -155,9 +130,15 @@
         <option value="$PROJECT_DIR$/CommandExtension/src/test/fixtures/controller/ExampleCommand.as" />
         <option value="$PROJECT_DIR$/CommandExtension/src/test/boiler/commandExtension/CommandDetectorCase.as" />
         <option value="$PROJECT_DIR$/CommandExtension/src/main/boiler/commandExtension/CommandDetector.as" />
-        <option value="$PROJECT_DIR$/CommandExtension/src/main/boiler/commandExtension/DefaultCommandDetector.as" />
-        <option value="$PROJECT_DIR$/CommandExtension/src/test/boiler/commandExtension/DefaultCommandDetectorCase.as" />
+        <option value="$PROJECT_DIR$/CommandExtension/src/test/fixtures/notController/CommandWithoutNamespace.as" />
         <option value="$PROJECT_DIR$/Steam/src/test/boiler/steam/controller/DefaultControllerDetectorCase.as" />
+        <option value="$PROJECT_DIR$/CommandExtension/src/test/fixtures/controller/CommandWithoutExecute.as" />
+        <option value="$PROJECT_DIR$/CommandExtension/src/test/fixtures/controller/WithoutExecuteCommand.as" />
+        <option value="$PROJECT_DIR$/CommandExtension/src/test/fixtures/controller/DoesNotEndWithCommandSuffix.as" />
+        <option value="$PROJECT_DIR$/CommandExtension/src/test/boiler/commandExtension/DefaultCommandDetectorCase.as" />
+        <option value="$PROJECT_DIR$/Steam/src/main/boiler/steam/controller/DefaultControllerDetector.as" />
+        <option value="$PROJECT_DIR$/CommandExtension/src/main/boiler/commandExtension/DefaultCommandDetector.as" />
+        <option value="$PROJECT_DIR$/Steam/src/main/boiler/steam/mediator/MediatorDetector.as" />
       </list>
     </option>
   </component>
@@ -589,11 +570,119 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="fixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="boiler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="steam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="detector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Steam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="detector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Steam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="detector" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Steam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Steam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="boiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="steam" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mediator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -639,6 +728,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="fixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notController" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandExtension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixtures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Boiler_rash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CommandExtension" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="boiler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
@@ -659,7 +784,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="options.lastSelected" value="editing.templates" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
@@ -670,17 +795,17 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
-      <recent name="boiler.commandExtension" />
-      <recent name="fixtures" />
-      <recent name="main.model" />
-      <recent name="boiler.steam.mediator" />
-      <recent name="main.controller" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Boiler/src/main/boiler/mvcs/notifier" />
       <recent name="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection" />
       <recent name="$PROJECT_DIR$/Boiler/src/test/fixtures/mvcs/reflection/controller/subNamespace" />
+    </key>
+    <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
+      <recent name="fixtures.controller" />
+      <recent name="fixtures.notController" />
+      <recent name="boiler.commandExtension" />
+      <recent name="fixtures" />
+      <recent name="main.model" />
     </key>
     <key name="com.intellij.javascript.flex.refactoring.moveClass.FlexMoveClassDialog.target_package">
       <recent name="boiler.commandExtension" />
@@ -886,7 +1011,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Robotlegs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916266" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32936507" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936507" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Phing Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -900,8 +1025,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24514738" sideWeight="0.6706349" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32671958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24514738" sideWeight="0.6732804" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32671958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" x="489" y="224" width="1240" height="674" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946082" sideWeight="0.6693122" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -959,31 +1084,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Steam/src/main/boiler/steam/mediator/MediatorExtension.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="635" selection-end="635" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Steam/src/main/boiler/steam/controller/ControllerMethodMapper.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Steam/src/main/boiler/steam/controller/DefaultControllerMethodMapper.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="26" selection-start="734" selection-end="734" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Steam/src/main/boiler/steam/dispatcher/Dispatcher.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Steam/src/main/boiler/steam/dispatcher/EventBasedDispatcher.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Steam/src/main/boiler/steam/dispatcher/EventBasedNotifierConnector.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="0" selection-start="884" selection-end="884" vertical-scroll-proportion="0.93492407" />
@@ -1004,42 +1104,86 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CommandExtension/src/main/boiler/commandExtension/CommandDetector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="21" selection-start="52" selection-end="52" vertical-scroll-proportion="0.020632736">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CommandExtension/src/main/boiler/commandExtension/DefaultCommandDetector.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BoilerReflection/src/main/boiler/reflection/Reflector.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+        <state line="4" column="0" selection-start="87" selection-end="87" vertical-scroll-proportion="0.12552302">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandExtension/src/test/fixtures/notController/CommandWithoutNamespace.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="41" selection-start="187" selection-end="187" vertical-scroll-proportion="0.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Steam/src/test/boiler/steam/controller/DefaultControllerDetectorCase.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="706" selection-end="917" vertical-scroll-proportion="0.78125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Steam/src/main/boiler/steam/mediator/DefaultMediatorDetector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="112" selection-start="2165" selection-end="2235" vertical-scroll-proportion="0.34375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandExtension/src/test/fixtures/controller/WithoutExecuteCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="114" selection-start="238" selection-end="238" vertical-scroll-proportion="0.1875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandExtension/src/test/fixtures/controller/ExampleCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="309" selection-end="367" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandExtension/src/main/boiler/commandExtension/CommandDetector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CommandExtension/src/test/boiler/commandExtension/DefaultCommandDetectorCase.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+        <state line="42" column="24" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.38043478">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandExtension/src/test/fixtures/controller/DoesNotEndWithCommandSuffix.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Steam/src/main/boiler/steam/controller/DefaultControllerDetector.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="28" column="0" selection-start="917" selection-end="966" vertical-scroll-proportion="0.69166666">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Steam/src/test/boiler/steam/controller/DefaultControllerDetectorCase.as">
+    <entry file="file://$PROJECT_DIR$/Steam/src/main/boiler/steam/mediator/MediatorDetector.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="2011" selection-end="2011" vertical-scroll-proportion="0.8362445">
+        <state line="4" column="14" selection-start="210" selection-end="210" vertical-scroll-proportion="0.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CommandExtension/src/main/boiler/commandExtension/DefaultCommandDetector.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="35" selection-start="910" selection-end="910" vertical-scroll-proportion="0.5625">
           <folding />
         </state>
       </provider>
@@ -1102,6 +1246,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

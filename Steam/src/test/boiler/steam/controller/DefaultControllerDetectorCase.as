@@ -7,7 +7,6 @@ package boiler.steam.controller {
 	import fixtures.boiler.steam.detector.ByClassNameController;
 	import fixtures.boiler.steam.detector.ControllerByMetadata;
 	import fixtures.boiler.steam.detector.controller.ControllerByNamespace;
-	import fixtures.boiler.steam.detector.controller.subNamespace.ControllerByParentNamespace;
 	import fixtures.boiler.steam.detector.notController.NotAControllerAtAll;
 
 	import org.flexunit.asserts.assertFalse;
@@ -26,20 +25,8 @@ package boiler.steam.controller {
 			lifetime.injectInto(detector);
 		}
 
-		[After]
-		public function teardown():void {
-			detector = null;
-			classUnderTest = null;
-		}
-
 		[Test]
-		public function it_detects_a_controller_by_a_non_leaf_namespace():void {
-			classUnderTest = ControllerByParentNamespace;
-			assertThat(detector.isController(classUnderTest));
-		}
-
-		[Test]
-		public function it_detects_a_controller_by_leaf_namespace():void {
+		public function it_detects_a_controller_by_namespace():void {
 			classUnderTest = ControllerByNamespace;
 			assertThat(detector.isController(classUnderTest));
 		}
