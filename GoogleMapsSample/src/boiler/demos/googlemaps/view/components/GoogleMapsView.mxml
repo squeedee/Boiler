@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group 
+	creationComplete="init(event)"
+	xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx" xmlns:maps="com.google.maps.*">
+	<fx:Script>
+		<![CDATA[
+			import boiler.demos.googlemaps.model.vos.MarkerVO;
+			
+			import com.google.maps.LatLng;
+			import com.google.maps.MapAction;
+			import com.google.maps.MapEvent;
+			import com.google.maps.MapOptions;
+			import com.google.maps.MapType;
+			import com.google.maps.controls.MapTypeControl;
+			import com.google.maps.controls.PositionControl;
+			import com.google.maps.controls.ZoomControl;
+			import com.google.maps.overlays.Marker;
+			
+			import mx.events.FlexEvent;
+			
+			private var _gmapsAPIKey : String;
+
+			public function get gmapsAPIKey():String{
+				return _gmapsAPIKey;
+			}
+
+			public function set gmapsAPIKey(value:String):void{
+				_gmapsAPIKey = value;
+				gMap.key = _gmapsAPIKey;
+			}
+			
+			private var _markersList : Vector.<MarkerVO>;
+
+			public function get markersList():Vector.<MarkerVO>{
+				return _markersList;
+			}
+
+			public function set markersList(value:Vector.<MarkerVO>):void{
+				_markersList = value;
+				
+				createMarkers();
+			}
+
+			
+			protected function init(event:FlexEvent):void
+			{
+				var mapOptions:MapOptions = new MapOptions( {
+					center:new LatLng(51.3644935, 7.1779126),
+					zoom:7,
+					dragging:false,
+					doubleClickMode:MapAction.ACTION_NOTHING
+				} );
+				gMap.setInitOptions( mapOptions );
+				gMap.addControl( new ZoomControl() );
+				gMap.addControl( new MapTypeControl() );
+				gMap.addControl( new PositionControl() );
+			}
+			
+			private function createMarkers():void
+			{
+				var i :int;
+				var n : int = markersList.length;
+				for( i = 0; i < n; i++ ){
+					var markerData : MarkerVO = markersList[ i ];
+					var markerIcon : Marker = new Marker( new LatLng( markerData.lat, markerData.lng ) );
+					gMap.addOverlay( markerIcon );
+				}
+			}
+			
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<maps:Map id="gMap" mapevent_mapready="dispatchEvent(event)" sensor="false" top="0" left="0" right="0" bottom="0" />
+</s:Group>
