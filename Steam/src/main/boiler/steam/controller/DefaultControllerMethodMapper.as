@@ -24,6 +24,8 @@ package boiler.steam.controller {
 			if (! hasCorrectParameterLength(method))
 				return;
 
+			// fixme we should test the class is Simple
+
 			dispatcher.registerSignalClass(getSignalParameterClass(method), type, method.@name);
 		}
 

@@ -1,7 +1,7 @@
 package boiler.steam.controller {
 	import boiler.base.Lifetime;
 	import boiler.reflection.Reflection;
-	import boiler.reflection.ReflectionBase;
+	import boiler.reflection.ReflectionImpl;
 	import boiler.reflection.Reflector;
 
 	import fixtures.boiler.steam.detector.ByClassNameController;
@@ -19,7 +19,7 @@ package boiler.steam.controller {
 		[Before]
 		public function setup():void {
 			var lifetime:Lifetime = new Lifetime();
-			lifetime.mapClass(Reflection, ReflectionBase);
+			lifetime.mapClass(Reflection, ReflectionImpl);
 			lifetime.mapSingleton(Reflector);
 			detector = new DefaultControllerDetector();
 			lifetime.injectInto(detector);

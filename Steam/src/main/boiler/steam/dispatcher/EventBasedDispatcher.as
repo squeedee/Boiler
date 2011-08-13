@@ -1,7 +1,7 @@
 package boiler.steam.dispatcher {
 	import boiler.base.Lifetime;
 	import boiler.reflection.ClassByInstanceCache;
-	import boiler.reflection.helpers.EventClassHelper;
+	import boiler.reflection.helpers.SimpleEventClassHelper;
 
 	import flash.events.Event;
 	import flash.utils.Dictionary;
@@ -18,7 +18,7 @@ package boiler.steam.dispatcher {
 		public var connector:EventBasedNotifierConnector;
 
 		[Inject]
-		public var eventClassReflection:EventClassHelper;
+		public var eventClassReflection:SimpleEventClassHelper;
 
 		private var executionMap:Dictionary = new Dictionary();
 

@@ -10,7 +10,7 @@ package boiler.reflection {
 		}
 
 		private function addReflection(type:Class):Reflection {
-			var reflection:Reflection = new ReflectionBase();
+			var reflection:Reflection = new ReflectionImpl();
 			reflections[type] = reflection.reflect(type);
 			return reflection;
 		}

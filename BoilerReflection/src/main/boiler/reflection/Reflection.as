@@ -17,5 +17,9 @@ package boiler.reflection {
 		function classConstants():XMLList;
 
 		function classMetadata():XMLList;
+
+		function methods():XMLList;
+
+		function findMethodByName(name:String):XML;
 	}
 }

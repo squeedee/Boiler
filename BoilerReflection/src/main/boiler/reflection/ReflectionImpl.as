@@ -1,10 +1,9 @@
 package boiler.reflection {
-	import boiler.reflection.*;
 	import flash.utils.describeType;
 
 	import mx.utils.StringUtil;
 
-	public class ReflectionBase implements Reflection {
+	public class ReflectionImpl implements Reflection {
 		private var _source:Class;
 		private var _type:XML;
 		private var _instance:XML;
@@ -75,6 +74,18 @@ package boiler.reflection {
 
 		public function classMetadata():XMLList {
 			return instance().metadata;
+		}
+
+		public function methods():XMLList {
+			return instance().method;
+		}
+
+		public function findMethodByName(methodName:String):XML {
+			var result:XMLList = instance().method.(@name == methodName);
+			if (result.length() != 1)
+				return null;
+
+			return result[0];
 		}
 	}
 }
