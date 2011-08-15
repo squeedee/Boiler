@@ -3,18 +3,17 @@ package boiler.commandExtension {
 	import boiler.reflection.Reflection;
 	import boiler.reflection.ReflectionImpl;
 	import boiler.reflection.Reflector;
-	import boiler.reflection.helpers.SimpleEventClassHelper;
 
 	import fixtures.controller.DoesNotEndWithCommandSuffix;
 	import fixtures.controller.ExampleCommand;
 	import fixtures.controller.WithoutExecuteCommand;
-	import fixtures.controller.WithComplexEventCommand;
+	import fixtures.controller.WithoutEventCommand;
 	import fixtures.notController.CommandWithoutNamespace;
 
 	import org.flexunit.asserts.assertFalse;
 	import org.flexunit.asserts.assertTrue;
 
-	public class DefaultCommandDetectorCase {
+	public class DefaultCommandDetectorTest {
 		private var classUnderTest:Class;
 		private var commandDetector:CommandDetector;
 
@@ -23,7 +22,6 @@ package boiler.commandExtension {
 			var lifetime:Lifetime = new Lifetime();
 			lifetime.mapClass(Reflection, ReflectionImpl);
 			lifetime.mapSingleton(Reflector);
-			lifetime.mapSingleton(SimpleEventClassHelper);
 			commandDetector = new DefaultCommandDetector();
 			lifetime.injectInto(commandDetector);
 		}
@@ -53,8 +51,8 @@ package boiler.commandExtension {
 		}
 
 		[Test]
-		public function it_should_not_detect_a_command_with_a_complex_event():void {
-			classUnderTest = WithComplexEventCommand;
+		public function it_should_not_detect_a_command_without_an_event():void {
+			classUnderTest = WithoutEventCommand;
 			assertFalse(commandDetector.isCommand(classUnderTest));
 		}
 

@@ -1,9 +1,8 @@
 package boiler.commandExtension {
 	import boiler.reflection.Reflection;
 	import boiler.reflection.Reflector;
-	import boiler.reflection.helpers.SimpleEventClassHelper;
-
-	import flash.utils.getDefinitionByName;
+	import boiler.reflection.helpers.EventDrivenMethodHelper;
+	import boiler.reflection.helpers.NamespaceHelper;
 
 	public class DefaultCommandDetector implements CommandDetector {
 
@@ -11,51 +10,43 @@ package boiler.commandExtension {
 		private static const COMMAND_METHOD_NAME:String = "execute";
 		private static const COMMAND_CLASS_NAME_SUFFIX:RegExp = /Command$/;
 
+		private var namespaceHelper:NamespaceHelper;
+		private var methodHelper:EventDrivenMethodHelper;
+
 		[Inject]
 		public var reflector:Reflector;
 
-		[Inject]
-		public var eventClassHelper:SimpleEventClassHelper;
+		[PostConstruct]
+		public function setup():void {
+			methodHelper = new EventDrivenMethodHelper(reflector);
+		}
 
 		public function isCommand(type:Class):Boolean {
-
 			var reflection:Reflection = reflector.getReflection(type);
+			namespaceHelper = new NamespaceHelper(reflection);
 
 			return hasControllerNamespace(reflection) &&
 					hasCommandSuffix(reflection) &&
-					hasSimpleEventExecuteMethod(reflection);
+					hasEventDrivenExecuteMethod(reflection);
 		}
 
 		private function hasCommandSuffix(reflection:Reflection):Boolean {
 			return reflection.fqn().search(COMMAND_CLASS_NAME_SUFFIX) > 0;
 		}
 
-		private function hasSimpleEventExecuteMethod(reflection:Reflection):Boolean {
-			var methods:XMLList = getExecuteMethods(reflection);
+		private function hasEventDrivenExecuteMethod(reflection:Reflection):Boolean {
 
-			if (methods.length() != 1)
+			var method:XML = reflection.findMethodByName(COMMAND_METHOD_NAME);
+
+			if (method == null)
 				return false;
 
-			var method:XML = methods[0];
+			return methodHelper.isEventDrivenMethodDefinition(method);
 
-			if (method.parameters.length() != 1)
-				return false;
-
-			var eventType:Class = Class(getDefinitionByName(method.parameters[0].type));
-
-			return false;
-
-			eventClassHelper.isSimpleEvent(methods.length())
-
-
-		}
-
-		private function getExecuteMethods(reflection:Reflection):* {
-			return reflection.type().factory.method.(@name == COMMAND_METHOD_NAME);
 		}
 
 		private function hasControllerNamespace(reflection:Reflection):Boolean {
-			return reflection.hasAnyNamespace(CONTROLLER_NAMESPACE);
+			return namespaceHelper.hasAnyNamespace(CONTROLLER_NAMESPACE);
 		}
 	}
 }

@@ -8,6 +8,7 @@ package boiler.steam.mediator {
 
 	import flash.utils.getDefinitionByName;
 
+	// Fixme : this is a mess! Most of this should be 'help'
 	public class DefaultMediatorDetector implements MediatorDetector {
 		private static const MEDIATOR_NAMESPACE:String = "mediator";
 		private static const VIEW_NAMESPACE:String = "view";
