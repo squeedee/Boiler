@@ -8,7 +8,7 @@ package boiler.reflection.helpers {
 	import org.flexunit.asserts.assertNotNull;
 	import org.flexunit.asserts.assertTrue;
 
-	public class EventDrivenMethodHelperTest {
+	public class EventDrivenMethodHelperQualifierTest {
 
 		private var helper:EventDrivenMethodHelper;
 		private var reflection:Reflection;

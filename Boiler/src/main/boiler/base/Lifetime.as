@@ -54,13 +54,14 @@ package boiler.base {
 		 * @param value
 		 */
 		public function set initialConfiguration(value:*):void {
-			if (_initialConfiguration == value)
-				return;
-
 			if (value == null)
 				return;
 
+			if (_initialConfiguration == value)
+				return;
+
 			_initialConfiguration = value;
+
 			configurations.run(_initialConfiguration);
 		}
 

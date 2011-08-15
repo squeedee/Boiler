@@ -3,6 +3,7 @@ package boiler.steam.mediator {
 	import boiler.reflection.ClassByInstanceCache;
 	import boiler.reflection.Reflection;
 	import boiler.reflection.Reflector;
+	import boiler.reflection.helpers.NamespaceHelper;
 	import boiler.steam.mediator.map.MediatorFactory;
 
 	import flash.utils.getDefinitionByName;
@@ -14,6 +15,7 @@ package boiler.steam.mediator {
 		private static const VIEW_DEREGISTER_METHOD_NAME:String = "deregister";
 
 		private var reflection:Reflection;
+		private var namespaceHelper:NamespaceHelper;
 
 		[Inject]
 		public var lifetime:Lifetime;
@@ -25,8 +27,8 @@ package boiler.steam.mediator {
 		public var instanceCache:ClassByInstanceCache;
 
 		public function getConfigurationFor(type:Class):MediatorFactory {
-			reflection = reflector.getReflection(type);
-
+			getReflection(type);
+			
 			if (!isMediatorInName())
 				return null;
 
@@ -44,6 +46,11 @@ package boiler.steam.mediator {
 					VIEW_REGISTER_METHOD_NAME,
 					deregisterMethodName
 			);
+		}
+
+		private function getReflection(type:Class):void {
+			reflection = reflector.getReflection(type);
+			namespaceHelper = new NamespaceHelper(reflection);
 		}
 
 		private function getDeregisterMethodName():String {
@@ -69,10 +76,10 @@ package boiler.steam.mediator {
 
 			return hasMediatorMetadata() ||
 					hasMediatorClassName() ||
-					reflection.hasLeafNamespace(MEDIATOR_NAMESPACE) ||
-					reflection.hasLeafNamespace(VIEW_NAMESPACE) ||
-					reflection.hasAnyNamespace(MEDIATOR_NAMESPACE) ||
-					reflection.hasAnyNamespace(VIEW_NAMESPACE)
+					namespaceHelper.hasLeafNamespace(MEDIATOR_NAMESPACE) ||
+					namespaceHelper.hasLeafNamespace(VIEW_NAMESPACE) ||
+					namespaceHelper.hasAnyNamespace(MEDIATOR_NAMESPACE) ||
+					namespaceHelper.hasAnyNamespace(VIEW_NAMESPACE)
 		}
 
 		private function getRegisterMethodDescription():XML {

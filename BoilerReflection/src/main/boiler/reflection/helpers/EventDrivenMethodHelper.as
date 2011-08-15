@@ -14,23 +14,32 @@ package boiler.reflection.helpers {
 			_reflector = reflector;
 		}
 
-		public function isEventDrivenMethodDefinition(method:XML):Boolean {
-			if (hasNoParameters(method))
-				return false;
-
-			if (hasMoreThanOneRequiredParameter(method))
-				return false;
-
-			return firstParameterIsEvent(method);
+		public function isEventDrivenMethodDefinition(methodDefinition:XML):Boolean {
+			return getEventFromMethodDefinition(methodDefinition) != null;
 		}
 
-		private function firstParameterIsEvent(method:XML):Boolean {
-			var parameterClass:Class = Class(getDefinitionByName(method.parameter.(@index == "1").@type));
+		public function getEventFromMethodDefinition(methodDefinition:XML):Class {
+			if (hasNoParameters(methodDefinition))
+				return null;
 
+			if (hasMoreThanOneRequiredParameter(methodDefinition))
+				return null;
+
+			return firstParameterEventType(methodDefinition);
+		}
+
+		private function firstParameterEventType(method:XML):Class {
+			var firstParameterType:Class = Class(getDefinitionByName(method.parameter.(@index == "1").@type));
+
+			if (!typeIsEvent(firstParameterType))
+				return null;
+
+			return firstParameterType;
+		}
+
+		private function typeIsEvent(parameterClass:Class):Boolean {
 			var type:XML = _reflector.getReflection(parameterClass).type();
-
 			return type.factory.extendsClass.(@type == EVENT_CLASS_NAME).length() > 0;
-
 		}
 
 		private function hasMoreThanOneRequiredParameter(method:XML):Boolean {

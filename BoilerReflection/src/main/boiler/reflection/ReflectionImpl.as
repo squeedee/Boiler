@@ -54,21 +54,9 @@ package boiler.reflection {
 
 		public function instance():XML {
 			return _instance;
-
-		}
-
-		// Helpers
-
-		public function hasAnyNamespace(anyNamespaceCalled:String):Boolean {
-			return (fqn().search("\\.*" + anyNamespaceCalled + "[:.]") >= 0);
-		}
-
-		public function hasLeafNamespace(leafNamespaceCalled:String):Boolean {
-			return (fqn().search("\\.*" + leafNamespaceCalled + ":") >= 0);
 		}
 
 		public function classConstants():XMLList {
-
 			return type().constant;
 		}
 

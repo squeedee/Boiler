@@ -1,19 +1,19 @@
 package boiler.steam.configuration {
 	import boiler.base.configuration.ConfigurationBase;
 	import boiler.steam.dispatcher.Dispatcher;
-	import boiler.steam.dispatcher.EventBasedDispatcher;
-	import boiler.steam.dispatcher.EventBasedNotifierConnector;
+	import boiler.steam.dispatcher.DispatcherImpl;
+	import boiler.steam.dispatcher.NotificationObserver;
 
 	public class DispatcherConfiguration extends ConfigurationBase {
 
 		override public function startup():void {
-			lifetime.mapSingletonOf(Dispatcher, EventBasedDispatcher);
-			lifetime.mapClass(EventBasedNotifierConnector, EventBasedNotifierConnector);
+			lifetime.mapSingletonOf(Dispatcher, DispatcherImpl);
+			lifetime.mapClass(NotificationObserver, NotificationObserver);
 		}
 
 		override public function teardown():void {
 			Dispatcher(lifetime.getInstance(Dispatcher)).destruct();
-			lifetime.unmap(EventBasedNotifierConnector);
+			lifetime.unmap(NotificationObserver);
 			lifetime.unmap(Dispatcher);
 		}
 	}

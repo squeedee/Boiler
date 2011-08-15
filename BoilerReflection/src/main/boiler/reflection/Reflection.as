@@ -10,10 +10,6 @@ package boiler.reflection {
 
 		function instance():XML;
 
-		function hasAnyNamespace(anyNamespaceCalled:String):Boolean;
-
-		function hasLeafNamespace(leafNamespaceCalled:String):Boolean;
-
 		function classConstants():XMLList;
 
 		function classMetadata():XMLList;

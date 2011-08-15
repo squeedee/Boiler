@@ -5,7 +5,7 @@ package fixtures.boiler.reflection {
 		}
 
 		public function methodB():void {
-			
+
 		}
 	}
 }

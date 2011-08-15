@@ -1,40 +1,44 @@
 package boiler.steam.controller {
 	import boiler.reflection.Reflection;
 	import boiler.reflection.Reflector;
+	import boiler.reflection.helpers.EventDrivenMethodHelper;
+	import boiler.reflection.helpers.EventHelper;
 	import boiler.steam.dispatcher.Dispatcher;
 
 	import flash.utils.getDefinitionByName;
 
 	public class DefaultControllerMethodMapper implements ControllerMethodMapper {
+
+		private var eventDrivenMethodHelper:EventDrivenMethodHelper;
+
 		[Inject]
 		public var reflector:Reflector;
 
 		[Inject]
 		public var dispatcher:Dispatcher;
 
-		public function mapController(type:Class):void {
-			var reflection:Reflection = reflector.getReflection(type);
+		[PostConstruct]
+		public function setup():void {
+			eventDrivenMethodHelper = new EventDrivenMethodHelper(reflector);
+		}
 
-			for each (var method:XML in reflection.type().factory.method) {
-				registerMethod(method, type);
+		public function mapController(controllerType:Class):void {
+			var reflection:Reflection = reflector.getReflection(controllerType);
+
+			dispatcher.withController(controllerType);
+
+			for each (var methodDefinition:XML in reflection.methods()) {
+				registerMethod(methodDefinition);
 			}
 		}
 
-		private function registerMethod(method:XML, type:Class):void {
-			if (! hasCorrectParameterLength(method))
+		private function registerMethod(methodDefinition:XML):void {
+			var eventType:Class	= eventDrivenMethodHelper.getEventFromMethodDefinition(methodDefinition);
+
+			if (eventType == null)
 				return;
 
-			// fixme we should test the class is Simple
-
-			dispatcher.registerSignalClass(getSignalParameterClass(method), type, method.@name);
-		}
-
-		private function getSignalParameterClass(method:XML):* {
-			return getDefinitionByName(method.parameter[0].@type);
-		}
-
-		private function hasCorrectParameterLength(method:XML):Boolean {
-			return method.parameter.length() == 1;
+			dispatcher.invokeMethod(methodDefinition.@name).fromEvent(eventType);
 		}
 
 	}

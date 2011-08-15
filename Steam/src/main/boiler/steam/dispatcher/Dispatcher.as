@@ -1,9 +1,11 @@
 package boiler.steam.dispatcher {
 	public interface Dispatcher {
 
-		// @todo we could use more fluency: listenFor(MyBigEvent).usingInstanceOf(MyController).call("doMyBigThing")
+		function withController(controllerType:Class):Dispatcher;
 
-		function registerSignalClass(signalClass:Class, targetControllerClass:Class, methodName:String):void;
+		function invokeMethod(methodName:String):Dispatcher
+
+		function fromEvent(eventType:Class):Dispatcher;
 
 		function destruct():void;
 	}

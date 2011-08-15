@@ -6,7 +6,7 @@ package fixtures.boiler.reflection.helpers.eventDrivenMethodHelper {
 		}
 
 		public function hasTwoNonOptionalParameters(event:TestEvent, foo:String):void {
-			
+
 		}
 
 		public function hasOneNonEventParameter(objectParameter:Object):void {
