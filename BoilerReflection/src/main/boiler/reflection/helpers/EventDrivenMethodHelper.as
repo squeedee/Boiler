@@ -6,12 +6,11 @@ package boiler.reflection.helpers {
 	import flash.utils.getQualifiedClassName;
 
 	public class EventDrivenMethodHelper {
-		private var _reflector:Reflector;
 
-		private static const EVENT_CLASS_NAME:String = getQualifiedClassName(Event);
+		private var typeHelper:TypeHelper;
 
 		public function EventDrivenMethodHelper(reflector:Reflector) {
-			_reflector = reflector;
+			typeHelper = new TypeHelper(reflector);
 		}
 
 		public function isEventDrivenMethodDefinition(methodDefinition:XML):Boolean {
@@ -37,9 +36,8 @@ package boiler.reflection.helpers {
 			return firstParameterType;
 		}
 
-		private function typeIsEvent(parameterClass:Class):Boolean {
-			var type:XML = _reflector.getReflection(parameterClass).type();
-			return type.factory.extendsClass.(@type == EVENT_CLASS_NAME).length() > 0;
+		private function typeIsEvent(firstParameterType:Class):Boolean {
+			return typeHelper.type(firstParameterType).isA(Event);
 		}
 
 		private function hasMoreThanOneRequiredParameter(method:XML):Boolean {

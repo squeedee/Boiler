@@ -3,6 +3,7 @@ package boiler.reflection {
 	import boiler.reflection.helpers.EventHelperEventTypesTest;
 	import boiler.reflection.helpers.EventDrivenMethodHelperQualifierTest;
 	import boiler.reflection.helpers.NamespaceHelperTest;
+	import boiler.reflection.helpers.TypeHelperDescendanceTest;
 
 	[Suite]
 	[RunWith("org.flexunit.runners.Suite")]
@@ -14,5 +15,6 @@ package boiler.reflection {
 		public var eventDrivenMethodHelperClassType:EventDrivenMethodHelperClassTypeTest;
 		public var eventDrivenMethodHelperEventTypes:EventHelperEventTypesTest;
 		public var namespaceHelper:NamespaceHelperTest;
+		public var typeHelperDescendance:TypeHelperDescendanceTest;
 	}
 }
